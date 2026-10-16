@@ -1,0 +1,2254 @@
+{
+  "topbar": {
+    "hours": "Mo–Fr 8:00–17:00 Uhr",
+    "cart": "Warenkorb",
+    "login": "Anmelden"
+  },
+  "whatsappFloat": {
+    "aria": "Kontakt über WhatsApp",
+    "message": "Hallo, ich hätte gerne Informationen zu Ihren Leistungen."
+  },
+  "admin": {
+    "viewAll": "Alle ansehen",
+    "sidebar": {
+      "badge": "Admin",
+      "section": {
+        "main": "Steuerung"
+      },
+      "dashboard": "Übersicht",
+      "clients": "Kunden",
+      "devis": "Angebote",
+      "missions": "Einsätze",
+      "planning": "Einsatzplan",
+      "factures": "Rechnungen",
+      "demandes": "Anfragen",
+      "reclamations": "Reklamationen",
+      "equipe": "Team",
+      "avis": "Bewertungen",
+      "archives": "Archiv",
+      "parametres": "Einstellungen",
+      "signOut": "Abmelden"
+    },
+    "topbar": {
+      "openMenu": "Menü öffnen",
+      "searchPlaceholder": "Kunde, Angebot, Rechnung suchen…",
+      "notifications": "Benachrichtigungen"
+    },
+    "kpi": {
+      "revenueMonth": "Umsatz des Monats",
+      "revenueTotal": "Gesamtumsatz",
+      "revenueTotalHint": "Über {{count}} abgeschlossene(n) Einsatz(e)",
+      "newQuotes": "Neue Angebote",
+      "activeMissions": "Aktive Einsätze",
+      "pendingInvoices": "Offene Rechnungen",
+      "newClients": "Neue Kunden",
+      "openComplaints": "Offene Reklamationen",
+      "conversionRate": "Konversionsrate",
+      "shortcut": "Kurzbefehl"
+    },
+    "statuses": {
+      "new": "Neu",
+      "pending": "Zu bearbeiten",
+      "quoted": "Gesendet",
+      "accepted": "Angenommen",
+      "rejected": "Abgelehnt",
+      "scheduled": "Geplant",
+      "inProgress": "Läuft",
+      "completed": "Abgeschlossen",
+      "cancelled": "Storniert",
+      "paid": "Bezahlt",
+      "overdue": "Überfällig",
+      "in_review": "In Prüfung",
+      "replied": "Beantwortet",
+      "closed": "Geschlossen",
+      "open": "Offen",
+      "resolved": "Gelöst",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "training": "In Ausbildung"
+    },
+    "dashboard": {
+      "eyebrow": "STEUERUNG",
+      "greeting": "Hallo {{name}} 👋",
+      "subtitle": "Überblick über die Aktivität von Nzo Immo Clean.",
+      "reviewQuotes": "Angebote bearbeiten",
+      "manageClients": "Kunden verwalten",
+      "revenue": {
+        "title": "Umsatz",
+        "subtitle": "Entwicklung über 6 Monate — inkl. MwSt."
+      },
+      "activity": {
+        "title": "Letzte Aktivitäten",
+        "recent": "Heute"
+      },
+      "upcoming": {
+        "title": "Anstehende Einsätze",
+        "subtitle": "Planung der nächsten 7 Tage",
+        "empty": "Aktuell keine Einsätze geplant."
+      },
+      "newDevis": {
+        "title": "Zu bearbeitende Angebote",
+        "subtitle": "Neue Anfragen von der Website"
+      }
+    },
+    "clients": {
+      "eyebrow": "KUNDENBASIS",
+      "title": "Kunden",
+      "subtitle": "{{count}} registrierte Kunden.",
+      "newClient": "Neuer Kunde",
+      "searchPlaceholder": "Nach Name, Firma, E-Mail suchen…",
+      "types": {
+        "all": "Alle",
+        "particulier": "Privatperson",
+        "entreprise": "Unternehmen",
+        "proImmo": "Immobilien-Profi",
+        "association": "Verein"
+      },
+      "cols": {
+        "client": "Kunde",
+        "type": "Typ",
+        "contact": "Kontakt",
+        "since": "Kunde seit",
+        "spent": "Gesamtausgaben",
+        "activeMissions": "Aktive Einsätze",
+        "status": "Status"
+      },
+      "empty": {
+        "title": "Keine Kunden gefunden",
+        "text": "Versuchen Sie, Ihre Suchkriterien zu erweitern."
+      }
+    },
+    "clientDetail": {
+      "backToList": "Zurück zur Liste",
+      "view": "Profil ansehen",
+      "actions": {
+        "edit": "Bearbeiten",
+        "message": "Nachricht senden"
+      },
+      "kpi": {
+        "totalSpent": "Gesamtausgaben",
+        "activeMissions": "Aktive Einsätze",
+        "pendingAmount": "Ausstehender Betrag",
+        "paidAmount": "Beglichener Betrag"
+      },
+      "info": {
+        "company": "Firma",
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "city": "Stadt",
+        "since": "Kunde seit",
+        "notes": "Interne Notizen",
+        "noNotes": "Keine Notiz zu diesem Kunden hinterlegt.",
+        "addNote": "Notiz hinzufügen"
+      },
+      "tabs": {
+        "devis": "Angebote",
+        "missions": "Einsätze",
+        "factures": "Rechnungen",
+        "demandes": "Anfragen",
+        "reclamations": "Reklamationen"
+      },
+      "empty": {
+        "devis": {
+          "title": "Kein Angebot",
+          "text": "Dieser Kunde hat noch kein Angebot angefragt."
+        },
+        "missions": {
+          "title": "Kein Einsatz",
+          "text": "Für diesen Kunden ist kein Einsatz erfasst."
+        },
+        "factures": {
+          "title": "Keine Rechnung",
+          "text": "Für diesen Kunden wurde keine Rechnung ausgestellt."
+        },
+        "demandes": {
+          "title": "Keine Anfrage",
+          "text": "Keine Konversation oder Nachricht von diesem Kunden."
+        },
+        "reclamations": {
+          "title": "Keine Reklamation",
+          "text": "Kein Zwischenfall gemeldet — alles bestens!"
+        }
+      },
+      "notFound": {
+        "title": "Kunde nicht gefunden",
+        "text": "Die angefragte Kennung existiert nicht oder wurde gelöscht."
+      }
+    },
+    "devis": {
+      "eyebrow": "ANGEBOTE",
+      "title": "Angebote von der Website",
+      "subtitle": "Anfragen von Privatpersonen, Unternehmen und Profis zu bearbeiten.",
+      "newDevis": "Neues Angebot",
+      "tabs": {
+        "all": "Alle"
+      },
+      "searchPlaceholder": "Nach Referenz oder Kunde suchen…",
+      "toEstimate": "Zu kalkulieren",
+      "toConvert": "In Einsatz umzuwandeln",
+      "converted": "Einsatz erstellt",
+      "actions": {
+        "review": "Prüfen",
+        "send": "Angebot senden",
+        "accept": "Als angenommen markieren",
+        "reject": "Ablehnen",
+        "convert": "In Einsatz umwandeln"
+      },
+      "empty": {
+        "title": "Kein Angebot in dieser Kategorie",
+        "text": "Alles erledigt, Glückwunsch!"
+      }
+    },
+    "missions": {
+      "eyebrow": "PLANUNG",
+      "title": "Einsätze",
+      "subtitle": "Operative Steuerung und Teamplanung.",
+      "new": "Neuer Einsatz",
+      "searchPlaceholder": "Einsatz oder Kunde suchen…",
+      "empty": {
+        "title": "Kein Einsatz"
+      }
+    },
+    "factures": {
+      "eyebrow": "RECHNUNGSWESEN",
+      "title": "Rechnungen",
+      "subtitle": "Zahlungs- und Fälligkeitsübersicht.",
+      "new": "Neue Rechnung",
+      "cols": {
+        "number": "Nr.",
+        "client": "Kunde",
+        "issueDate": "Ausgestellt am",
+        "dueDate": "Fällig am",
+        "amount": "Betrag",
+        "status": "Status"
+      }
+    },
+    "demandes": {
+      "eyebrow": "KUNDENNACHRICHTEN",
+      "title": "Anfragen",
+      "subtitle": "Fragen, Informationsanfragen und Konversationen.",
+      "priority": {
+        "low": "Niedrig",
+        "normal": "Normal",
+        "high": "Dringend"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "KUNDENDIENST",
+      "title": "Reklamationen",
+      "subtitle": "Kundenreklamationen zu bearbeiten und zu lösen.",
+      "severity": {
+        "low": "Geringfügig",
+        "medium": "Mittel",
+        "high": "Kritisch"
+      },
+      "category": {
+        "quality": "Leistungsqualität",
+        "delay": "Verzögerung / Planung",
+        "damage": "Schaden / Bruch",
+        "billing": "Abrechnung",
+        "other": "Sonstiges"
+      },
+      "actions": {
+        "reply": "Antworten",
+        "resolve": "Als gelöst markieren"
+      }
+    },
+    "equipe": {
+      "eyebrow": "RESSOURCEN",
+      "title": "Außendienst-Team",
+      "subtitle": "{{count}} aktive Mitarbeitende.",
+      "new": "Mitglied hinzufügen",
+      "activeMissions": "Einsätze"
+    },
+    "planning": {
+      "eyebrow": "DISPATCHING",
+      "title": "Einsatzplan",
+      "subtitle": "Kalenderansicht der Einsätze — per Drag-and-drop verschieben.",
+      "views": {
+        "week": "Woche",
+        "month": "Monat"
+      },
+      "filters": {
+        "allAgents": "Alle Mitarbeitenden",
+        "unassigned": "Nicht zugewiesen"
+      },
+      "today": "Heute",
+      "prev": "Zurück",
+      "next": "Weiter",
+      "empty": "Keine Einsätze in diesem Zeitraum.",
+      "dropHere": "Hier ablegen",
+      "rescheduled": "Einsatz verschoben auf {{date}}.",
+      "rescheduleFailed": "Einsatz konnte nicht verschoben werden — {{error}}"
+    },
+    "parametres": {
+      "eyebrow": "KONFIGURATION",
+      "title": "Einstellungen",
+      "subtitle": "Konfiguration Ihres Kontos und der Plattform.",
+      "configure": "Konfigurieren",
+      "sections": {
+        "company": {
+          "title": "Firma",
+          "description": "Firmenname, Adresse, Kontaktdaten und visuelle Identität."
+        },
+        "branding": {
+          "title": "Identität & Farben",
+          "description": "Logo, Farben und Tonalität anpassen."
+        },
+        "pricing": {
+          "title": "Preisgestaltung",
+          "description": "Preisliste, MwSt., Zahlungsbedingungen und Anzahlungen."
+        },
+        "notifications": {
+          "title": "Benachrichtigungen",
+          "description": "E-Mail-, SMS- und interne Benachrichtigungen — Frequenz und Empfänger."
+        },
+        "security": {
+          "title": "Sicherheit",
+          "description": "Passwort, Zwei-Faktor-Authentifizierung und aktive Sitzungen."
+        },
+        "languages": {
+          "title": "Sprachen & Regionen",
+          "description": "Sprachen der Website, Zeitzone und regionale Formate."
+        }
+      },
+      "notice": {
+        "title": "Phase 2 — Backend",
+        "text": "Die Einstellungen werden in der nächsten Iteration in der Datenbank gespeichert."
+      }
+    }
+  },
+  "agent": {
+    "sidebar": {
+      "badge": "Agent",
+      "section": {
+        "main": "Außendienst"
+      },
+      "dashboard": "Übersicht",
+      "missions": "Meine Einsätze",
+      "calendrier": "Kalender",
+      "demandes": "Meine Anfragen",
+      "parametres": "Einstellungen",
+      "signOut": "Abmelden"
+    },
+    "topbar": {
+      "openMenu": "Menü öffnen",
+      "closeMenu": "Schließen",
+      "role": "Außendienst-Agent",
+      "signOut": "Abmelden"
+    },
+    "statuses": {
+      "scheduled": "Geplant",
+      "scheduledPlural": "Geplant",
+      "inProgress": "Läuft",
+      "completed": "Abgeschlossen",
+      "completedPlural": "Abgeschlossen",
+      "cancelled": "Abgesagt"
+    },
+    "demandeStatuses": {
+      "new": "Neu",
+      "in_review": "In Prüfung",
+      "replied": "Beantwortet",
+      "closed": "Geschlossen"
+    },
+    "priorities": {
+      "low": "Niedrig",
+      "normal": "Normal",
+      "high": "Dringend"
+    },
+    "demandeTypes": {
+      "info": "Information",
+      "mission": "Zu einem Einsatz",
+      "devis": "Zu einem Angebot",
+      "planning": "Planung",
+      "equipment": "Material",
+      "leave": "Urlaub / Abwesenheit",
+      "incident": "Vorfall",
+      "other": "Sonstiges"
+    },
+    "errors": {
+      "generic": "Fehler",
+      "upload": "Fehler beim Hochladen",
+      "loading": "Ladefehler"
+    },
+    "common": {
+      "viewAll": "Alle ansehen",
+      "back": "Zurück",
+      "cancel": "Abbrechen",
+      "send": "Senden",
+      "add": "Hinzufügen"
+    },
+    "dashboard": {
+      "eyebrow": "AUSSENDIENST-AGENT",
+      "greeting": "Hallo {{name}}",
+      "summaryToday": "Sie haben heute {{count}} Einsatz/Einsätze",
+      "summaryUpcomingExtra": " und {{count}} in den nächsten 7 Tagen geplant.",
+      "summaryDot": ".",
+      "kpiToday": "Heute",
+      "kpiInProgress": "Läuft",
+      "kpiUpcoming": "Bevorstehend (7T)",
+      "kpiCompletedMonth": "Diesen Monat erledigt",
+      "todayTitle": "Heute",
+      "viewAll": "Alle ansehen →",
+      "todayEmpty": "Heute kein Einsatz. Schönen Tag!",
+      "upcomingTitle": "Diese Woche bevorstehend",
+      "upcomingEmpty": "Kein Einsatz in den nächsten 7 Tagen geplant.",
+      "colTime": "Uhrzeit",
+      "colMission": "Einsatz",
+      "colClient": "Kunde",
+      "colCity": "Stadt",
+      "colStatus": "Status",
+      "colActions": "Aktionen",
+      "actionView": "Einsatz anzeigen",
+      "actionStart": "Starten"
+    },
+    "missions": {
+      "eyebrow": "MEINE EINSÄTZE",
+      "title": "Zugewiesene Einsätze",
+      "subtitle": "Alle Einsätze, denen Sie zugewiesen sind — geplant, laufend und Verlauf.",
+      "tabs": {
+        "all": "Alle",
+        "scheduled": "Geplant",
+        "inProgress": "Läuft",
+        "completed": "Abgeschlossen"
+      },
+      "empty": "Kein Einsatz",
+      "emptyHint": "Kein Einsatz entspricht diesem Filter."
+    },
+    "missionDetail": {
+      "back": "Zurück zu meinen Einsätzen",
+      "notFound": "Einsatz nicht gefunden",
+      "loadError": "Ladefehler",
+      "refPrefix": "MI-",
+      "duration": "{{hours}} h",
+      "actionStartTitle": "Bereit zu starten?",
+      "actionInProgressTitle": "Einsatz läuft",
+      "actionStartHint": "Starten Sie den Einsatz, um den Kunden über Ihre Ankunft zu informieren.",
+      "actionCompleteHint": "Wenn alles erledigt ist, markieren Sie ihn als abgeschlossen.",
+      "btnStart": "Einsatz starten",
+      "btnComplete": "Einsatz beenden",
+      "confirmComplete": "Diesen Einsatz als abgeschlossen markieren?",
+      "completedBadgeTitle": "Einsatz abgeschlossen",
+      "completedBadgeText": "Am {{date}} — gut gemacht!",
+      "notesTitle": "Interne Notizen",
+      "clientTitle": "Kunde",
+      "callClient": "Kunde anrufen",
+      "addressTitle": "Adresse",
+      "timelineTitle": "Verfolgung",
+      "timelineScheduled": "Geplant",
+      "timelineStarted": "Gestartet",
+      "timelineCompleted": "Abgeschlossen",
+      "phases": {
+        "before": "Vorher",
+        "during": "Während",
+        "after": "Nachher"
+      },
+      "phasePhotosLabel": "Fotos {{phase}}",
+      "photoCount": "{{count}} Foto(s)",
+      "photoAdd": "Hinzufügen",
+      "photosEmpty": "Kein Foto für diese Phase.",
+      "photoAltLabel": "{{phase}} {{n}}"
+    },
+    "calendrier": {
+      "eyebrow": "KALENDER",
+      "title": "Einsatzplanung",
+      "monthlyCount": "{{count}} Einsatz/Einsätze diesen Monat.",
+      "today": "Heute",
+      "prevMonth": "Vorheriger Monat",
+      "nextMonth": "Nächster Monat",
+      "weekdays": [
+        "Mo",
+        "Di",
+        "Mi",
+        "Do",
+        "Fr",
+        "Sa",
+        "So"
+      ],
+      "months": [
+        "Januar",
+        "Februar",
+        "März",
+        "April",
+        "Mai",
+        "Juni",
+        "Juli",
+        "August",
+        "September",
+        "Oktober",
+        "November",
+        "Dezember"
+      ],
+      "selectedDay": "Ausgewählter Tag",
+      "dayNoMission": "Kein Einsatz.",
+      "dayMissionCount": "{{count}} Einsatz/Einsätze.",
+      "dayEmptyHint": "Genießen Sie einen ruhigen Tag!",
+      "hoursShort": "{{count}}h"
+    },
+    "demandes": {
+      "eyebrow": "MEINE ANFRAGEN",
+      "title": "Anfragen an die Verwaltung",
+      "subtitle": "Material, Urlaub, Planung, Vorfälle — senden Sie Ihre Anfragen an den Admin.",
+      "new": "Neue Anfrage",
+      "empty": "Noch keine Anfragen",
+      "emptyHint": "Senden Sie Ihre erste Anfrage mit einem Klick an die Verwaltung.",
+      "makeRequest": "Anfrage stellen",
+      "replyCount": "{{count}} Antwort(en)",
+      "lastReply": "Letzte Antwort — {{author}}",
+      "authorAdmin": "Admin",
+      "authorYou": "Sie"
+    },
+    "demandeDetail": {
+      "back": "Zurück zu meinen Anfragen",
+      "notFound": "Anfrage nicht gefunden",
+      "loadError": "Ladefehler",
+      "refPrefix": "DM-",
+      "sentOn": "Gesendet am {{date}}",
+      "closedTitle": "Anfrage geschlossen",
+      "closedText": "Keine weitere Antwort möglich. Öffnen Sie bei Bedarf eine neue Anfrage.",
+      "yourRequest": "Ihre Anfrage",
+      "relatedRef": "Zugehörige Ref.: {{ref}}",
+      "conversation": "Konversation",
+      "replyTitle": "Antwort an den Admin",
+      "replyHint": "Präzisieren Sie Ihre Anfrage oder antworten Sie auf die letzte Frage der Verwaltung.",
+      "replyPlaceholder": "Ihre Nachricht…",
+      "send": "Senden",
+      "closedLock": "Diese Anfrage ist geschlossen — Sie können nicht mehr antworten.",
+      "details": "Details",
+      "fieldType": "Typ",
+      "fieldPriority": "Priorität",
+      "fieldStatus": "Status",
+      "fieldSent": "Gesendet",
+      "fieldUpdated": "Aktualisiert",
+      "fieldReplies": "Antworten",
+      "ctaNew": "+ Neue Anfrage",
+      "ctaNewHint": "Haben Sie ein weiteres Anliegen? Stellen Sie eine neue Anfrage an den Admin."
+    },
+    "demandeNew": {
+      "back": "Zurück zu meinen Anfragen",
+      "eyebrow": "NEUE ANFRAGE",
+      "title": "Stellen Sie Ihre Anfrage an den Admin",
+      "subtitle": "Beschreiben Sie Ihren Bedarf genau — Sie erhalten noch am selben Tag eine Antwort.",
+      "typeLabel": "Anfragetyp",
+      "priorityLabel": "Priorität",
+      "subjectLabel": "Betreff *",
+      "subjectPlaceholder": "Z. B. Nitrilhandschuhe nachbestellen",
+      "relatedRefLabel": "Zugehörige Referenz — optional",
+      "relatedRefPlaceholder": "Z. B. MI-2026-042",
+      "messageLabel": "Ihre Nachricht *",
+      "messagePlaceholder": "Beschreiben Sie Ihre Anfrage, Kontext, Dringlichkeit…",
+      "cancel": "Abbrechen",
+      "submit": "Anfrage senden",
+      "successTitle": "Anfrage gesendet!",
+      "successText": "Die Verwaltung wird Ihre Anfrage erhalten und sich umgehend bei Ihnen melden.",
+      "successViewAll": "Meine Anfragen ansehen",
+      "successAnother": "Weitere Anfrage stellen",
+      "types": {
+        "equipment": "Material",
+        "leave": "Urlaub",
+        "planning": "Planung",
+        "incident": "Vorfall",
+        "mission": "Einsatz",
+        "other": "Sonstiges"
+      },
+      "typeHints": {
+        "equipment": "Material- oder Verbrauchsartikelanfrage",
+        "leave": "Abwesenheit, Urlaub, Nichtverfügbarkeit",
+        "planning": "Konflikt, Einsatztausch",
+        "incident": "Problem vor Ort",
+        "mission": "Frage zu einem Einsatz",
+        "other": "Jede andere Anfrage"
+      }
+    },
+    "parametres": {
+      "eyebrow": "KONFIGURATION",
+      "title": "Einstellungen",
+      "subtitle": "Verwalten Sie die Sicherheit Ihres Kontos und Ihre Präferenzen.",
+      "accountBadge": "AUSSENDIENST-AGENT",
+      "securityTitle": "Sicherheit",
+      "securityDesc": "Ändern Sie Ihr Passwort, um den Zugriff auf Ihren Agentenbereich zu schützen.",
+      "languageTitle": "Sprache und Region",
+      "languageDesc": "Anzeigesprache Ihrer Benutzeroberfläche ändern.",
+      "managedByAdmin": "Ihr Konto wird vom Admin verwaltet —",
+      "managedByAdminText1": " kontaktieren Sie die Verwaltung über ",
+      "managedByAdminLink": "Meine Anfragen",
+      "managedByAdminText2": " für alle Profiländerungen (Name, Telefon usw.)."
+    }
+  },
+  "espace": {
+    "notifications": {
+      "aria": "Benachrichtigungen",
+      "title": "Benachrichtigungen",
+      "unreadCount": "{{count}} ungelesen",
+      "allRead": "Alles gelesen",
+      "markAll": "Alle als gelesen markieren",
+      "unreadDot": "Ungelesen",
+      "close": "Schliessen",
+      "empty": {
+        "title": "Keine Benachrichtigungen",
+        "text": "Sie werden hier informiert, sobald etwas passiert."
+      }
+    },
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "quotes": "Meine Angebote",
+      "missions": "Meine Einsätze",
+      "requests": "Meine Anfragen",
+      "complaints": "Meine Reklamationen",
+      "invoices": "Meine Rechnungen",
+      "profile": "Mein Profil",
+      "signOut": "Abmelden"
+    },
+    "dashboard": {
+      "eyebrow": "KUNDENBEREICH",
+      "greeting": "Hallo {{name}} 👋",
+      "subtitle": "Hier ist ein Überblick über Ihre Aktivität bei Nzo Immo Clean.",
+      "newQuote": "Angebot anfordern",
+      "viewAll": "Alle anzeigen",
+      "tiles": {
+        "quotes": {
+          "label": "Offene Angebote",
+          "cta": "Meine Angebote"
+        },
+        "missions": {
+          "label": "Anstehende Einsätze",
+          "cta": "Meine Einsätze"
+        },
+        "invoices": {
+          "label": "Unbezahlte Rechnungen",
+          "cta": "Meine Rechnungen"
+        },
+        "complaints": {
+          "label": "Offene Reklamationen",
+          "cta": "Meine Reklamationen"
+        }
+      },
+      "upcoming": {
+        "title": "Anstehende Einsätze",
+        "subtitle": "Ihre für die nächsten Tage geplanten Einsätze.",
+        "statusScheduled": "Geplant"
+      },
+      "banner": {
+        "eyebrow": "SCHNELL & KOSTENLOS",
+        "title": "Neuer Bedarf?",
+        "text": "Beschreiben Sie Ihre Anfrage, wir antworten innert 24 Stunden mit einem detaillierten Angebot.",
+        "cta": "Angebot anfordern"
+      },
+      "activity": {
+        "title": "Letzte Aktivität",
+        "last30": "Letzte 30 Tage"
+      },
+      "quickActions": {
+        "title": "Schnellzugriff",
+        "subtitle": "Zugriff auf die meistgenutzten Funktionen",
+        "items": {
+          "newQuote": "Angebot anfordern",
+          "support": "Support kontaktieren",
+          "invoices": "Meine Rechnungen",
+          "profile": "Profil aktualisieren"
+        }
+      },
+      "notice": {
+        "title": "Kundenbereich im Aufbau",
+        "text": "Alle angezeigten Daten sind Beispieldaten. Phase 2 des Projekts wird Ihre echten Angebote, Einsätze und Rechnungen anbinden."
+      }
+    },
+    "devis": {
+      "eyebrow": "MEINE ANGEBOTE",
+      "title": "Verfolgen Sie Ihre Angebote",
+      "subtitle": "Alle Ihre Anfragen und deren Status in Echtzeit.",
+      "newCta": "Neues Angebot",
+      "estimate": "Schätzung",
+      "view": "Details ansehen",
+      "statuses": {
+        "pending": "Ausstehend",
+        "reviewed": "In Prüfung",
+        "quoted": "Angeboten",
+        "accepted": "Angenommen",
+        "rejected": "Abgelehnt",
+        "cancelled": "Storniert"
+      }
+    },
+    "devisDetail": {
+      "back": "Zurück zu meinen Angeboten",
+      "notFound": "Angebot nicht gefunden",
+      "requestedOn": "Angefragt am {{date}}",
+      "summary": {
+        "surface": "Fläche",
+        "frequency": "Häufigkeit",
+        "startDate": "Gewünschter Beginn",
+        "location": "Ort",
+        "totalLabel": "Angebotener Betrag",
+        "pending": "Angebot in Bearbeitung",
+        "exclVat": "Exkl. MwSt.",
+        "subtotal": "Zwischensumme",
+        "vat": "MwSt. ({{rate}}%)",
+        "totalTTC": "Total inkl. MwSt.",
+        "validUntil": "Gültig bis {{date}}"
+      },
+      "address": {
+        "title": "Einsatzadresse"
+      },
+      "includes": {
+        "title": "Was enthalten ist",
+        "subtitle": "Details der angebotenen Leistung."
+      },
+      "notes": {
+        "title": "Meine Anmerkungen"
+      },
+      "staffMessage": {
+        "title": "Nachricht unseres Teams"
+      },
+      "reply": {
+        "title": "Dem Team antworten",
+        "subtitle": "Stellen Sie eine Frage oder bitten Sie um eine Anpassung vor der Annahme.",
+        "placeholder": "Ihre Nachricht…",
+        "send": "Senden",
+        "sent": "Nachricht gesendet. Unser Team meldet sich in Kürze."
+      },
+      "actions": {
+        "accept": "Angebot annehmen",
+        "reject": "Ablehnen",
+        "download": "PDF herunterladen",
+        "cancel": "Anfrage stornieren",
+        "acceptMock": "Angebot angenommen (Simulation). In Phase 2 wird daraus ein Einsatz erstellt.",
+        "rejectMock": "Angebot abgelehnt (Simulation).",
+        "downloadMock": "PDF-Download in Phase 2 verfügbar.",
+        "cancelConfirm": "Möchten Sie diese Angebotsanfrage wirklich stornieren?"
+      },
+      "timeline": {
+        "title": "Anfragestatus",
+        "steps": {
+          "submitted": "Anfrage gesendet",
+          "reviewed": "In Prüfung",
+          "quoted": "Angebot erstellt",
+          "accepted": "Angebot angenommen"
+        }
+      }
+    },
+    "missions": {
+      "eyebrow": "MEINE EINSÄTZE",
+      "title": "Ihre Einsätze",
+      "subtitle": "Verfolgen Sie geplante, laufende und abgeschlossene Einsätze.",
+      "photosCount": "{{count}} Fotos",
+      "statuses": {
+        "scheduled": "Geplant",
+        "in_progress": "Läuft",
+        "completed": "Abgeschlossen",
+        "cancelled": "Storniert"
+      }
+    },
+    "missionDetail": {
+      "back": "Zurück zu meinen Einsätzen",
+      "notFound": "Einsatz nicht gefunden",
+      "scheduledFor": "Geplant am {{date}}",
+      "completedOn": "Abgeschlossen am {{date}}",
+      "summary": {
+        "date": "Geplantes Datum",
+        "duration": "Geschätzte Dauer",
+        "surface": "Fläche",
+        "location": "Ort"
+      },
+      "timeline": {
+        "title": "Einsatzstatus",
+        "steps": {
+          "scheduled": "Geplant",
+          "in_progress": "Läuft",
+          "completed": "Abgeschlossen"
+        }
+      },
+      "description": {
+        "title": "Beschreibung des Einsatzes"
+      },
+      "address": {
+        "title": "Adresse"
+      },
+      "photos": {
+        "title": "Vorher / Nachher-Fotos",
+        "subtitle": "{{count}} Fotos vom Einsatz.",
+        "kind": {
+          "before": "Vorher",
+          "after": "Nachher"
+        },
+        "before": {
+          "title": "Fotos vor dem Einsatz",
+          "subtitle": "Vom Team bei Ankunft vor Ort aufgenommen."
+        },
+        "after": {
+          "title": "Fotos nach dem Einsatz",
+          "subtitle": "Vom Team am Ende des Einsatzes aufgenommen."
+        },
+        "empty": {
+          "beforePending": {
+            "title": "Fotos kommen bald",
+            "text": "Das Team fügt die Ankunftsfotos am Tag des Einsatzes hinzu."
+          },
+          "beforeMissing": {
+            "title": "Keine Fotos vorher",
+            "text": "Für diesen Einsatz wurden keine Ankunftsfotos erfasst."
+          },
+          "afterPending": {
+            "title": "Verfügbar nach dem Einsatz",
+            "text": "Die Endfotos werden veröffentlicht, sobald der Einsatz abgeschlossen ist."
+          },
+          "afterMissing": {
+            "title": "Keine Fotos nachher",
+            "text": "Es wurden keine Fotos am Einsatzende erfasst."
+          }
+        }
+      },
+      "feedback": {
+        "title": "Ihr Feedback",
+        "subtitle": "Wie ist dieser Einsatz verlaufen?",
+        "ratingLabel": "Gesamtbewertung",
+        "starAria": "{{n}} von 5 Sternen",
+        "notesLabel": "Kommentar (optional)",
+        "placeholder": "Teilen Sie Ihre Erfahrung mit dem Team…",
+        "send": "Feedback senden",
+        "sent": "Danke für Ihr Feedback! Es hilft unserem Team, sich zu verbessern."
+      },
+      "team": {
+        "title": "Eingesetztes Team",
+        "sizeLabel": "Team mit {{count}} Personen"
+      },
+      "linked": {
+        "title": "Zugehörige Dokumente",
+        "quote": "Zugehöriges Angebot",
+        "invoice": "Ausgestellte Rechnung"
+      },
+      "actions": {
+        "reschedule": "Verschieben",
+        "contact": "Team kontaktieren",
+        "cancel": "Einsatz stornieren",
+        "rescheduleMock": "Verschiebungsanfrage an das Team gesendet (Simulation).",
+        "contactMock": "Ein Teammitglied meldet sich in Kürze (Simulation).",
+        "cancelMock": "Einsatz storniert (Simulation).",
+        "cancelConfirm": "Möchten Sie diesen Einsatz wirklich stornieren?"
+      }
+    },
+    "demandes": {
+      "eyebrow": "MEINE ANFRAGEN",
+      "title": "Anfragen & Nachrichten",
+      "subtitle": "Ihre Informationsanfragen und Gespräche mit unserem Team.",
+      "newCta": "Neue Anfrage",
+      "empty": {
+        "title": "Noch keine Anfrage",
+        "text": "Stellen Sie eine Frage oder fordern Sie Informationen an — wir antworten am selben Tag."
+      },
+      "statuses": {
+        "new": "Neu",
+        "in_review": "In Prüfung",
+        "replied": "Beantwortet",
+        "closed": "Geschlossen"
+      }
+    },
+    "demandeNew": {
+      "eyebrow": "NEUE ANFRAGE",
+      "title": "Senden Sie uns Ihre Anfrage",
+      "subtitle": "Beschreiben Sie, was Sie brauchen — wir antworten innert 24 Stunden.",
+      "back": "Zurück zur Liste",
+      "cancel": "Abbrechen",
+      "submit": "Anfrage senden",
+      "types": {
+        "info": "Frage / Information",
+        "mission": "Zu einem Einsatz",
+        "devis": "Zu einem Angebot",
+        "planning": "Termin & Planung"
+      },
+      "priorities": {
+        "low": "Niedrig",
+        "normal": "Normal",
+        "high": "Dringend"
+      },
+      "fields": {
+        "type": "Anfragetyp",
+        "priority": "Priorität",
+        "subject": "Betreff",
+        "subjectPlaceholder": "Z. B. Anpassung des Dienstagstermins",
+        "relatedRef": "Bezugsreferenz — optional",
+        "relatedRefPlaceholder": "Z. B. DV-2026-042 oder MI-2026-018",
+        "message": "Ihre Nachricht",
+        "messagePlaceholder": "Beschreiben Sie Anfrage, Kontext, Einschränkungen…",
+        "attachments": "Anhänge — optional",
+        "dropTitle": "Dateien hierhin ziehen",
+        "dropHint": "oder klicken zum Auswählen — PDF, Bilder, Dokumente (max. 5 Dateien)"
+      },
+      "success": {
+        "title": "Anfrage gesendet!",
+        "message": "Wir haben Ihre Anfrage erhalten. Unser Team meldet sich in Kürze bei Ihnen.",
+        "backToList": "Meine Anfragen ansehen",
+        "another": "Weitere Anfrage stellen"
+      }
+    },
+    "reclamationNew": {
+      "eyebrow": "NEUE REKLAMATION",
+      "title": "Problem melden",
+      "subtitle": "Beschreiben Sie, was passiert ist — wir bearbeiten Reklamationen innert 48 Stunden.",
+      "back": "Zurück zur Liste",
+      "cancel": "Abbrechen",
+      "submit": "Reklamation senden",
+      "notice": {
+        "title": "Vor dem Absenden",
+        "text": "Je präziser Ihre Beschreibung (Datum, Ort, Fotos), desto schneller können wir die Reklamation lösen."
+      },
+      "consent": "Ich bestätige die Richtigkeit der Angaben und stimme deren Verarbeitung zur Bearbeitung meiner Reklamation zu.",
+      "categories": {
+        "quality": "Servicequalität",
+        "delay": "Verspätung / Planung",
+        "damage": "Schaden / Bruch",
+        "billing": "Rechnung",
+        "other": "Sonstiges"
+      },
+      "severities": {
+        "low": "Gering",
+        "medium": "Mittel",
+        "high": "Kritisch"
+      },
+      "resolutions": {
+        "redo": "Leistung wiederholen",
+        "refund": "Rückerstattung",
+        "gesture": "Kulanz",
+        "discuss": "Mit Berater sprechen"
+      },
+      "fields": {
+        "category": "Kategorie",
+        "severity": "Schweregrad",
+        "incidentDate": "Datum des Vorfalls",
+        "relatedRef": "Betroffener Einsatz oder Rechnung — optional",
+        "relatedRefPlaceholder": "Z. B. MI-2026-058 oder FA-2026-021",
+        "subject": "Betreff",
+        "subjectPlaceholder": "Z. B. Fenster am 12. Mai schlecht gereinigt",
+        "description": "Detaillierte Beschreibung",
+        "descriptionPlaceholder": "Was ist passiert? Wann? Welche Auswirkung? Bitte präzise…",
+        "resolution": "Gewünschte Lösung",
+        "attachments": "Fotos / Dokumente — empfohlen",
+        "dropTitle": "Ziehen Sie Ihre Fotos oder PDFs hierhin",
+        "dropHint": "oder klicken zum Auswählen — JPG, PNG, PDF (max. 6 Dateien)"
+      },
+      "success": {
+        "title": "Reklamation erfasst",
+        "message": "Wir melden uns innert 48 Stunden bei Ihnen. Den Fortschritt verfolgen Sie in Ihrem Kundenbereich.",
+        "backToList": "Meine Reklamationen ansehen",
+        "dashboard": "Zurück zum Dashboard"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "MEINE REKLAMATIONEN",
+      "title": "Problem melden",
+      "subtitle": "Verfolgen Sie Reklamationen und deren Bearbeitung.",
+      "newCta": "Neue Reklamation",
+      "empty": {
+        "title": "Keine Reklamationen",
+        "text": "Alles bestens! Sollte ein Problem auftreten, können Sie es hier jederzeit melden."
+      }
+    },
+    "factures": {
+      "eyebrow": "MEINE RECHNUNGEN",
+      "title": "Ihre Rechnungen",
+      "subtitle": "Rechnungsverlauf, Zahlungen und PDF-Downloads.",
+      "cols": {
+        "number": "Nr.",
+        "date": "Datum",
+        "dueDate": "Fälligkeit",
+        "amount": "Betrag",
+        "status": "Status"
+      },
+      "statuses": {
+        "pending": "Zu zahlen",
+        "paid": "Bezahlt",
+        "overdue": "Überfällig"
+      }
+    },
+    "profil": {
+      "eyebrow": "MEIN PROFIL",
+      "title": "Persönliche Angaben",
+      "subtitle": "Aktualisieren Sie Ihre Kontaktdaten und Einstellungen.",
+      "save": "Speichern",
+      "saved": "Änderungen gespeichert."
+    }
+  },
+  "nav": {
+    "accueil": "Startseite",
+    "services": "Leistungen",
+    "apropos": "Über uns",
+    "boutique": "Shop",
+    "avis": "Bewertungen",
+    "contact": "Kontakt",
+    "cta": "Angebot anfordern"
+  },
+  "services": {
+    "eyebrow": "UNSERE LEISTUNGEN",
+    "sectionTitle": "Umfassende Expertise für all Ihre Bedürfnisse",
+    "sectionDescription": "Von der regelmässigen Reinigung bis zu kleinen Diensten während Ihrer Abwesenheit — unsere zehn Leistungen decken Ihren gesamten Bedarf an Reinigung, Unterhalt und Concierge-Diensten in Basel-Stadt und Basel-Landschaft ab.",
+    "viewAll": "Alle Leistungen anzeigen",
+    "discover": "Entdecken",
+    "requestQuote": "Angebot anfordern",
+    "bureaux": {
+      "title": "Büroreinigung",
+      "description": "Regelmässige Pflege Ihrer Arbeitsräume",
+      "tagline": "Saubere Büros für ein motiviertes Team.",
+      "overviewTitle": "Eine Arbeitsumgebung, die inspiriert",
+      "longDescription": "Wir übernehmen die tägliche, wöchentliche oder monatliche Reinigung Ihrer Räume: Open-Spaces, Sitzungszimmer, Sanitärbereiche, Küchen und Empfangsbereiche. Geschulte Teams, geeignete Produkte und ein massgeschneiderter Plan für Ihren Rhythmus und Ihr Budget.",
+      "includes": [
+        "Staubsaugen und Bodenreinigung",
+        "Entstaubung von Schreibtischen und Möbeln",
+        "Desinfektion von Sanitär und Küchen",
+        "Abfalleimer leeren und reinigen",
+        "Innenfensterreinigung",
+        "Verbrauchsmaterial auffüllen (Option)"
+      ],
+      "audience": [
+        "KMU, Start-ups, Kanzleien",
+        "Coworking und Open-Spaces",
+        "Publikumsverkehr-Einrichtungen"
+      ]
+    },
+    "apresChantier": {
+      "title": "Bauendreinigung",
+      "description": "Wiederherstellung nach Bau- und Renovierungsarbeiten",
+      "tagline": "Wir entfernen jede Spur der Baustelle.",
+      "overviewTitle": "Saubere Übergabe, bezugsbereit",
+      "longDescription": "Nach Bau- oder Renovierungsarbeiten entfernen wir Feinstaub, Farbreste, Klebstoffspuren und Schmutz. Ihre Räume werden sauber, hygienisch und bezugsbereit übergeben. Schnelle Einsätze mit professioneller Ausrüstung.",
+      "includes": [
+        "Komplette Entstaubung (Boden, Wände, Decken)",
+        "Reinigung von Fenstern und Rahmen",
+        "Entfernung von Aufklebern und Klebstoff",
+        "Tiefenreinigung Sanitär und Küchen",
+        "HEPA-Staubsaugen für Feinstaub",
+        "Entsorgung von Bauabfällen"
+      ],
+      "audience": [
+        "Bauträger und Generalunternehmer",
+        "Architekten und Bauherren",
+        "Privatpersonen nach Renovierung"
+      ]
+    },
+    "facades": {
+      "title": "Fassadenreinigung",
+      "description": "Aussenreinigung und -pflege",
+      "tagline": "Bringen Sie Ihr Gebäude wieder zum Glänzen.",
+      "overviewTitle": "Fassaden wie neu, ohne den Untergrund zu beschädigen",
+      "longDescription": "Wir reinigen Ihre Fassaden materialschonend: Stein, Putz, Glas, Holz oder Metall. Sandstrahlen, Niederdruck oder biologisch abbaubare Produkte — die Methode wird auf Ihren Untergrund abgestimmt für ein dauerhaftes, schonendes Ergebnis.",
+      "includes": [
+        "Diagnose des Untergrunds und Methodenwahl",
+        "Entfernung von Moos und Behandlung",
+        "Hoch- oder Niederdruckreinigung",
+        "Sandstrahlen für empfindliche Oberflächen",
+        "Hydrophobierung (Option)",
+        "Gerüst oder Hebebühne inklusive"
+      ],
+      "audience": [
+        "Liegenschaftsverwaltungen und Eigentümer",
+        "Einfamilienhäuser und Villen",
+        "Geschäfts- und Bürogebäude"
+      ]
+    },
+    "conciergerie": {
+      "title": "Hauswartung & Immobilien",
+      "description": "Pflege der Gemeinschaftsbereiche",
+      "tagline": "Eine zuverlässige und sorgfältige Hauswartung.",
+      "overviewTitle": "Regelmässige Pflege Ihrer Liegenschaft, sorgenfrei",
+      "longDescription": "Wir übernehmen die vollständige Pflege der Gemeinschaftsbereiche: Treppenhaus, Eingang, Lift, Müllraum und Aussenanlagen. Regelmässige Präsenz, fester Ansprechpartner und transparentes Reporting für Verwaltung oder Eigentümergemeinschaft. Sie haben bereits einen Anbieter für das Treppenhaus? Wir übernehmen auch nur die Tiefgarage oder den Bereich, den Sie uns anvertrauen.",
+      "includes": [
+        "Wöchentliche oder 14-tägliche Reinigung",
+        "Bereitstellung und Rückführung der Container",
+        "Fensterreinigung Eingangsbereich",
+        "Pflege der Müllräume",
+        "Kleine Wartungsarbeiten (Option)",
+        "Digitales Reporting für die Verwaltung"
+      ],
+      "audience": [
+        "Liegenschaftsverwaltungen",
+        "Hauseigentümer",
+        "Stockwerkeigentümergemeinschaften"
+      ]
+    },
+    "garages": {
+      "title": "Reinigung von Tiefgaragen & Parkplätzen",
+      "description": "Grosse Garagen und Gemeinschaftsparkings",
+      "tagline": "Die grosse Garage sauber — auch ohne Vertrag für das Treppenhaus.",
+      "overviewTitle": "Die Spezialität, die kleine Anbieter nicht abdecken",
+      "longDescription": "Die Reinigung einer grossen Tiefgarage erfordert Profigeräte — Scheuersaugmaschine, Einscheibenmaschine, industrieller Nass-/Trockensauger —, die die meisten Anbieter für Gemeinschaftsbereiche nicht haben. Wir übernehmen Ihre Tiefgarage auch dann, wenn das Treppenhaus des Gebäudes bereits anderweitig vergeben ist: separater Vertrag, flexible Planung und einwandfreies Ergebnis.",
+      "includes": [
+        "Entfetten und Waschen der Betonböden",
+        "Einsatz von Scheuersaug- und Einscheibenmaschine",
+        "Absaugung von Feinstaub",
+        "Behandlung von Öl- und Kohlenwasserstoffflecken",
+        "Reinigung von Markierungen, Boxen und Fahrspuren",
+        "Entstauben von tiefliegenden Leitungen und Rohren"
+      ],
+      "audience": [
+        "Verwaltungen und Stockwerkeigentümergemeinschaften",
+        "Liegenschaften mit Tiefgarage",
+        "Gebäude, deren Treppenhaus bereits vergeben ist"
+      ]
+    },
+    "photovoltaique": {
+      "title": "Reinigung von Photovoltaikanlagen",
+      "description": "Solarmodule und produktive Dächer",
+      "tagline": "Maximaler Solarertrag, risikofreie Reinigung.",
+      "overviewTitle": "Saubere Module — bis zu 25% mehr Ertrag",
+      "longDescription": "Staub, Pollen, Vogelkot und Luftverschmutzung verringern die Leistung Ihrer PV-Module. Wir reinigen sie mit entmineralisiertem Wasser und passenden Bürsten — ohne aggressive Chemie, ohne Kratzer auf dem Glas und ohne die Herstellergarantie zu beeinträchtigen. Gesicherter Einsatz auf dem Dach mit Gurt oder Hebebühne, inklusive Vorher-/Nachher-Fotoprotokoll.",
+      "includes": [
+        "Reinigung mit reinem, entmineralisiertem Wasser",
+        "Weiche rotierende Bürsten, geeignet für Glas",
+        "Sichtprüfung der Anschlüsse und Befestigungen",
+        "Absturzsicherung (Gurt, Auffanglinie, Hebebühne)",
+        "Fotoprotokoll vorher/nachher",
+        "Empfohlene Frequenz: 1 bis 2 Mal pro Jahr"
+      ],
+      "audience": [
+        "Eigentümer von Häusern mit PV-Anlage",
+        "Verwaltungen und Eigentümergemeinschaften mit produktiven Dächern",
+        "Unternehmen und PV-Anlagenbetreiber"
+      ]
+    },
+    "arrosage": {
+      "title": "Pflanzenbewässerung",
+      "description": "Regelmässige Bewässerung und während Ihrer Abwesenheit",
+      "tagline": "Ihre Pflanzen gepflegt, als wären Sie zu Hause.",
+      "overviewTitle": "Ein Bewässerungsservice für jede Situation",
+      "longDescription": "Ob Sie im Urlaub, auf Geschäftsreise sind oder einfach delegieren möchten — wir bewässern Ihre Innen- und Aussenpflanzen im passenden Rhythmus. Balkone, Terrassen, Wohnungen, Hauseingänge oder gemeinschaftliche Grünflächen: Jede Pflanze erhält die richtige Wassermenge und eine Sichtkontrolle bei jedem Einsatz.",
+      "includes": [
+        "Bewässerung im passenden Rhythmus je Pflanze",
+        "Sichtkontrolle des Pflanzenzustands",
+        "Meldung bei Auffälligkeiten (gelbe Blätter, Schädlinge, Austrocknung)",
+        "Regelmässige oder einmalige Einsätze nach Bedarf",
+        "Zimmerpflanzen, Balkone, Terrassen und Gärten",
+        "Gemeinschaftliche Grünflächen von Liegenschaften (Option)"
+      ],
+      "audience": [
+        "Privatpersonen im Urlaub oder auf Reisen",
+        "Eigentümergemeinschaften mit Pflanzen in Gemeinschaftsbereichen",
+        "Mieter und Eigentümer, die delegieren möchten"
+      ]
+    },
+    "animaux": {
+      "title": "Katzen- und Kleintierbetreuung",
+      "description": "Füttern und Kontrollbesuche bei Ihnen zu Hause während Ihrer Abwesenheit",
+      "tagline": "Reisen Sie beruhigt – wir kommen zu Ihnen, Ihr Tier bleibt zu Hause.",
+      "overviewTitle": "Hausbesuche – ausschliesslich in Ihrer Wohnung",
+      "longDescription": "Sind Sie ein paar Tage weg? Wir kommen ein- oder zweimal täglich zu Ihnen nach Hause, füttern Ihre Katze oder Ihr Kleintier (Kaninchen, Meerschweinchen, Vögel, Fische …), wechseln das Wasser und prüfen, ob alles in Ordnung ist. Die Betreuung erfolgt ausschliesslich in Ihrer Wohnung: keine Spaziergänge im Freien und keine Pension oder Unterbringung bei Nzo Immo Clean – Ihr Tier bleibt in seiner gewohnten Umgebung.",
+      "includes": [
+        "1 bis 2 Hausbesuche pro Tag nach Bedarf",
+        "Napf mit Ihrem Futter auffüllen",
+        "Frisches Wasser einfüllen",
+        "Sichtkontrolle des Wohlbefindens Ihres Tieres",
+        "Fotoprotokoll bei jedem Besuch (Option)",
+        "Sofortige Benachrichtigung bei Auffälligkeiten"
+      ],
+      "audience": [
+        "Katzenhalter bei kurzen Abwesenheiten",
+        "Halter von Kleintieren (Kaninchen, Meerschweinchen, Vögel, Fische …)",
+        "Personen im Spital oder auf Geschäftsreise"
+      ]
+    },
+    "jardins": {
+      "title": "Gartenpflege",
+      "description": "Mähen, Schneiden und Pflege von Grünflächen",
+      "tagline": "Gepflegte Grünflächen das ganze Jahr über.",
+      "overviewTitle": "Ein gepflegter Garten — auf Dauer angelegt",
+      "longDescription": "Vom Rasenmähen über Heckenschnitt bis zum Jäten: Wir pflegen Ihre Grünflächen im Rhythmus der Jahreszeiten. Jahrespauschalen oder Einzeleinsätze mit gut ausgestattetem Team und Respekt vor der Biodiversität.",
+      "includes": [
+        "Rasenmähen und Kanten schneiden",
+        "Hecken- und Strauchschnitt",
+        "Jäten und Beetpflege",
+        "Entsorgung von Grünabfällen",
+        "Laubblasen im Herbst",
+        "Bepflanzung und Beratung (Option)"
+      ],
+      "audience": [
+        "Privatpersonen und Villen",
+        "Eigentümergemeinschaften mit Grünflächen",
+        "Unternehmen und Bürostandorte"
+      ]
+    },
+    "debarras": {
+      "title": "Entrümpelung",
+      "description": "Entsorgung und Sortierung Ihres Sperrguts",
+      "tagline": "Wir räumen, sortieren und recyceln.",
+      "overviewTitle": "Saubere, schnelle und verantwortungsvolle Räumung",
+      "longDescription": "Keller, Estrich, Wohnung oder Büro: Wir entrümpeln und sortieren, was recycelt, gespendet oder verkauft werden kann. Transparentes Angebot, schnelle Ausführung, Entsorgung inklusive — ein Partner, ein Preis.",
+      "includes": [
+        "Vorbesichtigung und kostenloses Angebot",
+        "Sortierung vor Ort (Recycling, Spenden, Abfall)",
+        "Demontage und Handling",
+        "Entsorgung in zugelassener Deponie",
+        "Endreinigung des geräumten Raums",
+        "Vernichtungszertifikat (Option)"
+      ],
+      "audience": [
+        "Nachlässe und Umzüge",
+        "Verwaltungen und Eigentümer",
+        "Unternehmen in Umstrukturierung"
+      ]
+    }
+  },
+  "hero": {
+    "highlight": "Professionelle Reinigung",
+    "title": "für Privatpersonen, Unternehmen und Immobilienprofis",
+    "description": "Ein qualifiziertes Team und massgeschneiderte Leistungen: Büros, Bauendreinigung, Fassaden, Hauswartung, Tiefgaragen, Solarmodule, Pflanzenbewässerung, Katzen- und Kleintierbetreuung, Garten und Entrümpelung. Kostenloses Angebot in unter 24 Stunden.",
+    "ctaPrimary": "Kostenloses Angebot anfordern",
+    "ctaSecondary": "Unsere Leistungen entdecken",
+    "founded": "GmbH neu gegründet in Basel",
+    "foundedCity": "Basel",
+    "foundedShort": "GmbH neu gegründet"
+  },
+  "features": {
+    "equipeTitle": "Qualifiziertes Team",
+    "equipeText": "Geschultes, angemeldetes und versichertes Personal",
+    "prestationsTitle": "10 Kernleistungen",
+    "prestationsText": "Eine Antwort für jeden Bedarf",
+    "ecoTitle": "Ökologische Produkte",
+    "ecoText": "Umweltschonend",
+    "devisTitle": "100% kostenloses Angebot",
+    "devisText": "Antwort innert 24 Stunden"
+  },
+  "process": {
+    "eyebrow": "SO FUNKTIONIERT'S",
+    "sectionTitle": "Ein einfacher Prozess in 6 Schritten",
+    "sectionDescription": "Von der ersten Anfrage bis zur Qualitätskontrolle ist jeder Schritt darauf ausgelegt, Ihnen einen reibungslosen und effizienten Einsatz zu garantieren.",
+    "steps": {
+      "devis": {
+        "title": "Angebotsanfrage",
+        "description": "Sie übermitteln uns Ihren Bedarf per Formular, Telefon oder WhatsApp."
+      },
+      "analyse": {
+        "title": "Bedarfsanalyse",
+        "description": "Vor-Ort-Besuch oder ausführliches Gespräch, um Ihre Erwartungen genau zu erfassen."
+      },
+      "validation": {
+        "title": "Bestätigung & Anzahlung",
+        "description": "Individuelles Angebot, Vertragsbestätigung und Anzahlung."
+      },
+      "planification": {
+        "title": "Terminplanung",
+        "description": "Einsatztermin, geschätzte Dauer und Zuweisung des Teams."
+      },
+      "intervention": {
+        "title": "Einsatz",
+        "description": "Unser Team arbeitet professionell und mit geeignetem Material."
+      },
+      "controle": {
+        "title": "Qualitätskontrolle",
+        "description": "Gemeinsame Endkontrolle und Zufriedenheitsgarantie."
+      }
+    }
+  },
+  "beforeAfter": {
+    "eyebrow": "VORHER / NACHHER",
+    "sectionTitle": "Der Unterschied ist sofort sichtbar",
+    "sectionDescription": "Ziehen Sie den Regler, um die Verwandlung nach unserem Einsatz zu entdecken. Saubere, messbare Ergebnisse — ohne Überraschungen.",
+    "before": "Vorher",
+    "after": "Nachher",
+    "hint": "Regler ziehen zum Vergleichen",
+    "ariaLabel": "Vorher / Nachher Vergleichsregler"
+  },
+  "footer": {
+    "tagline": "Schweizer Unternehmen für Reinigung und Immobiliendienste — für Privatpersonen, Unternehmen und Immobilienprofis.",
+    "followUs": "Folgen Sie uns",
+    "servicesTitle": "Leistungen",
+    "usefulTitle": "Nützliche Links",
+    "contactTitle": "Kontakt",
+    "useful": {
+      "devis": "Angebot anfordern",
+      "espace": "Kundenbereich"
+    },
+    "copyright": "© {{year}} Nzo Immo Clean. Alle Rechte vorbehalten.",
+    "legal": {
+      "mentions": "Impressum",
+      "privacy": "Datenschutz",
+      "cgv": "AGB",
+      "cookies": "Cookies"
+    }
+  },
+  "legal": {
+    "backHome": "Zurück zur Startseite",
+    "contactBox": {
+      "title": "Fragen zu diesen Bedingungen?",
+      "text": "Unser Team steht Ihnen für jede Klärung zur Verfügung.",
+      "cta": "Kontakt aufnehmen →"
+    },
+    "mentions": {
+      "eyebrow": "RECHTLICHE INFORMATIONEN",
+      "title": "Impressum",
+      "lastUpdate": "Letzte Aktualisierung: 17. Mai 2026",
+      "intro": "Dieses Impressum gilt für die Website www.nzoimmoclean.ch und nennt den Herausgeber sowie die Nutzungsbedingungen.",
+      "sections": [
+        {
+          "title": "Herausgeber",
+          "body": [
+            "Nzo Immo Clean — Professionelles Reinigungsunternehmen mit Sitz in der Schweiz.",
+            "Adresse: Gellertpark 6, 4052 Basel, Schweiz.",
+            "Telefon: +41 79 936 21 73 — E-Mail: info@nzoimmoclean.ch."
+          ]
+        },
+        {
+          "title": "Verantwortlich für den Inhalt",
+          "body": "Der rechtliche Vertreter von Nzo Immo Clean ist verantwortlich für den Inhalt."
+        },
+        {
+          "title": "Hosting",
+          "body": "Die Website wird bei einem europäischen Web-Hosting-Anbieter gehostet. Angaben zum Hoster sind auf Anfrage unter info@nzoimmoclean.ch erhältlich."
+        },
+        {
+          "title": "Urheberrecht",
+          "body": "Alle Inhalte dieser Website (Texte, Bilder, Logos, Videos, Design) sind urheberrechtlich geschützt und bleiben ausschliessliches Eigentum von Nzo Immo Clean. Jede unbefugte Vervielfältigung, Darstellung oder Nutzung ist untersagt."
+        },
+        {
+          "title": "Haftung",
+          "body": "Nzo Immo Clean bemüht sich um Richtigkeit der Inhalte, übernimmt jedoch keine Haftung für Fehler, Auslassungen oder Unterbrechungen. Die Nutzung erfolgt auf eigene Verantwortung."
+        },
+        {
+          "title": "Externe Links",
+          "body": "Die Website kann Links zu Drittseiten enthalten. Nzo Immo Clean hat keinen Einfluss auf deren Inhalte und übernimmt keine Haftung."
+        },
+        {
+          "title": "Anwendbares Recht",
+          "body": "Dieses Impressum unterliegt Schweizer Recht. Gerichtsstand ist Genf."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "PERSONENBEZOGENE DATEN",
+      "title": "Datenschutzerklärung",
+      "lastUpdate": "Letzte Aktualisierung: 17. Mai 2026",
+      "intro": "Nzo Immo Clean schützt Ihre Privatsphäre und behandelt personenbezogene Daten transparent gemäss dem Schweizer Datenschutzgesetz (DSG) und, soweit anwendbar, der DSGVO.",
+      "sections": [
+        {
+          "title": "Verantwortliche Stelle",
+          "body": "Nzo Immo Clean, Gellertpark 6, 4052 Basel — info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Erhobene Daten",
+          "body": "Wir erheben nur Daten, die zur Erbringung unserer Leistungen erforderlich sind:",
+          "list": [
+            "Identität: Vorname, Name, Firma",
+            "Kontakt: E-Mail, Telefon, Postadresse",
+            "Einsatzdaten: Adresse, Fläche, Häufigkeit, Notizen",
+            "Technische Daten: IP-Adresse, Browsertyp, besuchte Seiten"
+          ]
+        },
+        {
+          "title": "Zwecke",
+          "body": "Die Daten dienen der Bearbeitung von Angebotsanfragen, Planung und Abrechnung der Leistungen, vertraglichen Mitteilungen und der Verbesserung unseres Angebots."
+        },
+        {
+          "title": "Rechtsgrundlage",
+          "body": "Vertragsdurchführung, gesetzliche Pflichten (insb. Buchhaltung), Ihre Einwilligung (Newsletter, nicht essentielle Cookies) sowie unser berechtigtes Interesse an einer besseren Nutzererfahrung."
+        },
+        {
+          "title": "Speicherdauer",
+          "body": "Kundendaten werden während der Vertragsdauer und 10 Jahre danach gemäss Schweizer Buchhaltungspflicht gespeichert. Interessentendaten werden nach 3 Jahren Inaktivität gelöscht."
+        },
+        {
+          "title": "Empfänger",
+          "body": "Ihre Daten werden nicht verkauft. Sie können an unsere technischen Auftragsverarbeiter (Hosting, E-Mail) weitergegeben werden, die vertraglich zur Sicherheit verpflichtet sind, oder an Behörden bei gesetzlicher Verpflichtung."
+        },
+        {
+          "title": "Ihre Rechte",
+          "body": "Gemäss anwendbarem Recht haben Sie folgende Rechte:",
+          "list": [
+            "Auskunft, Berichtigung und Löschung",
+            "Einschränkung und Widerspruch der Verarbeitung",
+            "Datenübertragbarkeit",
+            "Widerruf der Einwilligung jederzeit"
+          ]
+        },
+        {
+          "title": "Rechte ausüben",
+          "body": "Schreiben Sie an info@nzoimmoclean.ch. Wir antworten innert 30 Tagen. Bei Unzufriedenheit können Sie sich an den EDÖB wenden."
+        },
+        {
+          "title": "Sicherheit",
+          "body": "Wir setzen geeignete technische und organisatorische Massnahmen ein: HTTPS-Verschlüsselung, Zugriffskontrolle, regelmässige Backups und Mitarbeiterschulung."
+        }
+      ]
+    },
+    "cgv": {
+      "eyebrow": "ALLGEMEINE GESCHÄFTSBEDINGUNGEN",
+      "title": "Allgemeine Geschäftsbedingungen",
+      "lastUpdate": "Letzte Aktualisierung: 17. Mai 2026",
+      "intro": "Die vorliegenden AGB regeln das Vertragsverhältnis zwischen Nzo Immo Clean und ihren Kunden, sowohl Privatpersonen als auch Unternehmen.",
+      "sections": [
+        {
+          "title": "1. Geltungsbereich",
+          "body": "Die AGB gelten für alle von Nzo Immo Clean angebotenen Reinigungs-, Concierge- und Zusatzleistungen. Mit der Bestellung werden die AGB vollumfänglich anerkannt."
+        },
+        {
+          "title": "2. Angebot und Bestellung",
+          "body": "Jede Leistung wird mit einem individuellen, 30 Tage gültigen Angebot vereinbart. Die Bestellung wird durch Unterzeichnung und allfällige Anzahlung bestätigt."
+        },
+        {
+          "title": "3. Preise und Rechnung",
+          "body": "Preise in Schweizer Franken (CHF), inklusive 8,1 % MWST, sofern anwendbar. Rechnungen werden nach Leistung gestellt und sind innert 30 Tagen zahlbar."
+        },
+        {
+          "title": "4. Zahlung",
+          "body": "Zahlungen per Banküberweisung, TWINT oder Kreditkarte. Bei Verzug gelten die gesetzlichen Verzugszinsen."
+        },
+        {
+          "title": "5. Leistungserbringung",
+          "body": "Nzo Immo Clean verpflichtet sich zur professionellen und termingerechten Ausführung. Der Kunde stellt die nötigen Zugänge und Bedingungen sicher."
+        },
+        {
+          "title": "6. Stornierung",
+          "body": "Stornierungen sind mindestens 48 Stunden vor dem geplanten Einsatz mitzuteilen. Andernfalls können 50 % des Leistungsbetrags in Rechnung gestellt werden."
+        },
+        {
+          "title": "7. Haftung",
+          "body": "Nzo Immo Clean verfügt über eine Berufshaftpflichtversicherung. Reklamationen sind innert 7 Tagen schriftlich einzureichen."
+        },
+        {
+          "title": "8. Höhere Gewalt",
+          "body": "Keine Partei haftet für Ereignisse höherer Gewalt, welche die Leistungserbringung verhindern."
+        },
+        {
+          "title": "9. Recht und Gerichtsstand",
+          "body": "Es gilt Schweizer Recht. Gerichtsstand ist Genf."
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "COOKIE-VERWALTUNG",
+      "title": "Cookie-Richtlinie",
+      "lastUpdate": "Letzte Aktualisierung: 17. Mai 2026",
+      "intro": "Die Website www.nzoimmoclean.ch verwendet Cookies, um die Funktion sicherzustellen, Nutzungsdaten zu messen und Ihre Erfahrung zu verbessern.",
+      "sections": [
+        {
+          "title": "Was ist ein Cookie?",
+          "body": "Ein Cookie ist eine kleine Textdatei, die beim Besuch einer Website auf Ihrem Gerät abgelegt wird, um Informationen zu speichern."
+        },
+        {
+          "title": "Notwendige Cookies",
+          "body": "Diese Cookies sind unverzichtbar und können nicht deaktiviert werden:",
+          "list": [
+            "Spracheinstellung (i18nextLng)",
+            "Warenkorb (nzo-cart)",
+            "Sitzung im Kundenbereich"
+          ]
+        },
+        {
+          "title": "Analyse-Cookies",
+          "body": "Mit Ihrer Einwilligung verwenden wir Analyse-Tools zur Verbesserung der Website. Diese erfassen aggregierte und anonymisierte Daten."
+        },
+        {
+          "title": "Drittanbieter-Cookies",
+          "body": "Eingebettete Dienste (Karten, Videos) können eigene Cookies setzen, die deren Richtlinien unterliegen."
+        },
+        {
+          "title": "Einstellungen verwalten",
+          "body": "Sie können Cookies jederzeit in Ihrem Browser sperren oder löschen. Notwendige Cookies zu deaktivieren kann die Website beeinträchtigen."
+        },
+        {
+          "title": "Speicherdauer",
+          "body": "Cookies werden höchstens 13 Monate gespeichert. Danach ist Ihre Einwilligung erneut erforderlich."
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "eyebrow": "EINSATZGEBIETE",
+    "title": "Ausschliesslich Basel-Stadt und Basel-Landschaft",
+    "description": "Unsere Leistungen sind strikt auf die Kantone Basel-Stadt (BS) und Basel-Landschaft (BL) beschränkt. Ausserhalb dieser beiden Kantone sind wir nicht tätig.",
+    "cityBasel": "Basel",
+    "locator": "Nordwestschweiz"
+  },
+  "homeEspace": {
+    "eyebrow": "TECHNOLOGIE & TRACKING",
+    "title": "Ein Kundenportal, das für Sie gemacht ist",
+    "description": "Verfolgen Sie Ihre Einsätze, erhalten Sie Berichte und Fotos in Echtzeit. Ein professionelles Tool für Privat- und Geschäftskunden sowie Immobilienprofis.",
+    "features": {
+      "realtime": "Einsätze in Echtzeit verfolgen",
+      "notifications": "Sofortige Benachrichtigungen",
+      "photos": "Automatische Vorher / Nachher-Fotos",
+      "documents": "Angebote, Rechnungen und Berichte zentral"
+    },
+    "cta": "Zu meinem Bereich",
+    "dashboard": {
+      "title": "Meine Einsätze",
+      "activeBadge": "3 aktiv"
+    },
+    "status": {
+      "inProgress": "Läuft",
+      "planned": "Geplant",
+      "done": "Abgeschlossen"
+    },
+    "missions": {
+      "bureaux": {
+        "title": "Büroreinigung",
+        "city": "Basel"
+      },
+      "facades": {
+        "title": "Fassaden",
+        "city": "Liestal"
+      },
+      "conciergerie": {
+        "title": "Hauswartung",
+        "city": "Riehen"
+      }
+    },
+    "kpi": {
+      "label": "Diesen Monat",
+      "value": "12 Einsätze"
+    },
+    "notification": {
+      "title": "Bericht verfügbar",
+      "time": "Vor 2 Minuten"
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Jetzt verfügbar",
+    "title": "Brauchen Sie eine professionelle Reinigung in Basel?",
+    "description": "Kostenloses Angebot in unter 24 Stunden. Unser Team beantwortet Ihre Fragen.",
+    "ctaPrimary": "Angebot anfordern",
+    "trust": {
+      "response": {
+        "value": "24h",
+        "label": "Garantierte Antwort"
+      },
+      "rating": {
+        "label": "Kundenbewertungen"
+      },
+      "guarantee": {
+        "value": "100%",
+        "label": "Zufrieden oder kostenlose Nachbesserung"
+      }
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "UNSERE LEISTUNGEN",
+    "title": "Umfassende Expertise für all Ihre Bedürfnisse",
+    "description": "Sechs Kernleistungen für Privatpersonen, Unternehmen und Immobilienprofis — Agenturen, Verwaltungen und Eigentümergemeinschaften. Ausschliesslich in den Kantonen Basel-Stadt und Basel-Landschaft."
+  },
+  "serviceDetail": {
+    "notFound": "Leistung nicht gefunden",
+    "backToServices": "Alle Leistungen anzeigen",
+    "requestQuote": "Angebot anfordern",
+    "contactUs": "Kontakt aufnehmen",
+    "overviewEyebrow": "LEISTUNG",
+    "audienceTitle": "Für wen?",
+    "includesTitle": "Was enthalten ist",
+    "includesSubtitle": "Eine vollständige Leistung — ohne Überraschungen.",
+    "relatedEyebrow": "WEITERE LEISTUNGEN",
+    "relatedTitle": "Das könnte Sie ebenfalls interessieren…"
+  },
+  "about": {
+    "eyebrow": "ÜBER UNS",
+    "title": "Nzo Immo Clean — Schweizer Expertise für Reinigung und Immobiliendienste",
+    "subtitle": "Schweizer Unternehmen, spezialisiert auf Reinigungsleistungen und Immobiliendienste — für Privatpersonen, Unternehmen und Immobilienprofis (Agenturen, Verwaltungen, Hauswartungen).",
+    "story": {
+      "eyebrow": "UNSERE GESCHICHTE",
+      "title": "Eine Basler GmbH, gegründet im Februar 2026",
+      "p1": "Die Nzo Immo Clean GmbH wurde im Februar 2026 in Basel gegründet. Wir sind ausschliesslich in den Kantonen Basel-Stadt und Basel-Landschaft tätig. Von der regelmässigen Büroreinigung über die Bauendreinigung bis zur Hauswartung und Aussenpflege wird jede Leistung mit derselben Sorgfalt gesteuert — vom ersten Angebot bis zur abschliessenden Qualitätskontrolle.",
+      "p2": "Unsere Kundschaft — Privatpersonen, Unternehmen, Immobilienagenturen, Verwaltungen und Eigentümergemeinschaften — erwartet einwandfreie Ausführung und einen reaktiven Ansprechpartner. Von Anfang an setzen wir auf digitale Tools: Echtzeit-Tracking, automatische Fotoberichte, dedizierter Kundenbereich. Qualität im Feld und Transparenz im Digitalen — vereint.",
+      "quote": {
+        "text": "Ein Handwerksberuf wird an der Sauberkeit der letzten Ecke gemessen, nicht am schönen Prospekt. Deshalb kontrollieren wir jede Baustelle persönlich.",
+        "author": "Geschäftsleitung Nzo Immo Clean"
+      },
+      "badge": {
+        "label": "Einsatzgebiet",
+        "value": "BS · BL"
+      }
+    },
+    "cta": "Unsere Leistungen entdecken",
+    "ctaSecondary": "Offerte anfragen",
+    "heroChips": {
+      "swiss": "Schweizer Firma",
+      "certified": "Angemeldetes & versichertes Personal",
+      "since": "Gegründet im Februar 2026"
+    },
+    "heroBadge": {
+      "label": "GmbH gegründet im Februar",
+      "value": "2026"
+    },
+    "values": {
+      "eyebrow": "UNSERE WERTE",
+      "title": "Vier Prinzipien, die unser Arbeiten prägen",
+      "subtitle": "Keine Slogans, sondern die Regeln, die unseren Alltag strukturieren.",
+      "items": {
+        "quality": {
+          "title": "Kompromisslose Qualität",
+          "description": "Hoher Anspruch durch geschulte Teams und systematische Kontrolle bei jedem Einsatz."
+        },
+        "trust": {
+          "title": "Vertrauensbeziehung",
+          "description": "Fester Ansprechpartner, klare Kommunikation und Zusagen, die wir einhalten."
+        },
+        "eco": {
+          "title": "Ökologisches Engagement",
+          "description": "Biologisch abbaubare Produkte, kontrollierte Dosierung und konsequente Mülltrennung."
+        },
+        "reliability": {
+          "title": "Betriebliche Zuverlässigkeit",
+          "description": "Angemeldetes Personal, volle Versicherung und eingehaltene Termine — das Minimum."
+        }
+      }
+    },
+    "stats": {
+      "founded": {
+        "value": "2026",
+        "label": "GmbH gegründet im Februar"
+      },
+      "seat": {
+        "value": "Basel",
+        "label": "Firmensitz"
+      },
+      "cantons": {
+        "value": "BS · BL",
+        "label": "Bediente Kantone"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Antwort auf Anfragen"
+      }
+    },
+    "method": {
+      "eyebrow": "UNSERE METHODE",
+      "title": "Vier Schritte für einen reibungslosen Ablauf",
+      "subtitle": "Ein klarer Prozess, vom Erstkontakt bis zur finalen Qualitätskontrolle.",
+      "steps": {
+        "quote": {
+          "title": "Offerte in 24 h",
+          "description": "Sie beschreiben Ihren Bedarf, wir senden eine detaillierte Offerte (Pauschale oder Stundensatz), ohne Verpflichtung."
+        },
+        "schedule": {
+          "title": "Planung",
+          "description": "Wir vereinbaren gemeinsam den Termin und bestätigen das eingesetzte Team. Sie erhalten eine Erinnerung per E-Mail und Benachrichtigung."
+        },
+        "service": {
+          "title": "Vor-Ort-Einsatz",
+          "description": "Geschulte Teams kommen mit dem passenden Material und den richtigen Produkten. Verfolgen Sie den Einsatz in Echtzeit in Ihrem Kundenbereich."
+        },
+        "report": {
+          "title": "Bericht & Qualität",
+          "description": "Vorher-/Nachher-Fotos, systematische Kontrolle und schnelle Nachbesserung bei Vorbehalten — Null-Kompromiss-Garantie."
+        }
+      }
+    },
+    "guarantees": {
+      "eyebrow": "GARANTIEN & KONFORMITÄT",
+      "title": "Verbindliche Zusagen, keine leeren Versprechen",
+      "subtitle": "Wir arbeiten streng nach Schweizer Recht — für Ihre und die Sicherheit unserer Teams.",
+      "items": {
+        "insurance": {
+          "title": "Betriebshaftpflicht",
+          "description": "Berufshaftpflichtversicherung für alle unsere Einsätze."
+        },
+        "declared": {
+          "title": "Angemeldetes Personal",
+          "description": "Verträge, Sozialabgaben und Bewilligungen stets aktuell."
+        },
+        "registered": {
+          "title": "Schweizer Firma",
+          "description": "Im Handelsregister eingetragen, UID-Nummer, aktive MwSt."
+        },
+        "satisfaction": {
+          "title": "Zufrieden oder Nacharbeit",
+          "description": "Bei Beanstandungen kommen wir innerhalb von 48 Std. kostenlos zurück."
+        }
+      }
+    },
+    "commitments": {
+      "eyebrow": "UNSER ENGAGEMENT",
+      "title": "Ökologisch und menschlich — ohne Kompromiss",
+      "subtitle": "Sauberkeit bedeutet auch, den Planeten und die Menschen im Team zu respektieren.",
+      "eco": {
+        "title": "Ökologisches Engagement",
+        "description": "Wir reduzieren unseren Fussabdruck auf jeder Ebene: Produkte, Abfall, Ausrüstung.",
+        "items": {
+          "products": {
+            "title": "Öko-zertifizierte Produkte",
+            "description": "Biologisch abbaubare Reinigungsmittel, kontrollierte Dosierung, keine Schadstoffe."
+          },
+          "recycle": {
+            "title": "Systematische Trennung",
+            "description": "Bei Räumungen: PET, Papier, Glas, Sperrgut — nichts landet unnötig auf der Deponie."
+          },
+          "seasonal": {
+            "title": "Langlebige Ausrüstung",
+            "description": "Wiederverwendbare Mikrofasern, gepflegte Maschinen, weniger Einwegplastik."
+          }
+        }
+      },
+      "human": {
+        "title": "Menschliches Engagement",
+        "description": "Ein motiviertes Team leistet motivierte Arbeit. Wir investieren in unsere Mitarbeitenden.",
+        "items": {
+          "training": {
+            "title": "Kontinuierliche Weiterbildung",
+            "description": "Sicherheit, Produkte, Ausrüstung, Kundenkontakt — regelmässige Schulungen."
+          },
+          "stable": {
+            "title": "Stabiles Team",
+            "description": "Unbefristete Verträge, geringe Fluktuation — dieselbe Person kommt zu Ihnen zurück."
+          },
+          "careers": {
+            "title": "Entwicklung",
+            "description": "Wir fördern interne Aufstiege: Teamleitung, Bereichsleitung, Fachausbildung."
+          }
+        }
+      }
+    },
+    "coverage": {
+      "eyebrow": "EINSATZGEBIETE",
+      "title": "Strikt Basel-Stadt und Basel-Landschaft",
+      "subtitle": "Unsere Leistungen sind strikt auf die Kantone Basel-Stadt und Basel-Landschaft beschränkt. Adressen ausserhalb dieser beiden Kantone können wir nicht bedienen.",
+      "cta": "Meine Zone prüfen",
+      "regions": {
+        "bs": {
+          "name": "Basel-Stadt (BS)",
+          "cities": "Basel · Riehen · Bettingen"
+        },
+        "bl": {
+          "name": "Basel-Landschaft (BL)",
+          "cities": "Liestal · Allschwil · Binningen · Muttenz · Pratteln · Reinach · Münchenstein · Sissach · Laufen"
+        }
+      }
+    }
+  },
+  "signup": {
+    "eyebrow": "REGISTRIERUNG",
+    "title": "Erstellen Sie Ihren Kundenbereich",
+    "subtitle": "Konto in 1 Minute eröffnet. Keine Verpflichtung.",
+    "back": "Zurück zur Website",
+    "accountTypeTitle": "Sie sind?",
+    "accountTypes": {
+      "particulier": "Privatperson",
+      "entreprise": "Unternehmen",
+      "proImmo": "Immobilienprofi",
+      "association": "Verein"
+    },
+    "fields": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@adresse.ch",
+      "password": "Passwort",
+      "passwordPlaceholder": "Min. 8 Zeichen"
+    },
+    "strength": {
+      "hint": "Stärke",
+      "weak": "Schwach",
+      "fair": "Mittel",
+      "good": "Gut",
+      "strong": "Stark"
+    },
+    "consent": "Ich akzeptiere die AGB und die Datenschutzbestimmungen.",
+    "newsletter": "Ich möchte Neuigkeiten und Angebote von Nzo Immo Clean erhalten.",
+    "submit": "Konto erstellen",
+    "showPwd": "Passwort anzeigen",
+    "hidePwd": "Passwort verbergen",
+    "haveAccount": "Haben Sie schon ein Konto?",
+    "login": "Anmelden",
+    "demoNotice": "Bereich im Aufbau — wird in Phase 2 des Projekts aktiviert.",
+    "brand": {
+      "eyebrow": "WILLKOMMEN",
+      "title": "Steuern Sie Ihre Leistungen bequem online.",
+      "subtitle": "Ein Bereich für Privatpersonen, Unternehmen und Immobilienprofis.",
+      "features": {
+        "quickSetup": {
+          "title": "Registrierung in 1 Minute",
+          "hint": "E-Mail oder Google — keine Karte nötig"
+        },
+        "secure": {
+          "title": "Geschützte Daten",
+          "hint": "Schweizer Hosting und SSL-Verschlüsselung"
+        },
+        "firstQuote": {
+          "title": "Erstes Angebot gratis",
+          "hint": "Antwort in 24h, ohne Verpflichtung"
+        }
+      },
+      "bonus": {
+        "title": "Willkommensangebot",
+        "hint": "−10% auf Ihre erste Leistung"
+      }
+    }
+  },
+  "login": {
+    "eyebrow": "KUNDENBEREICH",
+    "title": "Willkommen zurück",
+    "subtitle": "Melden Sie sich an, um Ihre Einsätze zu verfolgen und auf Ihre Dokumente zuzugreifen.",
+    "back": "Zurück zur Website",
+    "fields": {
+      "email": "E-Mail",
+      "emailPlaceholder": "ihre@adresse.ch",
+      "password": "Passwort",
+      "passwordPlaceholder": "Ihr Passwort"
+    },
+    "remember": "Angemeldet bleiben",
+    "forgot": "Passwort vergessen?",
+    "submit": "Anmelden",
+    "showPwd": "Passwort anzeigen",
+    "hidePwd": "Passwort verbergen",
+    "noAccount": "Noch kein Konto?",
+    "signup": "Konto erstellen",
+    "brand": {
+      "eyebrow": "IHR BEREICH",
+      "title": "Verfolgen Sie Ihre Einsätze in Echtzeit, überall.",
+      "subtitle": "Ein Dashboard für Privatpersonen, Unternehmen und Immobilienprofis.",
+      "features": {
+        "tracking": "Einsätze in Echtzeit verfolgen",
+        "reports": "Automatische Vorher / Nachher-Fotoberichte",
+        "documents": "Angebote, Rechnungen und Historie zentral"
+      },
+      "testimonial": {
+        "text": "Der Kundenbereich ist ein echter Mehrwert. Man sieht genau, was erledigt wurde, und alle Berichte sind an einem Ort. Kein Papierkram mehr.",
+        "author": "Sophie M., CFO — Anwaltskanzlei"
+      }
+    }
+  },
+  "reviews": {
+    "eyebrow": "KUNDENBEWERTUNGEN",
+    "title": "Das sagen unsere Kunden",
+    "subtitle": "Jede Bewertung stammt von einem Kunden nach einem abgeschlossenen Einsatz. Vertrauen entsteht Einsatz für Einsatz.",
+    "verified": "Verifizierte Bewertung",
+    "filterByService": "Nach Leistung filtern",
+    "filterByRating": "Nach Bewertung filtern",
+    "allServices": "Alle",
+    "sort": "Sortieren",
+    "ratings": {
+      "3": "★ 3 Sterne und mehr",
+      "4": "★ 4 Sterne und mehr",
+      "5": "★ 5 Sterne",
+      "all": "Alle Bewertungen"
+    },
+    "sortOptions": {
+      "newest": "Neueste",
+      "oldest": "Älteste",
+      "ratingDesc": "Beste Bewertung",
+      "ratingAsc": "Niedrigste zuerst"
+    },
+    "resultsCount": "{{count}} Bewertungen angezeigt",
+    "resetFilters": "Zurücksetzen",
+    "loadMore": "Weitere Bewertungen laden",
+    "source": {
+      "google": "Google",
+      "direct": "Direktes Feedback"
+    },
+    "stats": {
+      "rating": {
+        "label": "Durchschnitt"
+      },
+      "experience": {
+        "value": "2026",
+        "label": "GmbH gegründet im Februar"
+      }
+    },
+    "noResults": {
+      "title": "Keine passenden Bewertungen",
+      "text": "Versuchen Sie, die Suche zu erweitern."
+    },
+    "callout": {
+      "eyebrow": "SIND SIE KUNDE?",
+      "title": "Teilen Sie Ihre Erfahrung",
+      "text": "Ihr Feedback hilft uns, besser zu werden, und unterstützt zukünftige Kunden bei der Wahl. Es dauert nur wenige Minuten.",
+      "googleCta": "Google-Bewertung abgeben",
+      "directCta": "Direkt Feedback geben"
+    },
+    "empty": {
+      "text": "Unsere GmbH wurde gerade in Basel gegründet. Die ersten Kundenbewertungen erscheinen hier nach den ersten Einsätzen."
+    }
+  },
+  "shop": {
+    "eyebrow": "ONLINE-SHOP",
+    "title": "Unsere Reinigungsprodukte",
+    "subtitle": "Professionelle Auswahl für die tägliche Reinigung — umweltfreundlich und wirksam.",
+    "trust": {
+      "delivery": {
+        "title": "Schnelle Lieferung",
+        "hint": "In der Schweiz binnen 48h"
+      },
+      "eco": {
+        "title": "Ökologisch",
+        "hint": "Biologisch abbaubar, zertifiziert"
+      },
+      "returns": {
+        "title": "14 Tage Rückgabe",
+        "hint": "Zufriedenheitsgarantie"
+      }
+    },
+    "searchPlaceholder": "Produkt suchen…",
+    "clear": "Löschen",
+    "sort": "Sortieren",
+    "sortOptions": {
+      "featured": "Empfohlen",
+      "priceAsc": "Preis: aufsteigend",
+      "priceDesc": "Preis: absteigend",
+      "rating": "Beste Bewertung",
+      "newest": "Neuheiten"
+    },
+    "categories": {
+      "all": "Alle",
+      "surfaces": "Oberflächen",
+      "bathroom": "Bad",
+      "kitchen": "Küche",
+      "laundry": "Wäsche",
+      "disinfection": "Desinfektion",
+      "accessories": "Zubehör"
+    },
+    "resultsCount": "{{count}} Produkt(e)",
+    "resetFilters": "Zurücksetzen",
+    "noResults": {
+      "title": "Keine Produkte gefunden",
+      "text": "Versuchen Sie, die Suche zu erweitern."
+    },
+    "badge": {
+      "promo": "Aktion",
+      "new": "Neu",
+      "bestseller": "Bestseller"
+    },
+    "outOfStock": "Nicht verfügbar",
+    "inStock": "{{count}} auf Lager",
+    "reviews": "Bewertungen",
+    "addToCart": "In den Warenkorb",
+    "buyNow": "Jetzt kaufen",
+    "guarantees": {
+      "delivery": "Lieferung in 48h",
+      "eco": "Ökologische Produkte",
+      "returns": "14 Tage Rückgabe",
+      "secure": "Sichere Zahlung"
+    },
+    "cart": {
+      "title": "Mein Warenkorb",
+      "close": "Schliessen",
+      "itemCount": "{{count}} Produkt(e)",
+      "emptyTitle": "Ihr Warenkorb ist leer",
+      "emptyText": "Entdecken Sie unsere Produkte und beginnen Sie Ihren Einkauf.",
+      "browse": "Zum Shop",
+      "remove": "Entfernen",
+      "subtotal": "Zwischensumme",
+      "total": "Total",
+      "shippingNote": "Versand wird im nächsten Schritt berechnet.",
+      "checkout": "Zur Kasse",
+      "clear": "Warenkorb leeren",
+      "waIntro": "Hallo, ich möchte bestellen:",
+      "emailSubject": "Bestellung Nzo Immo Clean Shop"
+    },
+    "product": {
+      "notFound": "Produkt nicht gefunden",
+      "backToShop": "Zurück zum Shop",
+      "descriptionTitle": "Beschreibung",
+      "featuresTitle": "Eigenschaften",
+      "relatedEyebrow": "DAS KÖNNTE IHNEN GEFALLEN",
+      "relatedTitle": "Ähnliche Produkte",
+      "viewAll": "Alle anzeigen"
+    },
+    "checkout": {
+      "title": "Bestellung abschliessen",
+      "subtitle": "Noch einige Angaben und Sie sind fertig.",
+      "back": "Zurück",
+      "shippingTitle": "Lieferadresse",
+      "notesLabel": "Bestellnotizen",
+      "notesPlaceholder": "Hinweise zur Lieferung…",
+      "consent": "Ich akzeptiere die AGB und die Datenschutzbestimmungen.",
+      "submit": "Bestellung aufgeben",
+      "altDivider": "ODER",
+      "viaWhatsapp": "Per WhatsApp bestellen",
+      "viaEmail": "Per E-Mail bestellen",
+      "summaryTitle": "Bestellübersicht",
+      "qty": "Menge: {{count}}",
+      "shipping": "Versand",
+      "shippingFree": "Gratis",
+      "freeShippingHint": "Noch {{amount}} bis zum kostenlosen Versand.",
+      "total": "Total",
+      "success": {
+        "title": "Bestellung aufgegeben!",
+        "message": "Danke für Ihre Bestellung. Sie erhalten in wenigen Minuten eine Bestätigung per E-Mail.",
+        "cta": "Weiter einkaufen"
+      }
+    },
+    "products": {
+      "p001": {
+        "name": "Mehrzweck Öko 1L",
+        "short": "Biologisch abbaubarer Mehrflächenreiniger",
+        "description": "Konzentrierter Mehrflächenreiniger, zu 99% biologisch abbaubar. Für alle waschbaren Oberflächen geeignet.",
+        "f1": "99% biologisch abbaubar — phosphatfrei",
+        "f2": "Mehrflächen — Böden, Glas, Arbeitsflächen",
+        "f3": "Konzentriert — 1L = 100 Anwendungen",
+        "f4": "Frischer Eukalyptusduft"
+      },
+      "p002": {
+        "name": "Essig-Entkalker 750ml",
+        "short": "Natürlicher Antikalk fürs Bad",
+        "description": "Wirksamer Entkalker auf Basis von Weissweinessig, ideal gegen Kalk und Seifenreste.",
+        "f1": "Auf Essig-Basis — natürlich",
+        "f2": "Entfernt Kalk und Seife",
+        "f3": "Sprühflasche gebrauchsfertig"
+      },
+      "p003": {
+        "name": "Pro Küchenentfetter 500ml",
+        "short": "Hochleistungs-Entfetter",
+        "description": "Professioneller Küchenentfetter: Hauben, Herde, Öfen. Schnelle Wirkung auf eingebranntem Fett.",
+        "f1": "Schnelle Wirkung in 30 Sekunden",
+        "f2": "Hauben, Herde, Öfen",
+        "f3": "Ohne Nachspülen bei korrekter Dosierung"
+      },
+      "p004": {
+        "name": "Konzentriertes Waschmittel 3L",
+        "short": "60 Waschgänge — sanfte Formel",
+        "description": "Konzentriertes Flüssigwaschmittel für 60 Waschgänge. Hautschonende, faserschonende Formel.",
+        "f1": "60 Waschgänge pro Flasche",
+        "f2": "Hypoallergen",
+        "f3": "Wirksam ab 30°C"
+      },
+      "p005": {
+        "name": "Flächendesinfektion 1L",
+        "short": "Bakterizid und viruzid",
+        "description": "Lebensmittelechtes Flächendesinfektionsmittel: bakterizid, viruzid, fungizid. Norm EN 14476.",
+        "f1": "EN 14476 zertifiziert",
+        "f2": "Bakterizid und viruzid",
+        "f3": "Lebensmittelflächen",
+        "f4": "Wirksam in 5 Minuten"
+      },
+      "p006": {
+        "name": "Mikrofasertücher × 10",
+        "short": "10er-Pack Premium-Tücher",
+        "description": "Hochdichte Mikrofasertücher, 500-mal waschbar. Ideal für alle Oberflächen — kratzfrei.",
+        "f1": "500-mal waschbar",
+        "f2": "Kratzfrei auf allen Oberflächen",
+        "f3": "10er-Pack — 30 × 30 cm"
+      },
+      "p007": {
+        "name": "Glasreiniger 500ml",
+        "short": "Streifenfreier Glanz",
+        "description": "Reiniger für Glas, Spiegel und glänzende Flächen. Schnelltrocknend, ohne Streifen.",
+        "f1": "Keine Streifen oder Rückstände",
+        "f2": "Schnelltrocknend",
+        "f3": "Glas, Spiegel, Bildschirme"
+      },
+      "p008": {
+        "name": "Pro Mikrofaser-Mop",
+        "short": "360°-Drehsystem",
+        "description": "Professioneller Mop mit abnehmbarem, waschbarem Mikrofaserkopf. Drehender Kopf erreicht jede Ecke.",
+        "f1": "360° drehender Kopf",
+        "f2": "Maschinenwaschbar",
+        "f3": "Teleskopstiel"
+      },
+      "p009": {
+        "name": "Handgel 500ml",
+        "short": "Handdesinfektion",
+        "description": "Handdesinfektionsgel mit 70% Alkohol. Trocknet schnell, ohne Rückstände.",
+        "f1": "70% Alkohol",
+        "f2": "Ohne Nachspülen"
+      },
+      "p010": {
+        "name": "Öko Starter-Kit",
+        "short": "5 Basis-Produkte — Premium-Set",
+        "description": "Komplettes Starter-Set: Mehrzweck, Glas, Bad, Entfetter und Tücher. 22% Ersparnis.",
+        "f1": "5 Basis-Produkte",
+        "f2": "22% Ersparnis",
+        "f3": "Alle biologisch abbaubar",
+        "f4": "Ideal für den Einstieg"
+      },
+      "p011": {
+        "name": "Schwarze Seife multi 1L",
+        "short": "Traditioneller Allzweckreiniger",
+        "description": "Traditionelle schwarze Seife auf pflanzlicher Ölbasis. Mehrfach einsetzbar: Böden, Terrassen, Gartenmöbel.",
+        "f1": "100% pflanzliches Öl",
+        "f2": "Innen und aussen",
+        "f3": "Sparsam — hochkonzentriert"
+      },
+      "p012": {
+        "name": "Backofen-Spray",
+        "short": "Starke Wirkung im Ofen",
+        "description": "Spezial-Entfetter-Spray für den Ofen. Starke Wirkung auf eingebranntes Fett und verkrustete Rückstände.",
+        "f1": "Gegen eingebranntes Fett",
+        "f2": "Aktiver Langzeitschaum",
+        "f3": "Auch für Grill und BBQ"
+      }
+    }
+  },
+  "devis": {
+    "eyebrow": "KOSTENLOSES ANGEBOT",
+    "title": "Holen Sie Ihr persönliches Angebot",
+    "subtitle": "Dauert nur wenige Minuten. Antwort innert 24 Stunden.",
+    "stepCounter": "Schritt {{current}} von {{total}}",
+    "steps": {
+      "prestation": "Leistung",
+      "details": "Details",
+      "photos": "Fotos",
+      "coordonnees": "Kontakt",
+      "compte": "Konto"
+    },
+    "step1": {
+      "title": "Welche Leistung?",
+      "subtitle": "Wählen Sie die gewünschte Leistung.",
+      "audienceTitle": "Sie sind?"
+    },
+    "audiences": {
+      "particulier": {
+        "label": "Privatperson",
+        "hint": "Haus, Wohnung, Haushalt"
+      },
+      "entreprise": {
+        "label": "Unternehmen",
+        "hint": "Büros, Geschäfte, Räume"
+      },
+      "proImmo": {
+        "label": "Immobilienprofi",
+        "hint": "Agentur, Verwaltung"
+      },
+      "association": {
+        "label": "Verein",
+        "hint": "Verein, NGO, Stiftung"
+      }
+    },
+    "step2": {
+      "title": "Details der Leistung",
+      "subtitle": "Einige Angaben, damit wir Ihr Angebot abstimmen können."
+    },
+    "step3": {
+      "title": "Fotos hinzufügen",
+      "subtitle": "Helfen Sie uns, Ihre Anfrage besser zu verstehen.",
+      "dropTitle": "Ziehen Sie Ihre Fotos hierhin",
+      "dropHint": "oder klicken Sie zur Auswahl — JPG, PNG (max. 8 Dateien)",
+      "optional": "Optionaler Schritt — Sie können weitergehen."
+    },
+    "step4": {
+      "title": "Ihre Kontaktdaten",
+      "subtitle": "Wir melden uns innert 24 Stunden mit einem detaillierten Angebot."
+    },
+    "step5": {
+      "title": "Konto erstellen zur Bestätigung",
+      "subtitle": "Ihr Angebot wird gespeichert und ist nach E-Mail-Bestätigung in Ihrem Kundenbereich verfügbar.",
+      "infoTitle": "Warum ein Konto erstellen?",
+      "info": "Mit Ihrem Kundenkonto verfolgen Sie Ihr Angebot, kommunizieren mit unserem Team und finden alle Dokumente an einem Ort.",
+      "emailLabel": "Konto-E-Mail",
+      "passwordLabel": "Passwort",
+      "passwordPlaceholder": "Mindestens 8 Zeichen",
+      "passwordConfirmLabel": "Passwort bestätigen",
+      "mismatch": "Die Passwörter stimmen nicht überein.",
+      "verifyHint": "Sie erhalten eine Bestätigungs-E-Mail zur Aktivierung Ihres Kontos.",
+      "haveAccount": "Sie haben bereits ein Konto?",
+      "loginLink": "Anmelden",
+      "showPwd": "Passwort anzeigen",
+      "hidePwd": "Passwort verbergen",
+      "submit": "Konto erstellen & bestätigen"
+    },
+    "fields": {
+      "surface": "Fläche",
+      "surface_facades": "Fassadenfläche",
+      "surface_conciergerie": "Fläche Gemeinschaftsräume",
+      "surface_garages": "Garagenfläche",
+      "surface_jardins": "Gartenfläche",
+      "frequency": "Häufigkeit",
+      "startDate": "Wunschtermin",
+      "startDate_arrosage": "Beginn der Abwesenheit",
+      "startDate_animaux": "Beginn der Abwesenheit",
+      "endDate": "Ende der Abwesenheit",
+      "notes": "Anmerkungen",
+      "notesPlaceholder": "Zugangsbeschränkungen, Etage, Besonderheiten…",
+      "address": "Adresse",
+      "postalCode": "PLZ",
+      "city": "Ort",
+      "panelCount": "Anzahl Module",
+      "roofType": "Dachtyp",
+      "plantCount": "Anzahl Pflanzen",
+      "plantLocation": "Standort der Pflanzen",
+      "visitFrequency": "Häufigkeit der Besuche",
+      "petType": "Tierart",
+      "petCount": "Anzahl Tiere",
+      "visitsPerDay": "Besuche pro Tag",
+      "buildingUnits": "Anzahl Wohneinheiten",
+      "parkingSpaces": "Anzahl Stellplätze",
+      "volume": "Geschätztes Volumen",
+      "locationType": "Art des Raums"
+    },
+    "frequencies": {
+      "unique": "Einmalig",
+      "hebdo": "Wöchentlich",
+      "bimensuel": "Alle 14 Tage",
+      "mensuel": "Monatlich"
+    },
+    "plantLocations": {
+      "interieur": "Innen",
+      "balcon": "Balkon / Terrasse",
+      "jardin": "Garten",
+      "mixte": "Innen + aussen"
+    },
+    "visitFrequencies": {
+      "quotidien": "Täglich",
+      "deuxJours": "Alle 2 Tage",
+      "deuxParSemaine": "2× / Woche",
+      "ponctuel": "Einmalig"
+    },
+    "petTypes": {
+      "chat": "Katze",
+      "chien": "Hund",
+      "autre": "Andere",
+      "petit": "Kleintier"
+    },
+    "visitsPerDay": {
+      "1": "1 Besuch",
+      "2": "2 Besuche"
+    },
+    "roofTypes": {
+      "plat": "Flachdach",
+      "incline": "Schrägdach",
+      "tuile": "Ziegeldach"
+    },
+    "locationTypes": {
+      "cave": "Keller",
+      "grenier": "Dachboden",
+      "appartement": "Wohnung",
+      "bureau": "Büro",
+      "garage": "Garage",
+      "autre": "Andere"
+    },
+    "prestationDetails": "Leistungsdetails",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "submit": "Anfrage senden",
+    "success": {
+      "title": "Prüfen Sie Ihre E-Mails!",
+      "message": "Wir haben Ihnen einen Bestätigungslink gesendet. Aktivieren Sie Ihr Konto, um Ihr Angebot zu bestätigen und im Kundenbereich zu verfolgen.",
+      "cta": "Zurück zur Startseite",
+      "ctaLogin": "Zu meinem Kundenbereich"
+    }
+  },
+  "contact": {
+    "eyebrow": "KONTAKT",
+    "title": "Sprechen wir über Ihr Projekt",
+    "subtitle": "Ein engagiertes Team beantwortet Ihre Fragen.",
+    "coordinatesTitle": "Kontaktdaten",
+    "availability": "An 7 Tagen die Woche erreichbar",
+    "followUs": "Folgen Sie uns",
+    "formTitle": "Senden Sie uns eine Nachricht",
+    "formSubtitle": "Wir antworten innert 24 Stunden.",
+    "fields": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "phoneOptional": "Telefon — optional",
+      "subject": "Betreff",
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Beschreiben Sie Ihre Anfrage…",
+      "address": "Adresse",
+      "hours": "Öffnungszeiten"
+    },
+    "subjects": {
+      "general": "Allgemeine Frage",
+      "devis": "Angebotsanfrage",
+      "reclamation": "Reklamation",
+      "partenariat": "Partnerschaft"
+    },
+    "consent": "Ich stimme der Verarbeitung meiner Daten für diese Anfrage zu.",
+    "submit": "Nachricht senden",
+    "successTitle": "Nachricht gesendet!",
+    "successMessage": "Danke für Ihre Nachricht. Unser Team antwortet innert 24 Stunden.",
+    "map": {
+      "title": "So finden Sie uns",
+      "subtitle": "Unser Hauptsitz ist in Basel.",
+      "directions": "Route"
+    }
+  },
+  "trust": {
+    "reviewsSoon": "Bewertungen folgen",
+    "reviewsLabel": "Kundenbewertungen",
+    "reviewsCount_one": "{{count}} Kundenbewertung",
+    "reviewsCount_other": "{{count}} Kundenbewertungen"
+  }
+}

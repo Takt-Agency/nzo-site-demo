@@ -1,0 +1,249 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans font-medium text-gray-800 antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+  ::selection {
+    background-color: #8cc44b;
+    color: white;
+  }
+  *:focus-visible {
+    outline: 2px solid #2ba5de;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  /* Custom scrollbar (Webkit) */
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f5f7fa;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #c3cdda;
+    border: 3px solid #f5f7fa;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8c9aae;
+  }
+}
+
+@layer utilities {
+  .services-pagination .swiper-pagination-bullet,
+  .process-pagination .swiper-pagination-bullet {
+    @apply h-2 w-2 cursor-pointer rounded-full bg-primary/25 transition;
+    opacity: 1;
+  }
+  .services-pagination .swiper-pagination-bullet-active,
+  .process-pagination .swiper-pagination-bullet-active {
+    @apply w-6 bg-primary;
+  }
+
+  /* Subtle dot pattern for section backgrounds */
+  .bg-dots {
+    background-image: radial-gradient(circle at 1px 1px, currentColor 1px, transparent 0);
+    background-size: 28px 28px;
+  }
+
+  /* Scroll reveal — opt-in via data-reveal attribute */
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition:
+      opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+      transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    will-change: opacity, transform;
+  }
+  [data-reveal].is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    [data-reveal] {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+}
+
+@layer utilities {
+  .nzo-map-pin {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+  }
+  .nzo-map-pin__pulse {
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    background: rgba(140, 196, 75, 0.35);
+    animation: nzoPulse 2s ease-out infinite;
+  }
+  .nzo-map-pin__dot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 9999px;
+    background: #8cc44b;
+    color: white;
+    box-shadow: 0 6px 14px rgba(140, 196, 75, 0.45);
+  }
+  .nzo-map-pin__dot svg {
+    width: 16px;
+    height: 16px;
+  }
+  .nzo-map-pin__dot--small {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(255, 255, 255, 0.9);
+  }
+  @keyframes nzoPulse {
+    0% { transform: scale(0.7); opacity: 0.8; }
+    100% { transform: scale(1.6); opacity: 0; }
+  }
+
+  /* Coverage map — dark theme faked over free OSM tiles.
+     - invert() flips whites to blacks so land looks dark navy.
+     - hue-rotate(180deg) brings the colours back to roughly correct hues
+       (invert alone gives negative colours: greens become magentas etc.).
+     - We tint the container with a blue background that shows through
+       between tile loads.
+     The filter is scoped to the tilePane only — markers, controls and
+     attribution are re-inverted so they stay legible. */
+  .nzo-coverage-map .leaflet-tile-pane {
+    filter: invert(1) hue-rotate(180deg) brightness(0.95) contrast(0.9);
+  }
+  .nzo-coverage-map .leaflet-marker-pane,
+  .nzo-coverage-map .leaflet-shadow-pane,
+  .nzo-coverage-map .leaflet-popup-pane,
+  .nzo-coverage-map .leaflet-control-container,
+  .nzo-coverage-map .leaflet-tooltip-pane {
+    filter: none;
+  }
+  .nzo-coverage-map .leaflet-container {
+    background: #0a1d33;
+  }
+  /* Service-area cantons (BS / BL) — soft green glow around the outline. */
+  .nzo-coverage-map .nzo-zone {
+    filter: drop-shadow(0 0 8px rgba(140, 196, 75, 0.55));
+  }
+  /* Canton name drawn on the map. */
+  .nzo-zone-label {
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
+    text-shadow: 0 1px 6px rgba(10, 29, 51, 0.95);
+  }
+  /* City / head-office labels (Leaflet tooltips) as dark pills. */
+  .nzo-coverage-map .leaflet-tooltip.nzo-city-label {
+    padding: 3px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 9999px;
+    background: rgba(10, 29, 51, 0.9);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  }
+  .nzo-coverage-map .leaflet-tooltip.nzo-city-label::before {
+    display: none;
+  }
+  .nzo-coverage-map .leaflet-tooltip.nzo-city-label--hq {
+    border-color: transparent;
+    background: #8cc44b;
+    color: #0a1d33;
+    font-weight: 700;
+  }
+  /* Attribution overlay stays readable on the dark background. */
+  .nzo-coverage-map .leaflet-control-attribution {
+    background: rgba(10, 29, 51, 0.85) !important;
+    color: rgba(255, 255, 255, 0.7) !important;
+  }
+  .nzo-coverage-map .leaflet-control-attribution a {
+    color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+  /* Hide the browser scrollbar while keeping the scroll behaviour. Used on
+     the admin sidebar so the nav can still overflow on short screens
+     without the visible track eating pixels next to the menu items. */
+  .no-scrollbar {
+    scrollbar-width: none;             /* Firefox */
+    -ms-overflow-style: none;          /* IE / old Edge */
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;                     /* Chromium, Safari */
+  }
+}
+
+@layer components {
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-accent/30 transition-all duration-200 hover:-translate-y-0.5 hover:bg-accent-600 hover:shadow-lg hover:shadow-accent/40 active:translate-y-0;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-bold text-white shadow-md shadow-primary/20 transition-all duration-200 hover:-translate-y-0.5 hover:bg-primary-800 hover:shadow-lg hover:shadow-primary/30 active:translate-y-0;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/80 px-5 py-2.5 text-sm font-bold text-white transition-all duration-200 hover:-translate-y-0.5 hover:bg-white hover:text-primary active:translate-y-0;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-gray-200 px-5 py-2.5 text-sm font-bold text-gray-700 transition-all duration-200 hover:border-primary hover:bg-primary hover:text-white active:translate-y-0;
+  }
+
+  /* Nav */
+  .nav-link {
+    @apply flex items-center gap-1 text-sm font-semibold text-gray-700 transition hover:text-primary;
+  }
+
+  /* Eyebrow pills (3 variants) */
+  .eyebrow-light {
+    @apply inline-flex items-center gap-2 rounded-full bg-secondary-100 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wider text-secondary-700;
+  }
+  .eyebrow-accent {
+    @apply inline-flex items-center gap-2 rounded-full bg-accent-50 px-4 py-1.5 text-[11px] font-bold uppercase tracking-wider text-accent-700;
+  }
+  .eyebrow-dark {
+    @apply inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-wider text-white/90 backdrop-blur;
+  }
+  .eyebrow-bar {
+    @apply h-0.5 w-4 bg-current;
+  }
+
+  /* Form inputs */
+  .input-field {
+    @apply w-full rounded-xl border border-gray-200 bg-white px-4 py-3 text-sm font-medium text-gray-800 placeholder-gray-400 transition focus:border-secondary focus:outline-none focus:ring-2 focus:ring-secondary/20;
+  }
+  .input-label {
+    @apply block text-sm font-semibold text-primary;
+  }
+
+  /* Cards */
+  .card {
+    @apply rounded-2xl bg-white shadow-sm ring-1 ring-gray-100;
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
+}

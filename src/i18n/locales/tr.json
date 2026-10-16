@@ -1,0 +1,2161 @@
+{
+  "topbar": {
+    "hours": "Pzt–Cum 08:00–17:00",
+    "cart": "Sepet",
+    "login": "Giriş"
+  },
+  "whatsappFloat": {
+    "aria": "WhatsApp ile iletişime geçin",
+    "message": "Merhaba, hizmetleriniz hakkında bilgi almak istiyorum."
+  },
+  "admin": {
+    "viewAll": "Tümünü gör",
+    "sidebar": {
+      "badge": "Yönetici",
+      "section": {
+        "main": "Yönetim"
+      },
+      "dashboard": "Kontrol paneli",
+      "clients": "Müşteriler",
+      "devis": "Gelen teklifler",
+      "missions": "Görevler",
+      "planning": "Planlama",
+      "factures": "Faturalar",
+      "demandes": "Talepler",
+      "reclamations": "Şikayetler",
+      "equipe": "Ekip",
+      "avis": "Müşteri yorumları",
+      "archives": "Arşiv",
+      "parametres": "Ayarlar",
+      "signOut": "Çıkış yap"
+    },
+    "topbar": {
+      "openMenu": "Menüyü aç",
+      "searchPlaceholder": "Müşteri, teklif, fatura ara…",
+      "notifications": "Bildirimler"
+    },
+    "kpi": {
+      "revenueMonth": "Aylık ciro",
+      "revenueTotal": "Toplam ciro",
+      "revenueTotalHint": "{{count}} tamamlanan görev üzerinden",
+      "newQuotes": "Yeni teklifler",
+      "activeMissions": "Aktif görevler",
+      "pendingInvoices": "Bekleyen faturalar",
+      "newClients": "Yeni müşteriler",
+      "openComplaints": "Açık şikayetler",
+      "conversionRate": "Dönüşüm oranı",
+      "shortcut": "Kısayol"
+    },
+    "statuses": {
+      "new": "Yeni",
+      "pending": "İşlenecek",
+      "quoted": "Gönderildi",
+      "accepted": "Kabul edildi",
+      "rejected": "Reddedildi",
+      "scheduled": "Planlandı",
+      "inProgress": "Devam ediyor",
+      "completed": "Tamamlandı",
+      "cancelled": "İptal edildi",
+      "paid": "Ödendi",
+      "overdue": "Gecikmiş",
+      "in_review": "İncelemede",
+      "replied": "Yanıtlandı",
+      "closed": "Kapatıldı",
+      "open": "Açık",
+      "resolved": "Çözüldü",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "training": "Eğitimde"
+    },
+    "dashboard": {
+      "eyebrow": "YÖNETİM",
+      "greeting": "Merhaba {{name}} 👋",
+      "subtitle": "Nzo Immo Clean faaliyetlerine genel bakış.",
+      "reviewQuotes": "Teklifleri işle",
+      "manageClients": "Müşterileri yönet",
+      "revenue": {
+        "title": "Ciro",
+        "subtitle": "6 aylık değişim — KDV dahil"
+      },
+      "activity": {
+        "title": "Son aktivite",
+        "recent": "Bugün"
+      },
+      "upcoming": {
+        "title": "Yaklaşan görevler",
+        "subtitle": "Önümüzdeki 7 günün planlaması",
+        "empty": "Şu an planlanmış görev yok."
+      },
+      "newDevis": {
+        "title": "İşlenecek teklifler",
+        "subtitle": "Siteden yeni talepler"
+      }
+    },
+    "clients": {
+      "eyebrow": "MÜŞTERİ TABANI",
+      "title": "Müşteriler",
+      "subtitle": "{{count}} kayıtlı müşteri.",
+      "newClient": "Yeni müşteri",
+      "searchPlaceholder": "İsim, şirket, e-posta ile ara…",
+      "types": {
+        "all": "Tümü",
+        "particulier": "Bireysel",
+        "entreprise": "Şirket",
+        "proImmo": "Emlak profesyoneli",
+        "association": "Dernek"
+      },
+      "cols": {
+        "client": "Müşteri",
+        "type": "Tür",
+        "contact": "İletişim",
+        "since": "Müşteri olduğu tarih",
+        "spent": "Toplam harcama",
+        "activeMissions": "Aktif görevler",
+        "status": "Durum"
+      },
+      "empty": {
+        "title": "Müşteri bulunamadı",
+        "text": "Arama kriterlerinizi genişletmeyi deneyin."
+      }
+    },
+    "clientDetail": {
+      "backToList": "Listeye dön",
+      "view": "Profili gör",
+      "actions": {
+        "edit": "Düzenle",
+        "message": "Mesaj gönder"
+      },
+      "kpi": {
+        "totalSpent": "Toplam harcama",
+        "activeMissions": "Aktif görevler",
+        "pendingAmount": "Bekleyen tutar",
+        "paidAmount": "Ödenen tutar"
+      },
+      "info": {
+        "company": "Şirket",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "city": "Şehir",
+        "since": "Müşteri olduğu tarih",
+        "notes": "Dahili notlar",
+        "noNotes": "Bu müşteri için not eklenmemiş.",
+        "addNote": "Not ekle"
+      },
+      "tabs": {
+        "devis": "Teklifler",
+        "missions": "Görevler",
+        "factures": "Faturalar",
+        "demandes": "Talepler",
+        "reclamations": "Şikayetler"
+      },
+      "empty": {
+        "devis": {
+          "title": "Teklif yok",
+          "text": "Bu müşteri henüz teklif talep etmedi."
+        },
+        "missions": {
+          "title": "Görev yok",
+          "text": "Bu müşteri için kayıtlı müdahale yok."
+        },
+        "factures": {
+          "title": "Fatura yok",
+          "text": "Bu müşteri için fatura kesilmedi."
+        },
+        "demandes": {
+          "title": "Talep yok",
+          "text": "Bu müşteriden mesaj veya yazışma yok."
+        },
+        "reclamations": {
+          "title": "Şikayet yok",
+          "text": "Hiçbir olay bildirilmedi — her şey yolunda!"
+        }
+      },
+      "notFound": {
+        "title": "Müşteri bulunamadı",
+        "text": "İstenen tanımlayıcı yok veya silinmiş."
+      }
+    },
+    "devis": {
+      "eyebrow": "TEKLİFLER",
+      "title": "Siteden gelen teklifler",
+      "subtitle": "İşlenecek bireysel, şirket ve profesyonel talepleri.",
+      "newDevis": "Yeni teklif",
+      "tabs": {
+        "all": "Tümü"
+      },
+      "searchPlaceholder": "Referans veya müşteriye göre ara…",
+      "toEstimate": "Tahmin edilecek",
+      "toConvert": "Göreve dönüştürülecek",
+      "converted": "Görev oluşturuldu",
+      "actions": {
+        "review": "İncele",
+        "send": "Teklifi gönder",
+        "accept": "Kabul olarak işaretle",
+        "reject": "Reddet",
+        "convert": "Göreve dönüştür"
+      },
+      "empty": {
+        "title": "Bu kategoride teklif yok",
+        "text": "Her şey işlendi, tebrikler!"
+      }
+    },
+    "missions": {
+      "eyebrow": "PLANLAMA",
+      "title": "Görevler",
+      "subtitle": "Operasyonel takip ve ekip planlaması.",
+      "new": "Yeni görev",
+      "searchPlaceholder": "Görev veya müşteri ara…",
+      "empty": {
+        "title": "Görev yok"
+      }
+    },
+    "factures": {
+      "eyebrow": "FATURALAMA",
+      "title": "Faturalar",
+      "subtitle": "Ödemelerin ve vadelerin takibi.",
+      "new": "Yeni fatura",
+      "cols": {
+        "number": "No",
+        "client": "Müşteri",
+        "issueDate": "Düzenleme tarihi",
+        "dueDate": "Vade tarihi",
+        "amount": "Tutar",
+        "status": "Durum"
+      }
+    },
+    "demandes": {
+      "eyebrow": "MÜŞTERİ MESAJLARI",
+      "title": "Talepler",
+      "subtitle": "Sorular, bilgi talepleri ve yazışmalar.",
+      "priority": {
+        "low": "Düşük",
+        "normal": "Normal",
+        "high": "Acil"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "SATIŞ SONRASI",
+      "title": "Şikayetler",
+      "subtitle": "İşlenecek ve çözülecek müşteri şikayetleri.",
+      "severity": {
+        "low": "Hafif",
+        "medium": "Orta",
+        "high": "Kritik"
+      },
+      "category": {
+        "quality": "Hizmet kalitesi",
+        "delay": "Gecikme / planlama",
+        "damage": "Hasar / kırılma",
+        "billing": "Faturalama",
+        "other": "Diğer"
+      },
+      "actions": {
+        "reply": "Yanıtla",
+        "resolve": "Çözüldü olarak işaretle"
+      }
+    },
+    "equipe": {
+      "eyebrow": "KAYNAKLAR",
+      "title": "Saha ekibi",
+      "subtitle": "{{count}} aktif çalışan.",
+      "new": "Üye ekle",
+      "activeMissions": "görev"
+    },
+    "planning": {
+      "eyebrow": "DAĞITIM",
+      "title": "Planlama",
+      "subtitle": "Görevlerin takvim görünümü — yeniden planlamak için sürükleyip bırakın.",
+      "views": {
+        "week": "Hafta",
+        "month": "Ay"
+      },
+      "filters": {
+        "allAgents": "Tüm çalışanlar",
+        "unassigned": "Atanmamış"
+      },
+      "today": "Bugün",
+      "prev": "Önceki",
+      "next": "Sonraki",
+      "empty": "Bu dönemde görev yok.",
+      "dropHere": "Buraya bırak",
+      "rescheduled": "Görev {{date}} tarihine taşındı.",
+      "rescheduleFailed": "Görev yeniden planlanamadı — {{error}}"
+    },
+    "parametres": {
+      "eyebrow": "YAPILANDIRMA",
+      "title": "Ayarlar",
+      "subtitle": "Hesabınızın ve platformun yapılandırması.",
+      "configure": "Yapılandır",
+      "sections": {
+        "company": {
+          "title": "Şirket",
+          "description": "Ticari unvan, adres, iletişim bilgileri ve görsel kimlik."
+        },
+        "branding": {
+          "title": "Kimlik ve renkler",
+          "description": "Logo, renkler ve iletişim tonunu özelleştirin."
+        },
+        "pricing": {
+          "title": "Fiyatlandırma",
+          "description": "Fiyat listesi, KDV, ödeme koşulları ve avans."
+        },
+        "notifications": {
+          "title": "Bildirimler",
+          "description": "E-posta, SMS ve dahili uyarılar — sıklık ve alıcılar."
+        },
+        "security": {
+          "title": "Güvenlik",
+          "description": "Şifre, iki faktörlü kimlik doğrulama ve aktif oturumlar."
+        },
+        "languages": {
+          "title": "Diller ve bölgeler",
+          "description": "Site dilleri, saat dilimi ve bölgesel biçimler."
+        }
+      },
+      "notice": {
+        "title": "Aşama 2 — backend",
+        "text": "Ayarlar bir sonraki yinelemede veritabanına kaydedilecektir."
+      }
+    }
+  },
+  "agent": {
+    "sidebar": {
+      "badge": "Ajan",
+      "section": {
+        "main": "Saha"
+      },
+      "dashboard": "Kontrol paneli",
+      "missions": "Görevlerim",
+      "calendrier": "Takvim",
+      "demandes": "Taleplerim",
+      "parametres": "Ayarlar",
+      "signOut": "Çıkış yap"
+    },
+    "topbar": {
+      "openMenu": "Menüyü aç",
+      "closeMenu": "Kapat",
+      "role": "Saha ajanı",
+      "signOut": "Çıkış yap"
+    },
+    "statuses": {
+      "scheduled": "Planlandı",
+      "scheduledPlural": "Planlandı",
+      "inProgress": "Devam ediyor",
+      "completed": "Tamamlandı",
+      "completedPlural": "Tamamlandı",
+      "cancelled": "İptal edildi"
+    },
+    "demandeStatuses": {
+      "new": "Yeni",
+      "in_review": "İnceleniyor",
+      "replied": "Yanıtlandı",
+      "closed": "Kapatıldı"
+    },
+    "priorities": {
+      "low": "Düşük",
+      "normal": "Normal",
+      "high": "Acil"
+    },
+    "demandeTypes": {
+      "info": "Bilgi",
+      "mission": "Bir görev hakkında",
+      "devis": "Bir teklif hakkında",
+      "planning": "Planlama",
+      "equipment": "Ekipman",
+      "leave": "İzin / yokluk",
+      "incident": "Olay",
+      "other": "Diğer"
+    },
+    "errors": {
+      "generic": "Hata",
+      "upload": "Yükleme hatası",
+      "loading": "Yükleme hatası"
+    },
+    "common": {
+      "viewAll": "Tümünü gör",
+      "back": "Geri",
+      "cancel": "İptal",
+      "send": "Gönder",
+      "add": "Ekle"
+    },
+    "dashboard": {
+      "eyebrow": "SAHA AJANI",
+      "greeting": "Merhaba {{name}}",
+      "summaryToday": "Bugün {{count}} göreviniz var",
+      "summaryUpcomingExtra": " ve önümüzdeki 7 günde {{count}} görev planlandı.",
+      "summaryDot": ".",
+      "kpiToday": "Bugün",
+      "kpiInProgress": "Devam ediyor",
+      "kpiUpcoming": "Yaklaşan (7g)",
+      "kpiCompletedMonth": "Bu ay tamamlanan",
+      "todayTitle": "Bugün",
+      "viewAll": "Tümünü gör →",
+      "todayEmpty": "Bugün görev yok. İyi günler!",
+      "upcomingTitle": "Bu hafta yaklaşanlar",
+      "upcomingEmpty": "Önümüzdeki 7 gün için planlı görev yok.",
+      "colTime": "Saat",
+      "colMission": "Görev",
+      "colClient": "Müşteri",
+      "colCity": "Şehir",
+      "colStatus": "Durum",
+      "colActions": "İşlemler",
+      "actionView": "Görevi görüntüle",
+      "actionStart": "Başlat"
+    },
+    "missions": {
+      "eyebrow": "GÖREVLERİM",
+      "title": "Atanan görevler",
+      "subtitle": "Atandığınız tüm görevler — planlı, devam eden ve geçmiş.",
+      "tabs": {
+        "all": "Tümü",
+        "scheduled": "Planlı",
+        "inProgress": "Devam ediyor",
+        "completed": "Tamamlanan"
+      },
+      "empty": "Görev yok",
+      "emptyHint": "Bu filtreye uyan görev bulunamadı."
+    },
+    "missionDetail": {
+      "back": "Görevlerime dön",
+      "notFound": "Görev bulunamadı",
+      "loadError": "Yükleme hatası",
+      "refPrefix": "MI-",
+      "duration": "{{hours}} sa",
+      "actionStartTitle": "Başlamaya hazır mısınız?",
+      "actionInProgressTitle": "Görev devam ediyor",
+      "actionStartHint": "Müşteriyi varışınız hakkında bilgilendirmek için görevi başlatın.",
+      "actionCompleteHint": "Her şey bitince tamamlandı olarak işaretleyin.",
+      "btnStart": "Görevi başlat",
+      "btnComplete": "Görevi tamamla",
+      "confirmComplete": "Bu görev tamamlandı olarak işaretlensin mi?",
+      "completedBadgeTitle": "Görev tamamlandı",
+      "completedBadgeText": "{{date}} tarihinde — tebrikler!",
+      "notesTitle": "Dahili notlar",
+      "clientTitle": "Müşteri",
+      "callClient": "Müşteriyi ara",
+      "addressTitle": "Adres",
+      "timelineTitle": "Takip",
+      "timelineScheduled": "Planlandı",
+      "timelineStarted": "Başlatıldı",
+      "timelineCompleted": "Tamamlandı",
+      "phases": {
+        "before": "Öncesi",
+        "during": "Sırasında",
+        "after": "Sonrası"
+      },
+      "phasePhotosLabel": "{{phase}} fotoğrafları",
+      "photoCount": "{{count}} fotoğraf",
+      "photoAdd": "Ekle",
+      "photosEmpty": "Bu aşama için fotoğraf yok.",
+      "photoAltLabel": "{{phase}} {{n}}"
+    },
+    "calendrier": {
+      "eyebrow": "TAKVİM",
+      "title": "Görev planlaması",
+      "monthlyCount": "Bu ay {{count}} görev.",
+      "today": "Bugün",
+      "prevMonth": "Önceki ay",
+      "nextMonth": "Sonraki ay",
+      "weekdays": [
+        "Pzt",
+        "Sal",
+        "Çar",
+        "Per",
+        "Cum",
+        "Cmt",
+        "Paz"
+      ],
+      "months": [
+        "Ocak",
+        "Şubat",
+        "Mart",
+        "Nisan",
+        "Mayıs",
+        "Haziran",
+        "Temmuz",
+        "Ağustos",
+        "Eylül",
+        "Ekim",
+        "Kasım",
+        "Aralık"
+      ],
+      "selectedDay": "Seçilen gün",
+      "dayNoMission": "Görev yok.",
+      "dayMissionCount": "{{count}} görev.",
+      "dayEmptyHint": "Sakin bir günün tadını çıkarın!",
+      "hoursShort": "{{count}}sa"
+    },
+    "demandes": {
+      "eyebrow": "TALEPLERİM",
+      "title": "Yönetime talepler",
+      "subtitle": "Ekipman, izin, planlama, olaylar — taleplerinizi yöneticiye iletin.",
+      "new": "Yeni talep",
+      "empty": "Henüz talep yok",
+      "emptyHint": "İlk talebinizi tek tıklamayla yönetime iletin.",
+      "makeRequest": "Talep oluştur",
+      "replyCount": "{{count}} yanıt",
+      "lastReply": "Son yanıt — {{author}}",
+      "authorAdmin": "Yönetici",
+      "authorYou": "Siz"
+    },
+    "demandeDetail": {
+      "back": "Taleplerime dön",
+      "notFound": "Talep bulunamadı",
+      "loadError": "Yükleme hatası",
+      "refPrefix": "DM-",
+      "sentOn": "{{date}} tarihinde gönderildi",
+      "closedTitle": "Talep kapatıldı",
+      "closedText": "Yeni yanıt mümkün değil. Gerekirse yeni bir talep oluşturun.",
+      "yourRequest": "Talebiniz",
+      "relatedRef": "İlgili ref.: {{ref}}",
+      "conversation": "Konuşma",
+      "replyTitle": "Yöneticiye yanıt ver",
+      "replyHint": "Talebinizi netleştirin veya yönetimin son sorusunu yanıtlayın.",
+      "replyPlaceholder": "Mesajınız…",
+      "send": "Gönder",
+      "closedLock": "Bu talep kapatıldı — artık yanıt veremezsiniz.",
+      "details": "Ayrıntılar",
+      "fieldType": "Tip",
+      "fieldPriority": "Öncelik",
+      "fieldStatus": "Durum",
+      "fieldSent": "Gönderildi",
+      "fieldUpdated": "Güncellendi",
+      "fieldReplies": "Yanıtlar",
+      "ctaNew": "+ Yeni talep",
+      "ctaNewHint": "Başka bir ihtiyacınız mı var? Yöneticiye yeni bir talep gönderin."
+    },
+    "demandeNew": {
+      "back": "Taleplerime dön",
+      "eyebrow": "YENİ TALEP",
+      "title": "Talebinizi yöneticiye gönderin",
+      "subtitle": "İhtiyacınızı net şekilde tanımlayın — gün içinde yanıt alacaksınız.",
+      "typeLabel": "Talep türü",
+      "priorityLabel": "Öncelik",
+      "subjectLabel": "Konu *",
+      "subjectPlaceholder": "Örn. Nitril eldiven yenileme",
+      "relatedRefLabel": "İlgili referans — isteğe bağlı",
+      "relatedRefPlaceholder": "Örn. MI-2026-042",
+      "messageLabel": "Mesajınız *",
+      "messagePlaceholder": "Talebinizi, bağlamı, aciliyeti açıklayın…",
+      "cancel": "İptal",
+      "submit": "Talebi gönder",
+      "successTitle": "Talep gönderildi!",
+      "successText": "Yönetim talebinizi alacak ve kısa süre içinde yanıtlayacaktır.",
+      "successViewAll": "Taleplerimi gör",
+      "successAnother": "Başka bir talep oluştur",
+      "types": {
+        "equipment": "Ekipman",
+        "leave": "İzin",
+        "planning": "Planlama",
+        "incident": "Olay",
+        "mission": "Görev",
+        "other": "Diğer"
+      },
+      "typeHints": {
+        "equipment": "Ekipman veya sarf malzemesi talebi",
+        "leave": "Yokluk, izin, müsait olmama",
+        "planning": "Çakışma, görev değişimi",
+        "incident": "Sahada sorun",
+        "mission": "Bir görev hakkında soru",
+        "other": "Diğer her türlü talep"
+      }
+    },
+    "parametres": {
+      "eyebrow": "YAPILANDIRMA",
+      "title": "Ayarlar",
+      "subtitle": "Hesabınızın güvenliğini ve tercihlerinizi yönetin.",
+      "accountBadge": "SAHA AJANI",
+      "securityTitle": "Güvenlik",
+      "securityDesc": "Ajan alanınıza erişimi güvenli kılmak için şifrenizi değiştirin.",
+      "languageTitle": "Dil ve bölge",
+      "languageDesc": "Arayüzünüzün görüntüleme dilini değiştirin.",
+      "managedByAdmin": "Hesabınız yönetici tarafından yönetilir —",
+      "managedByAdminText1": " profil değişiklikleri (ad, telefon, vb.) için yönetime ",
+      "managedByAdminLink": "Taleplerim",
+      "managedByAdminText2": " üzerinden ulaşın."
+    }
+  },
+  "espace": {
+    "notifications": {
+      "aria": "Bildirimler",
+      "title": "Bildirimler",
+      "unreadCount": "{{count}} okunmamış",
+      "allRead": "Hepsi okundu",
+      "markAll": "Tümünü okundu işaretle",
+      "unreadDot": "Okunmamış",
+      "close": "Kapat",
+      "empty": {
+        "title": "Bildirim yok",
+        "text": "Bir şey olduğunda burada bilgilendirileceksiniz."
+      }
+    },
+    "sidebar": {
+      "dashboard": "Kontrol paneli",
+      "quotes": "Tekliflerim",
+      "missions": "Görevlerim",
+      "requests": "Taleplerim",
+      "complaints": "Şikayetlerim",
+      "invoices": "Faturalarım",
+      "profile": "Profilim",
+      "signOut": "Çıkış"
+    },
+    "dashboard": {
+      "eyebrow": "MÜŞTERİ ALANI",
+      "greeting": "Merhaba {{name}} 👋",
+      "subtitle": "Nzo Immo Clean üzerindeki etkinliğinize genel bir bakış.",
+      "newQuote": "Teklif al",
+      "viewAll": "Tümünü gör",
+      "tiles": {
+        "quotes": {
+          "label": "Açık teklifler",
+          "cta": "Tekliflerim"
+        },
+        "missions": {
+          "label": "Yaklaşan görevler",
+          "cta": "Görevlerim"
+        },
+        "invoices": {
+          "label": "Ödenmemiş faturalar",
+          "cta": "Faturalarım"
+        },
+        "complaints": {
+          "label": "Açık şikayetler",
+          "cta": "Şikayetlerim"
+        }
+      },
+      "upcoming": {
+        "title": "Yaklaşan görevler",
+        "subtitle": "Önümüzdeki günlerde planlanan müdahaleleriniz.",
+        "statusScheduled": "Planlandı"
+      },
+      "banner": {
+        "eyebrow": "HIZLI & ÜCRETSİZ",
+        "title": "Yeni bir ihtiyacınız mı var?",
+        "text": "Talebinizi anlatın, 24 saat içinde ayrıntılı bir teklifle dönüyoruz.",
+        "cta": "Teklif al"
+      },
+      "activity": {
+        "title": "Son aktivite",
+        "last30": "Son 30 gün"
+      },
+      "quickActions": {
+        "title": "Hızlı işlemler",
+        "subtitle": "En sık kullanılan özelliklere erişim",
+        "items": {
+          "newQuote": "Teklif al",
+          "support": "Destek ile iletişim",
+          "invoices": "Faturalarım",
+          "profile": "Profilimi güncelle"
+        }
+      },
+      "notice": {
+        "title": "Müşteri alanı yapım aşamasında",
+        "text": "Görüntülenen tüm veriler örnek niteliğindedir. Projenin 2. fazı gerçek teklif, görev ve fatura geçmişinize bağlanacak."
+      }
+    },
+    "devis": {
+      "eyebrow": "TEKLİFLERİM",
+      "title": "Tekliflerinizi takip edin",
+      "subtitle": "Tüm taleplerinizi ve durumlarını gerçek zamanlı görün.",
+      "newCta": "Yeni teklif",
+      "estimate": "Tahmin",
+      "view": "Detayları gör",
+      "statuses": {
+        "pending": "Beklemede",
+        "reviewed": "İnceleniyor",
+        "quoted": "Teklif verildi",
+        "accepted": "Kabul edildi",
+        "rejected": "Reddedildi",
+        "cancelled": "İptal edildi"
+      }
+    },
+    "devisDetail": {
+      "back": "Tekliflerime dön",
+      "notFound": "Teklif bulunamadı",
+      "requestedOn": "{{date}} tarihinde talep edildi",
+      "summary": {
+        "surface": "Alan",
+        "frequency": "Sıklık",
+        "startDate": "Tercih edilen başlangıç",
+        "location": "Yer",
+        "totalLabel": "Önerilen tutar",
+        "pending": "Teklif bekleniyor",
+        "exclVat": "KDV hariç",
+        "subtotal": "Ara toplam",
+        "vat": "KDV ({{rate}}%)",
+        "totalTTC": "KDV dahil toplam",
+        "validUntil": "{{date}} tarihine kadar geçerli"
+      },
+      "address": {
+        "title": "Hizmet adresi"
+      },
+      "includes": {
+        "title": "Neler dahil",
+        "subtitle": "Önerilen hizmetin detayları."
+      },
+      "notes": {
+        "title": "Notlarım"
+      },
+      "staffMessage": {
+        "title": "Ekibimizin mesajı"
+      },
+      "reply": {
+        "title": "Ekibe cevap yaz",
+        "subtitle": "Kabul etmeden önce soru sorun veya değişiklik isteyin.",
+        "placeholder": "Mesajınız…",
+        "send": "Gönder",
+        "sent": "Mesaj gönderildi. Ekibimiz kısa sürede size dönecek."
+      },
+      "actions": {
+        "accept": "Teklifi kabul et",
+        "reject": "Reddet",
+        "download": "PDF indir",
+        "cancel": "Talebi iptal et",
+        "acceptMock": "Teklif kabul edildi (simülasyon). 2. fazda bu bir görev oluşturacak.",
+        "rejectMock": "Teklif reddedildi (simülasyon).",
+        "downloadMock": "PDF indirme 2. fazda olacak.",
+        "cancelConfirm": "Bu teklif talebini iptal etmek istediğinize emin misiniz?"
+      },
+      "timeline": {
+        "title": "Talep durumu",
+        "steps": {
+          "submitted": "Talep gönderildi",
+          "reviewed": "İnceleniyor",
+          "quoted": "Teklif verildi",
+          "accepted": "Teklif kabul edildi"
+        }
+      }
+    },
+    "missions": {
+      "eyebrow": "GÖREVLERİM",
+      "title": "Müdahaleleriniz",
+      "subtitle": "Planlanan, süren ve tamamlanan görevleri takip edin.",
+      "photosCount": "{{count}} fotoğraf",
+      "statuses": {
+        "scheduled": "Planlandı",
+        "in_progress": "Devam ediyor",
+        "completed": "Tamamlandı",
+        "cancelled": "İptal edildi"
+      }
+    },
+    "missionDetail": {
+      "back": "Görevlerime dön",
+      "notFound": "Görev bulunamadı",
+      "scheduledFor": "{{date}} için planlandı",
+      "completedOn": "{{date}} tarihinde tamamlandı",
+      "summary": {
+        "date": "Planlanan tarih",
+        "duration": "Tahmini süre",
+        "surface": "Alan",
+        "location": "Yer"
+      },
+      "timeline": {
+        "title": "Müdahale durumu",
+        "steps": {
+          "scheduled": "Planlandı",
+          "in_progress": "Devam ediyor",
+          "completed": "Tamamlandı"
+        }
+      },
+      "description": {
+        "title": "Müdahale detayları"
+      },
+      "address": {
+        "title": "Adres"
+      },
+      "photos": {
+        "title": "Önce / sonra fotoğrafları",
+        "subtitle": "Müdahale sırasında çekilen {{count}} fotoğraf.",
+        "kind": {
+          "before": "Önce",
+          "after": "Sonra"
+        },
+        "before": {
+          "title": "Müdahale öncesi fotoğraflar",
+          "subtitle": "Ekip tarafından sahaya varışta çekilir."
+        },
+        "after": {
+          "title": "Müdahale sonrası fotoğraflar",
+          "subtitle": "Ekip tarafından görev sonunda çekilir."
+        },
+        "empty": {
+          "beforePending": {
+            "title": "Fotoğraflar yakında",
+            "text": "Ekip müdahale günü varış fotoğraflarını ekleyecek."
+          },
+          "beforeMissing": {
+            "title": "Önce fotoğrafı yok",
+            "text": "Bu görev için varış fotoğrafı kaydedilmedi."
+          },
+          "afterPending": {
+            "title": "Müdahale sonrası mevcut",
+            "text": "Görev tamamlanır tamamlanmaz son fotoğraflar yayınlanacak."
+          },
+          "afterMissing": {
+            "title": "Sonra fotoğrafı yok",
+            "text": "Müdahale sonu fotoğrafı kaydedilmedi."
+          }
+        }
+      },
+      "feedback": {
+        "title": "Geri bildiriminiz",
+        "subtitle": "Bu müdahale nasıl geçti?",
+        "ratingLabel": "Genel puan",
+        "starAria": "5 üzerinden {{n}} yıldız",
+        "notesLabel": "Yorum (opsiyonel)",
+        "placeholder": "Deneyiminizi ekiple paylaşın…",
+        "send": "Geri bildirim gönder",
+        "sent": "Geri bildiriminiz için teşekkürler! Ekibimizin gelişmesine yardımcı oluyor."
+      },
+      "team": {
+        "title": "Atanan ekip",
+        "sizeLabel": "{{count}} kişilik ekip"
+      },
+      "linked": {
+        "title": "İlgili belgeler",
+        "quote": "İlgili teklif",
+        "invoice": "Düzenlenen fatura"
+      },
+      "actions": {
+        "reschedule": "Yeniden planla",
+        "contact": "Ekiple iletişim",
+        "cancel": "Görevi iptal et",
+        "rescheduleMock": "Yeniden planlama talebi ekibe gönderildi (simülasyon).",
+        "contactMock": "Bir ekip üyesi sizinle kısa sürede iletişime geçecek (simülasyon).",
+        "cancelMock": "Görev iptal edildi (simülasyon).",
+        "cancelConfirm": "Bu görevi iptal etmek istediğinize emin misiniz?"
+      }
+    },
+    "demandes": {
+      "eyebrow": "TALEPLERİM",
+      "title": "Talepler ve mesajlar",
+      "subtitle": "Bilgi talepleriniz ve ekibimizle yazışmalarınız.",
+      "newCta": "Yeni talep",
+      "empty": {
+        "title": "Henüz talep yok",
+        "text": "Bir soru sorun veya bilgi isteyin — gün içinde yanıt veriyoruz."
+      },
+      "statuses": {
+        "new": "Yeni",
+        "in_review": "İnceleniyor",
+        "replied": "Yanıtlandı",
+        "closed": "Kapandı"
+      }
+    },
+    "demandeNew": {
+      "eyebrow": "YENİ TALEP",
+      "title": "Talebinizi bize iletin",
+      "subtitle": "İhtiyacınızı anlatın — ekibimiz 24 saat içinde yanıt verir.",
+      "back": "Listeye dön",
+      "cancel": "İptal",
+      "submit": "Talebi gönder",
+      "types": {
+        "info": "Soru / bilgi",
+        "mission": "Bir görev hakkında",
+        "devis": "Bir teklif hakkında",
+        "planning": "Planlama & randevu"
+      },
+      "priorities": {
+        "low": "Düşük",
+        "normal": "Normal",
+        "high": "Acil"
+      },
+      "fields": {
+        "type": "Talep türü",
+        "priority": "Öncelik",
+        "subject": "Konu",
+        "subjectPlaceholder": "Örn. Salı saatinin değiştirilmesi",
+        "relatedRef": "İlgili referans — opsiyonel",
+        "relatedRefPlaceholder": "Örn. DV-2026-042 veya MI-2026-018",
+        "message": "Mesajınız",
+        "messagePlaceholder": "Talebinizi, bağlamı ve kısıtlamaları açıklayın…",
+        "attachments": "Ekler — opsiyonel",
+        "dropTitle": "Dosyaları buraya bırakın",
+        "dropHint": "ya da tıklayarak seçin — PDF, görsel, belge (en fazla 5 dosya)"
+      },
+      "success": {
+        "title": "Talep gönderildi!",
+        "message": "Talebinizi aldık. Ekibimiz kısa süre içinde size dönecek.",
+        "backToList": "Taleplerimi gör",
+        "another": "Başka bir talep gönder"
+      }
+    },
+    "reclamationNew": {
+      "eyebrow": "YENİ ŞİKAYET",
+      "title": "Sorun bildir",
+      "subtitle": "Ne olduğunu anlatın — şikayetleri 48 saat içinde ele alıyoruz.",
+      "back": "Listeye dön",
+      "cancel": "İptal",
+      "submit": "Şikayeti gönder",
+      "notice": {
+        "title": "Göndermeden önce",
+        "text": "Açıklamanız ne kadar ayrıntılıysa (tarih, yer, fotoğraf), o kadar hızlı çözebiliriz."
+      },
+      "consent": "Verilen bilgilerin doğru olduğunu onaylıyor ve şikayetimin işlenmesi için kullanılmasına izin veriyorum.",
+      "categories": {
+        "quality": "Hizmet kalitesi",
+        "delay": "Gecikme / planlama",
+        "damage": "Hasar / kırılma",
+        "billing": "Faturalama",
+        "other": "Diğer"
+      },
+      "severities": {
+        "low": "Düşük",
+        "medium": "Orta",
+        "high": "Kritik"
+      },
+      "resolutions": {
+        "redo": "Hizmeti tekrar yapma",
+        "refund": "İade",
+        "gesture": "Jest",
+        "discuss": "Danışmanla görüşme"
+      },
+      "fields": {
+        "category": "Kategori",
+        "severity": "Önem derecesi",
+        "incidentDate": "Olay tarihi",
+        "relatedRef": "İlgili görev veya fatura — opsiyonel",
+        "relatedRefPlaceholder": "Örn. MI-2026-058 veya FA-2026-021",
+        "subject": "Konu",
+        "subjectPlaceholder": "Örn. 12 Mayıs'ta camlar iyi temizlenmedi",
+        "description": "Ayrıntılı açıklama",
+        "descriptionPlaceholder": "Ne oldu? Ne zaman? Etkisi nedir? Lütfen ayrıntılı olun…",
+        "resolution": "Tercih edilen çözüm",
+        "attachments": "Fotoğraf / belge — önerilir",
+        "dropTitle": "Fotoğrafları veya PDF'leri buraya bırakın",
+        "dropHint": "ya da tıklayarak seçin — JPG, PNG, PDF (en fazla 6 dosya)"
+      },
+      "success": {
+        "title": "Şikayet kaydedildi",
+        "message": "48 saat içinde size geri döneceğiz. İlerlemeyi müşteri alanınızdan takip edebilirsiniz.",
+        "backToList": "Şikayetlerimi gör",
+        "dashboard": "Panele dön"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "ŞİKAYETLERİM",
+      "title": "Sorun bildir",
+      "subtitle": "Şikayetleri ve çözüm sürecini takip edin.",
+      "newCta": "Yeni şikayet",
+      "empty": {
+        "title": "Şikayet yok",
+        "text": "Her şey yolunda! Bir sorun yaşarsanız buradan istediğiniz zaman bildirebilirsiniz."
+      }
+    },
+    "factures": {
+      "eyebrow": "FATURALARIM",
+      "title": "Faturalarınız",
+      "subtitle": "Fatura geçmişi, ödemeler ve PDF indirme.",
+      "cols": {
+        "number": "No.",
+        "date": "Tarih",
+        "dueDate": "Vade",
+        "amount": "Tutar",
+        "status": "Durum"
+      },
+      "statuses": {
+        "pending": "Ödenecek",
+        "paid": "Ödendi",
+        "overdue": "Gecikti"
+      }
+    },
+    "profil": {
+      "eyebrow": "PROFİLİM",
+      "title": "Kişisel bilgiler",
+      "subtitle": "İletişim bilgilerinizi ve tercihlerinizi güncelleyin.",
+      "save": "Kaydet",
+      "saved": "Değişiklikler kaydedildi."
+    }
+  },
+  "nav": {
+    "accueil": "Ana Sayfa",
+    "services": "Hizmetler",
+    "apropos": "Hakkımızda",
+    "boutique": "Mağaza",
+    "avis": "Yorumlar",
+    "contact": "İletişim",
+    "cta": "Teklif Alın"
+  },
+  "services": {
+    "eyebrow": "HİZMETLERİMİZ",
+    "sectionTitle": "Tüm ihtiyaçlarınız için eksiksiz uzmanlık",
+    "sectionDescription": "Düzenli temizlikten yokluğunuzdaki küçük hizmetlere kadar on hizmetimiz, Basel-Stadt ve Basel-Landschaft kantonlarındaki tüm temizlik, bakım ve concierge ihtiyaçlarınızı karşılar.",
+    "viewAll": "Tüm hizmetleri gör",
+    "discover": "Keşfet",
+    "requestQuote": "Teklif al",
+    "bureaux": {
+      "title": "Ofis temizliği",
+      "description": "Çalışma alanlarınızın düzenli bakımı",
+      "tagline": "Motivasyonlu bir ekip için tertemiz ofisler.",
+      "overviewTitle": "İlham veren bir çalışma ortamı",
+      "longDescription": "Mekânlarınızın günlük, haftalık veya aylık bakımını üstleniyoruz: açık ofisler, toplantı salonları, tuvaletler, mutfaklar ve karşılama alanları. Eğitimli ekip, uygun ürünler ve ritminize ve bütçenize özel bir hizmet planı.",
+      "includes": [
+        "Yer süpürme ve yıkama",
+        "Masaların ve mobilyaların tozdan arındırılması",
+        "Tuvalet ve mutfakların dezenfeksiyonu",
+        "Çöp kutularının boşaltılması ve temizliği",
+        "İç pencere temizliği",
+        "Sarf malzeme ikmali (opsiyonel)"
+      ],
+      "audience": [
+        "KOBİ'ler, girişimler ve ofisler",
+        "Ortak çalışma alanları",
+        "Halka açık kuruluşlar"
+      ]
+    },
+    "apresChantier": {
+      "title": "İnşaat sonrası temizlik",
+      "description": "Yapım ve yenileme sonrası eski haline getirme",
+      "tagline": "Şantiyenin her izini siliyoruz.",
+      "overviewTitle": "Teslime hazır, temiz bir alan",
+      "longDescription": "İnşaat veya yenileme sonrası ince toz, boya kalıntıları, yapışkan izleri ve molozları temizliyoruz. Mekânlarınız temiz, sağlıklı ve kullanıma hazır şekilde teslim edilir. Profesyonel ekipmanla hızlı müdahale.",
+      "includes": [
+        "Tam toz alma (zemin, duvar, tavan)",
+        "Pencere ve doğrama temizliği",
+        "Etiket ve yapışkan kalıntılarının çıkarılması",
+        "Tuvalet ve mutfakların derin temizliği",
+        "İnce toz için HEPA süpürme",
+        "Şantiye atıklarının uzaklaştırılması"
+      ],
+      "audience": [
+        "Müteahhitler ve genel yükleniciler",
+        "Mimarlar ve proje sahipleri",
+        "Yenileme sonrası bireyler"
+      ]
+    },
+    "facades": {
+      "title": "Cephe temizliği",
+      "description": "Dış cephe temizliği ve bakımı",
+      "tagline": "Binanıza eski parlaklığını geri verin.",
+      "overviewTitle": "Yüzeye zarar vermeden yeni gibi cepheler",
+      "longDescription": "Cephelerinizi her malzemeye saygıyla temizliyoruz: taş, sıva, cam, ahşap veya metal. Hidro kumlama, alçak basınçlı temizlik veya biyolojik olarak parçalanabilir ürünler — yöntem yüzeyinize uyarlanır.",
+      "includes": [
+        "Yüzey teşhisi ve yöntem seçimi",
+        "Yosun temizliği ve önleme tedavisi",
+        "Yüksek veya alçak basınçlı temizlik",
+        "Hassas yüzeyler için hidro kumlama",
+        "Su itici işlem (opsiyonel)",
+        "İskele veya yükseltici dahil"
+      ],
+      "audience": [
+        "Mülk yöneticileri ve sahipleri",
+        "Müstakil evler ve villalar",
+        "Mağazalar ve iş binaları"
+      ]
+    },
+    "conciergerie": {
+      "title": "Bina yönetimi",
+      "description": "Ortak alanların bakımı",
+      "tagline": "Özenli ve güvenilir bina hizmeti.",
+      "overviewTitle": "Binanızın düzenli bakımı, dert etmeden",
+      "longDescription": "Ortak alanların tam bakımını sağlıyoruz: merdivenler, koridorlar, holler, asansörler, çöp alanları ve dış çevre. Düzenli varlık, atanmış iletişim ve yönetim için şeffaf raporlama. Merdivenler için zaten bir hizmet sağlayıcınız mı var? Sadece garajı veya bize emanet ettiğiniz alanı da devralabiliriz.",
+      "includes": [
+        "Haftalık veya iki haftada bir temizlik",
+        "Konteyner çıkarma ve geri getirme",
+        "Hol ve giriş pencerelerinin temizliği",
+        "Çöp alanlarının bakımı",
+        "Küçük bakım işleri (opsiyonel)",
+        "Yönetim için dijital raporlama"
+      ],
+      "audience": [
+        "Emlak yönetim ofisleri",
+        "Bina sahipleri",
+        "Apartman kooperatifleri"
+      ]
+    },
+    "garages": {
+      "title": "Garaj ve otopark temizliği",
+      "description": "Büyük garajlar ve ortak otoparklar",
+      "tagline": "Merdiven sözleşmesi olmadan da temiz büyük garaj.",
+      "overviewTitle": "Küçük hizmet sağlayıcıların karşılayamadığı uzmanlık",
+      "longDescription": "Büyük bir yeraltı garajının temizliği profesyonel ekipman gerektirir — zemin yıkama-kurutma makinesi, monofırça, endüstriyel ıslak/kuru elektrikli süpürge — ki bunlara ortak alan hizmet sağlayıcılarının çoğu sahip değildir. Binanın merdivenleri bir başkasına verilmiş olsa bile otoparkınızda hizmet veriyoruz: ayrı sözleşme, esnek planlama ve kusursuz sonuç.",
+      "includes": [
+        "Beton zeminlerin yağ çözme ve yıkanması",
+        "Yıkama-kurutma makinesi ve monofırça uygulaması",
+        "İnce toz emme",
+        "Yağ ve hidrokarbon lekelerinin işlenmesi",
+        "İşaretlerin, boks ve geçitlerin temizliği",
+        "Alt kanal ve boruların tozdan arındırılması"
+      ],
+      "audience": [
+        "Emlak yöneticileri ve site yönetimleri",
+        "Yeraltı otoparkı olan siteler",
+        "Merdivenleri zaten sözleşmeli olan binalar"
+      ]
+    },
+    "photovoltaique": {
+      "title": "Fotovoltaik panel temizliği",
+      "description": "Güneş panelleri ve üretken çatılar",
+      "tagline": "Maksimum güneş verimi, risksiz temizlik.",
+      "overviewTitle": "Temiz paneller: %25'e kadar daha fazla verim",
+      "longDescription": "Toz, polen, kuş pislikleri ve hava kirliliği fotovoltaik panellerinizin üretimini düşürür. Panelleri saf demineralize su ve uygun fırçalarla temizleriz — agresif kimyasal kullanmadan, camı çizmeden ve üretici garantisini etkilemeden. Kemer veya platformla çatıda güvenli müdahale, öncesi/sonrası fotoğraf raporuyla birlikte.",
+      "includes": [
+        "Saf demineralize suyla temizlik",
+        "Cama uygun yumuşak döner fırçalar",
+        "Konnektör ve montajların görsel muayenesi",
+        "Çatı güvenliği (kemer, güvenlik halatı, platform)",
+        "Öncesi/sonrası fotoğraf raporu",
+        "Önerilen sıklık: yılda 1-2 kez"
+      ],
+      "audience": [
+        "PV donanımlı ev sahipleri",
+        "Üretken çatılara sahip site ve yönetimler",
+        "Şirketler ve PV santrali işletmecileri"
+      ]
+    },
+    "arrosage": {
+      "title": "Bitki sulama",
+      "description": "Düzenli sulama ve yokluğunuzda bakım",
+      "tagline": "Bitkileriniz, sanki evdeymişsiniz gibi bakılır.",
+      "overviewTitle": "Her duruma uygun bir sulama hizmeti",
+      "longDescription": "Tatilde, iş seyahatinde olun ya da bu işi başkasına devretmek isteyin — iç ve dış mekan bitkilerinizi uygun sıklıkta suluyoruz. Balkonlar, teraslar, daireler, bina girişleri veya ortak yeşil alanlar: her bitki doğru miktarda su ve her ziyarette görsel kontrol alır.",
+      "includes": [
+        "Her bitkiye uygun sıklıkta sulama",
+        "Bitki sağlığının görsel kontrolü",
+        "Anormallik durumunda uyarı (sarı yapraklar, zararlı, kuruma)",
+        "İhtiyacınıza göre düzenli veya tek seferlik ziyaretler",
+        "İç mekan bitkileri, balkonlar, teraslar ve bahçeler",
+        "Binaların ortak yeşil alanları (opsiyonel)"
+      ],
+      "audience": [
+        "Tatilde veya seyahatte olan bireyler",
+        "Ortak alanlarında bitki bulunan siteler",
+        "Delege etmek isteyen kiracı ve ev sahipleri"
+      ]
+    },
+    "animaux": {
+      "title": "Kedi ve küçük evcil hayvan bakımı",
+      "description": "Yokluğunuzda evinizde besleme ve kontrol ziyaretleri",
+      "tagline": "Gönül rahatlığıyla seyahat edin — biz size geliriz, hayvanınız evinde kalır.",
+      "overviewTitle": "Ev ziyaretleri — yalnızca ev içinde",
+      "longDescription": "Birkaç günlüğüne mi gidiyorsunuz? Kedinizi veya küçük evcil hayvanınızı (tavşan, kobay, kuşlar, balıklar…) beslemek, suyunu değiştirmek ve her şeyin yolunda olduğunu kontrol etmek için günde bir veya iki kez evinize geliyoruz. Hizmet yalnızca evinizin içinde verilir: dışarıda gezdirme yoktur ve Nzo Immo Clean'de pansiyon veya konaklama yoktur — hayvanınız alışık olduğu ortamda kalır.",
+      "includes": [
+        "İhtiyaca göre günde 1 veya 2 ev ziyareti",
+        "Kabın kendi mamanızla doldurulması",
+        "Taze suyun değiştirilmesi",
+        "Hayvanın sağlığının görsel kontrolü",
+        "Her ziyarette fotoğraflı rapor (isteğe bağlı)",
+        "Bir sorun olduğunda anında bildirim"
+      ],
+      "audience": [
+        "Kısa süreli ayrılan kedi sahipleri",
+        "Küçük evcil hayvan sahipleri (tavşan, kobay, kuş, balık…)",
+        "Hastanede yatan veya iş seyahatindeki kişiler"
+      ]
+    },
+    "jardins": {
+      "title": "Bahçe bakımı",
+      "description": "Çim biçme, budama ve yeşil alan bakımı",
+      "tagline": "Yıl boyunca özenli yeşil alanlar.",
+      "overviewTitle": "Uzun ömürlü, bakımlı bir bahçe",
+      "longDescription": "Çim biçmeden budamaya ve yabani ot temizliğine kadar, yeşil alanlarınızı mevsim ritminde bakım altına alırız. Yıllık paketler veya tek seferlik işler, biyoçeşitliliğe saygılı, donanımlı bir ekiple.",
+      "includes": [
+        "Çim biçme ve kenar düzenleme",
+        "Çit ve çalı budama",
+        "Yabani ot temizliği ve çiçek bakımı",
+        "Yeşil atıkların uzaklaştırılması",
+        "Sonbaharda yaprak üfleme",
+        "Dikim ve danışmanlık (opsiyonel)"
+      ],
+      "audience": [
+        "Bireyler ve villalar",
+        "Yeşil alanı olan kooperatifler",
+        "Şirketler ve iş alanları"
+      ]
+    },
+    "debarras": {
+      "title": "Eşya boşaltma",
+      "description": "Eşyalarınızın tahliyesi ve ayrıştırılması",
+      "tagline": "Boşaltır, ayrıştırır, geri dönüştürürüz.",
+      "overviewTitle": "Temiz, hızlı ve sorumlu boşaltma",
+      "longDescription": "Kiler, çatı katı, daire veya ofis: eşyalarınızı çıkarıp geri dönüşüm, bağış veya satılabilecek olanları ayırırız. Şeffaf teklif, hızlı müdahale, geri dönüşüm dahil — tek sağlayıcı, tek fiyat.",
+      "includes": [
+        "Ön ziyaret ve ücretsiz teklif",
+        "Yerinde ayrıştırma (geri dönüşüm, bağış, atık)",
+        "Sökme ve taşıma",
+        "Yetkili tesise teslim",
+        "Boşaltılan alanın son temizliği",
+        "İmha sertifikası (opsiyonel)"
+      ],
+      "audience": [
+        "Miras ve taşınmalar",
+        "Yöneticiler ve sahipler",
+        "Yeniden yapılanan şirketler"
+      ]
+    }
+  },
+  "hero": {
+    "highlight": "Profesyonel temizlik",
+    "title": "bireyler, işletmeler ve emlak profesyonelleri için",
+    "description": "Nitelikli bir saha ekibi ve size özel hizmetler: ofisler, inşaat sonrası, cepheler, bina yönetimi, garajlar, güneş panelleri, bitki sulama, kedi ve küçük evcil hayvan bakımı, bahçeler ve boşaltma. 24 saatten kısa sürede ücretsiz teklif.",
+    "ctaPrimary": "Ücretsiz teklif alın",
+    "ctaSecondary": "Hizmetlerimizi keşfedin",
+    "founded": "Basel'de yeni kurulmuş GmbH",
+    "foundedCity": "Basel",
+    "foundedShort": "Yeni kurulmuş GmbH"
+  },
+  "features": {
+    "equipeTitle": "Nitelikli ekip",
+    "equipeText": "Eğitimli, kayıtlı ve sigortalı personel",
+    "prestationsTitle": "10 temel hizmet",
+    "prestationsText": "Her ihtiyaca bir çözüm",
+    "ecoTitle": "Ekolojik ürünler",
+    "ecoText": "Çevreye saygılı",
+    "devisTitle": "%100 ücretsiz teklif",
+    "devisText": "24 saat içinde cevap"
+  },
+  "process": {
+    "eyebrow": "NASIL ÇALIŞIR",
+    "sectionTitle": "6 adımda basit bir süreç",
+    "sectionDescription": "İlk talepten kalite kontrolüne kadar her adım, size sorunsuz ve etkili bir hizmet sunmak için tasarlanmıştır.",
+    "steps": {
+      "devis": {
+        "title": "Teklif talebi",
+        "description": "İhtiyacınızı form, telefon veya WhatsApp aracılığıyla bize iletin."
+      },
+      "analyse": {
+        "title": "İhtiyaç analizi",
+        "description": "Beklentilerinizi net olarak belirlemek için yerinde ziyaret veya ayrıntılı görüşme."
+      },
+      "validation": {
+        "title": "Onay ve depozito",
+        "description": "Kişiselleştirilmiş teklif, sözleşme onayı ve depozito ödemesi."
+      },
+      "planification": {
+        "title": "Planlama",
+        "description": "Müdahale tarihi, tahmini süre ve özel ekibin atanması."
+      },
+      "intervention": {
+        "title": "Müdahale",
+        "description": "Ekibimiz, profesyonellik ve uygun ekipmanla müdahale eder."
+      },
+      "controle": {
+        "title": "Kalite kontrolü",
+        "description": "Ortak son denetim ve memnuniyet garantisi."
+      }
+    }
+  },
+  "beforeAfter": {
+    "eyebrow": "ÖNCE / SONRA",
+    "sectionTitle": "Fark anında görülür",
+    "sectionDescription": "Müdahalemiz sonrası dönüşümü keşfetmek için kaydırıcıyı sürükleyin. Net, ölçülebilir ve sürprizsiz sonuçlar.",
+    "before": "Önce",
+    "after": "Sonra",
+    "hint": "Karşılaştırmak için kaydırıcıyı sürükleyin",
+    "ariaLabel": "Önce / sonra karşılaştırma kaydırıcısı"
+  },
+  "footer": {
+    "tagline": "Bireyler, işletmeler ve emlak profesyonelleri için temizlik ve emlak hizmetlerinde uzmanlaşmış İsviçre şirketi.",
+    "followUs": "Bizi takip edin",
+    "servicesTitle": "Hizmetler",
+    "usefulTitle": "Faydalı bağlantılar",
+    "contactTitle": "İletişim",
+    "useful": {
+      "devis": "Teklif al",
+      "espace": "Müşteri alanı"
+    },
+    "copyright": "© {{year}} Nzo Immo Clean. Tüm hakları saklıdır.",
+    "legal": {
+      "mentions": "Yasal bilgiler",
+      "privacy": "Gizlilik politikası",
+      "cgv": "Satış koşulları",
+      "cookies": "Çerezler"
+    }
+  },
+  "legal": {
+    "backHome": "Ana sayfaya dön",
+    "contactBox": {
+      "title": "Bu koşullar hakkında sorularınız mı var?",
+      "text": "Ekibimiz her türlü açıklama için yanınızda.",
+      "cta": "Bize ulaşın →"
+    },
+    "mentions": {
+      "eyebrow": "YASAL BİLGİLER",
+      "title": "Yasal bilgiler",
+      "lastUpdate": "Son güncelleme: 17 Mayıs 2026",
+      "intro": "Bu yasal bilgiler www.nzoimmoclean.ch için geçerlidir ve yayıncıyı ile sitenin kullanım koşullarını tanımlar.",
+      "sections": [
+        {
+          "title": "Yayıncı",
+          "body": [
+            "Nzo Immo Clean — İsviçre'de yerleşik profesyonel temizlik şirketi.",
+            "Adres: Gellertpark 6, 4052 Basel, İsviçre.",
+            "Telefon: +41 79 936 21 73 — E-posta: info@nzoimmoclean.ch."
+          ]
+        },
+        {
+          "title": "Yayın yönetmeni",
+          "body": "Nzo Immo Clean yasal temsilcisi yayın yönetmeni olarak görev yapar."
+        },
+        {
+          "title": "Barındırma",
+          "body": "Site Avrupa'da bulunan bir web barındırma sağlayıcısında barındırılır. Ayrıntılar için info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Fikri mülkiyet",
+          "body": "Sitedeki tüm içerikler (metin, resim, logo, video, tasarım) telif hakkı ile korunur ve Nzo Immo Clean'in münhasır mülkiyetidir. İzinsiz çoğaltma, kullanım yasaktır."
+        },
+        {
+          "title": "Sorumluluk",
+          "body": "Nzo Immo Clean bilgilerin doğruluğu için elinden geleni yapar ancak hatalar veya kesintilerden sorumlu tutulamaz. Kullanım kendi sorumluluğunuzdadır."
+        },
+        {
+          "title": "Dış bağlantılar",
+          "body": "Site üçüncü taraf bağlantılar içerebilir. Nzo Immo Clean bunların içeriklerinden sorumlu değildir."
+        },
+        {
+          "title": "Uygulanan hukuk",
+          "body": "Bu metin İsviçre hukukuna tabidir. Cenevre kantonu mahkemeleri yetkilidir."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "KİŞİSEL VERİLER",
+      "title": "Gizlilik politikası",
+      "lastUpdate": "Son güncelleme: 17 Mayıs 2026",
+      "intro": "Nzo Immo Clean, kullanıcılarının gizliliğini korumayı ve kişisel verileri şeffaflıkla işlemeyi taahhüt eder — İsviçre Veri Koruma Kanunu (LPD) ve uygulanabilir olduğunda GDPR çerçevesinde.",
+      "sections": [
+        {
+          "title": "Veri sorumlusu",
+          "body": "Nzo Immo Clean, Gellertpark 6, 4052 Basel — info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Toplanan veriler",
+          "body": "Yalnızca hizmet sunumu için gerekli verileri topluyoruz:",
+          "list": [
+            "Kimlik: ad, soyad, şirket adı",
+            "İletişim: e-posta, telefon, posta adresi",
+            "Görev verileri: adres, alan, sıklık, notlar",
+            "Teknik: IP, tarayıcı türü, görüntülenen sayfalar"
+          ]
+        },
+        {
+          "title": "Amaçlar",
+          "body": "Veriler teklif taleplerine yanıt vermek, hizmetleri planlamak ve faturalandırmak, sözleşmeye dayalı bilgileri göndermek ve hizmetlerimizi iyileştirmek için kullanılır."
+        },
+        {
+          "title": "Yasal dayanak",
+          "body": "Sözleşme ifası, yasal yükümlülükler (özellikle muhasebe), açık rızanız (haber bülteni, gerekli olmayan çerezler) ve kullanıcı deneyimini iyileştirme meşru menfaatimiz."
+        },
+        {
+          "title": "Saklama süresi",
+          "body": "Müşteri verileri sözleşme süresi boyunca ve İsviçre muhasebe yükümlülüklerine göre 10 yıl daha saklanır. Potansiyel müşteri verileri 3 yıllık hareketsizlik sonrası silinir."
+        },
+        {
+          "title": "Alıcılar",
+          "body": "Verileriniz asla satılmaz. Teknik alt yüklenicilerimizle (barındırma, e-posta) güvenlik için sözleşmeyle bağlı şekilde paylaşılabilir veya yasal zorunluluk halinde yetkililerle paylaşılabilir."
+        },
+        {
+          "title": "Haklarınız",
+          "body": "Yürürlükteki mevzuat çerçevesinde aşağıdaki haklara sahipsiniz:",
+          "list": [
+            "Erişim, düzeltme ve silme",
+            "İşlemenin kısıtlanması ve itiraz",
+            "Veri taşınabilirliği",
+            "Rızanızı her zaman geri çekme"
+          ]
+        },
+        {
+          "title": "Haklarınızı kullanma",
+          "body": "info@nzoimmoclean.ch adresine yazın. 30 gün içinde yanıt veriyoruz. Memnuniyetsizlik halinde yetkili veri koruma kurumuna başvurabilirsiniz."
+        },
+        {
+          "title": "Güvenlik",
+          "body": "Uygun teknik ve organizasyonel önlemler alıyoruz: HTTPS şifreleme, erişim kontrolü, düzenli yedekler ve personel eğitimi."
+        }
+      ]
+    },
+    "cgv": {
+      "eyebrow": "GENEL SATIŞ KOŞULLARI",
+      "title": "Satış koşulları",
+      "lastUpdate": "Son güncelleme: 17 Mayıs 2026",
+      "intro": "Bu Genel Satış Koşulları (CGV) Nzo Immo Clean ile bireysel veya kurumsal müşterileri arasındaki sözleşme ilişkisini düzenler.",
+      "sections": [
+        {
+          "title": "1. Kapsam",
+          "body": "Koşullar, Nzo Immo Clean tarafından sunulan tüm temizlik, kapıcı ve ilgili hizmetlere uygulanır. Her sipariş bu koşulların kabulünü içerir."
+        },
+        {
+          "title": "2. Teklif ve sipariş",
+          "body": "Her hizmet, 30 gün geçerli kişiselleştirilmiş bir teklifle yapılır. Sipariş, teklifin imzalanması ve olası kapora ödemesiyle onaylanır."
+        },
+        {
+          "title": "3. Fiyatlar ve faturalandırma",
+          "body": "Fiyatlar İsviçre frangı (CHF) cinsindendir, %8,1 İsviçre KDV uygulanan hizmetlerde dahildir. Faturalar hizmet sonrası kesilir ve 30 gün içinde ödenir."
+        },
+        {
+          "title": "4. Ödeme",
+          "body": "Banka havalesi, TWINT veya kredi kartıyla ödeme. Gecikme durumunda yasal faiz uygulanır."
+        },
+        {
+          "title": "5. İfa",
+          "body": "Nzo Immo Clean hizmetleri profesyonelce ve zamanında yerine getirmeyi taahhüt eder. Müşteri gerekli erişim ve koşulları sağlar."
+        },
+        {
+          "title": "6. İptal",
+          "body": "İptaller planlanan müdahaleden en az 48 saat önce bildirilmelidir. Aksi takdirde hizmet tutarının %50'si faturalandırılabilir."
+        },
+        {
+          "title": "7. Sorumluluk",
+          "body": "Nzo Immo Clean mesleki sorumluluk sigortasına sahiptir. Şikayetler hizmetten sonraki 7 gün içinde yazılı olarak yapılmalıdır."
+        },
+        {
+          "title": "8. Mücbir sebep",
+          "body": "Hizmet ifasını engelleyen mücbir sebep durumunda hiçbir taraf sorumlu tutulamaz."
+        },
+        {
+          "title": "9. Hukuk ve yetki",
+          "body": "İsviçre hukuku uygulanır. Cenevre kantonu mahkemeleri yetkilidir."
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "ÇEREZ YÖNETİMİ",
+      "title": "Çerez politikası",
+      "lastUpdate": "Son güncelleme: 17 Mayıs 2026",
+      "intro": "www.nzoimmoclean.ch sitesi düzgün çalışma, ziyaretçi ölçümü ve deneyiminizi iyileştirmek için çerezler kullanır.",
+      "sections": [
+        {
+          "title": "Çerez nedir?",
+          "body": "Çerez, bir web sitesini ziyaret ettiğinizde cihazınıza yerleştirilen ve gezinti bilgilerinizi saklayan küçük bir metin dosyasıdır."
+        },
+        {
+          "title": "Zorunlu çerezler",
+          "body": "Bu çerezler sitenin çalışması için zorunludur ve devre dışı bırakılamaz:",
+          "list": [
+            "Dil tercihi (i18nextLng)",
+            "Alışveriş sepeti (nzo-cart)",
+            "Müşteri alanı oturumu"
+          ]
+        },
+        {
+          "title": "Analiz çerezleri",
+          "body": "Rızanız doğrultusunda, site kullanımını anlamak ve iyileştirmek için analiz araçları kullanırız. Bu çerezler toplu ve anonim veri toplar."
+        },
+        {
+          "title": "Üçüncü taraf çerezler",
+          "body": "Bazı gömülü hizmetler (harita, video) kendi çerezlerini yerleştirebilir, ilgili sağlayıcı politikalarına tabidir."
+        },
+        {
+          "title": "Tercihlerinizi yönetme",
+          "body": "Tarayıcınızı çerezleri engellemek veya silmek için yapılandırabilirsiniz. Zorunlu çerezleri devre dışı bırakmak siteyi etkileyebilir."
+        },
+        {
+          "title": "Saklama süresi",
+          "body": "Çerezler en fazla 13 ay saklanır. Sonrasında rızanız tekrar alınır."
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "eyebrow": "HİZMET BÖLGELERİ",
+    "title": "Yalnızca Basel-Stadt ve Basel-Landschaft",
+    "description": "Hizmetlerimiz kesinlikle Basel-Stadt (BS) ve Basel-Landschaft (BL) kantonlarıyla sınırlıdır. Bu iki kanton dışında hizmet vermiyoruz.",
+    "cityBasel": "Basel",
+    "locator": "Kuzeybatı İsviçre"
+  },
+  "homeEspace": {
+    "eyebrow": "TEKNOLOJİ & TAKİP",
+    "title": "Sizin için tasarlanmış müşteri portalı",
+    "description": "Görevlerinizi takip edin, raporları ve fotoğrafları gerçek zamanlı alın. Bireyler, şirketler ve emlak profesyonelleri için profesyonel bir araç.",
+    "features": {
+      "realtime": "Gerçek zamanlı görev takibi",
+      "notifications": "Anında bildirimler",
+      "photos": "Otomatik önce / sonra fotoğrafları",
+      "documents": "Teklifler, faturalar ve raporlar tek yerde"
+    },
+    "cta": "Portalıma git",
+    "dashboard": {
+      "title": "Görevlerim",
+      "activeBadge": "3 aktif"
+    },
+    "status": {
+      "inProgress": "Devam ediyor",
+      "planned": "Planlandı",
+      "done": "Tamamlandı"
+    },
+    "missions": {
+      "bureaux": {
+        "title": "Ofis temizliği",
+        "city": "Basel"
+      },
+      "facades": {
+        "title": "Cepheler",
+        "city": "Liestal"
+      },
+      "conciergerie": {
+        "title": "Bina yönetimi",
+        "city": "Riehen"
+      }
+    },
+    "kpi": {
+      "label": "Bu ay",
+      "value": "12 görev"
+    },
+    "notification": {
+      "title": "Rapor hazır",
+      "time": "2 dakika önce"
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Şimdi müsait",
+    "title": "Basel'de profesyonel temizliğe mi ihtiyacınız var?",
+    "description": "24 saatten kısa sürede ücretsiz teklif. Ekibimiz tüm sorularınızı yanıtlamak için burada.",
+    "ctaPrimary": "Teklif al",
+    "trust": {
+      "response": {
+        "value": "24h",
+        "label": "Garantili yanıt"
+      },
+      "rating": {
+        "label": "Müşteri yorumları"
+      },
+      "guarantee": {
+        "value": "100%",
+        "label": "Memnuniyet veya yenileme"
+      }
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "HİZMETLERİMİZ",
+    "title": "Tüm ihtiyaçlarınız için eksiksiz uzmanlık",
+    "description": "Bireyler, işletmeler ve emlak profesyonelleri için altı temel hizmet — acenteler, yöneticiler ve kooperatifler. Yalnızca Basel-Stadt ve Basel-Landschaft kantonlarında."
+  },
+  "serviceDetail": {
+    "notFound": "Hizmet bulunamadı",
+    "backToServices": "Tüm hizmetleri gör",
+    "requestQuote": "Teklif al",
+    "contactUs": "Bize ulaşın",
+    "overviewEyebrow": "HİZMET",
+    "audienceTitle": "Kimler için?",
+    "includesTitle": "Neler dahil",
+    "includesSubtitle": "Eksiksiz bir hizmet, sürprizsiz.",
+    "relatedEyebrow": "DİĞER HİZMETLER",
+    "relatedTitle": "Şuna da ihtiyacınız olabilir…"
+  },
+  "about": {
+    "eyebrow": "HAKKIMIZDA",
+    "title": "Nzo Immo Clean — temizlik ve emlak hizmetlerinde İsviçre uzmanlığı",
+    "subtitle": "Bireyler, işletmeler ve emlak profesyonelleri (acenteler, yöneticiler, kooperatifler) için temizlik ve emlak hizmetlerinde uzmanlaşmış İsviçre şirketi.",
+    "story": {
+      "p1": "Nzo Immo Clean GmbH, Şubat 2026'da Basel'de kuruldu. Yalnızca Basel-Stadt ve Basel-Landschaft kantonlarında hizmet veriyoruz. Düzenli ofis temizliğinden inşaat sonrası temizliğe, bina yönetiminden dış alan bakımına kadar her hizmet aynı titizlikle yönetilir — ilk tekliften son kalite kontrolüne kadar.",
+      "p2": "Müşterilerimiz — bireyler, şirketler, emlak acenteleri, yöneticiler ve kooperatifler — kusursuz uygulama ve hızlı bir iletişim beklerler. En başından beri dijital araçlara güveniyoruz: gerçek zamanlı takip, otomatik foto raporlar, özel müşteri portalı. Saha kalitesi ile dijital şeffaflığın birleşimi.",
+      "title": "Şubat 2026'da kurulan bir Basel GmbH'si",
+      "badge": {
+        "label": "Hizmet bölgesi",
+        "value": "BS · BL"
+      }
+    },
+    "cta": "Hizmetlerimizi keşfedin",
+    "heroBadge": {
+      "label": "GmbH, Şubat'ta kuruldu",
+      "value": "2026"
+    },
+    "values": {
+      "eyebrow": "DEĞERLERİMİZ",
+      "title": "Her hizmete yön veren dört ilke",
+      "subtitle": "Slogan değil — günlük çalışmamızı yapılandıran kurallardır.",
+      "items": {
+        "quality": {
+          "title": "Tavizsiz kalite",
+          "description": "Eğitimli ekipler ve her müdahalede sistematik kontrol ile sürdürülen standart."
+        },
+        "trust": {
+          "title": "Güven ilişkisi",
+          "description": "Atanmış bir iletişim, net iletişim ve her zaman tutulan taahhütler."
+        },
+        "eco": {
+          "title": "Ekolojik bağlılık",
+          "description": "Biyolojik olarak parçalanabilir ürünler, kontrollü dozaj ve her sahada sistematik geri dönüşüm."
+        },
+        "reliability": {
+          "title": "Operasyonel güvenilirlik",
+          "description": "Beyan edilmiş personel, tam sigorta ve programa uyum — temel kural."
+        }
+      }
+    },
+    "stats": {
+      "founded": {
+        "value": "2026",
+        "label": "GmbH, Şubat'ta kuruldu"
+      },
+      "seat": {
+        "value": "Basel",
+        "label": "Merkez"
+      },
+      "cantons": {
+        "value": "BS · BL",
+        "label": "Hizmet verilen kantonlar"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Taleplere yanıt"
+      }
+    },
+    "coverage": {
+      "eyebrow": "HİZMET BÖLGELERİ",
+      "cta": "Bölgemi kontrol et",
+      "title": "Kesinlikle Basel-Stadt ve Basel-Landschaft",
+      "subtitle": "Hizmetlerimiz kesinlikle Basel-Stadt ve Basel-Landschaft kantonlarıyla sınırlıdır. Bu iki kanton dışındaki adreslere hizmet veremiyoruz.",
+      "regions": {
+        "bs": {
+          "name": "Basel-Stadt (BS)",
+          "cities": "Basel · Riehen · Bettingen"
+        },
+        "bl": {
+          "name": "Basel-Landschaft (BL)",
+          "cities": "Liestal · Allschwil · Binningen · Muttenz · Pratteln · Reinach · Münchenstein · Sissach · Laufen"
+        }
+      }
+    },
+    "heroChips": {
+      "swiss": "İsviçre şirketi",
+      "certified": "Kayıtlı ve sigortalı personel",
+      "since": "Şubat 2026'da kuruldu"
+    }
+  },
+  "signup": {
+    "eyebrow": "KAYIT",
+    "title": "Müşteri alanınızı oluşturun",
+    "subtitle": "1 dakikada hesap açılışı. Taahhütsüz.",
+    "back": "Siteye dön",
+    "accountTypeTitle": "Siz kimsiniz?",
+    "accountTypes": {
+      "particulier": "Bireysel",
+      "entreprise": "İşletme",
+      "proImmo": "Emlak profesyoneli",
+      "association": "Dernek"
+    },
+    "fields": {
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "emailPlaceholder": "siz@ornek.ch",
+      "password": "Şifre",
+      "passwordPlaceholder": "En az 8 karakter"
+    },
+    "strength": {
+      "hint": "Güç",
+      "weak": "Zayıf",
+      "fair": "Orta",
+      "good": "İyi",
+      "strong": "Güçlü"
+    },
+    "consent": "Şartları ve gizlilik politikasını kabul ediyorum.",
+    "newsletter": "Nzo Immo Clean haberlerini ve fırsatlarını almak istiyorum.",
+    "submit": "Hesabımı oluştur",
+    "showPwd": "Şifreyi göster",
+    "hidePwd": "Şifreyi gizle",
+    "haveAccount": "Zaten hesabınız var mı?",
+    "login": "Giriş yap",
+    "demoNotice": "Alan yapım aşamasında — projenin 2. fazında aktif olacak.",
+    "brand": {
+      "eyebrow": "HOŞ GELDİNİZ",
+      "title": "Hizmetlerini online yöneten müşterilerimize katılın.",
+      "subtitle": "Bireyler, işletmeler ve emlak profesyonelleri için tasarlanmış bir alan.",
+      "features": {
+        "quickSetup": {
+          "title": "1 dakikada kayıt",
+          "hint": "E-posta veya Google — kart gerekmez"
+        },
+        "secure": {
+          "title": "Korumalı veriler",
+          "hint": "İsviçre sunucusu ve SSL şifreleme"
+        },
+        "firstQuote": {
+          "title": "İlk teklif bizden",
+          "hint": "24 saatte yanıt, taahhütsüz"
+        }
+      },
+      "bonus": {
+        "title": "Hoş geldin teklifi",
+        "hint": "İlk hizmetinizde −10%"
+      }
+    }
+  },
+  "login": {
+    "eyebrow": "MÜŞTERİ ALANI",
+    "title": "Tekrar hoş geldiniz",
+    "subtitle": "Görevlerinizi takip etmek ve belgelerinize erişmek için giriş yapın.",
+    "back": "Siteye dön",
+    "fields": {
+      "email": "E-posta",
+      "emailPlaceholder": "siz@ornek.ch",
+      "password": "Şifre",
+      "passwordPlaceholder": "Şifreniz"
+    },
+    "remember": "Oturum açık kalsın",
+    "forgot": "Şifrenizi mi unuttunuz?",
+    "submit": "Giriş yap",
+    "showPwd": "Şifreyi göster",
+    "hidePwd": "Şifreyi gizle",
+    "noAccount": "Hesabınız yok mu?",
+    "signup": "Hesap oluştur",
+    "brand": {
+      "eyebrow": "ALANINIZ",
+      "title": "Müdahalelerinizi her yerden gerçek zamanlı takip edin.",
+      "subtitle": "Bireyler, işletmeler ve emlak profesyonelleri için tasarlanmış bir kontrol paneli.",
+      "features": {
+        "tracking": "Müdahale takibi canlı olarak",
+        "reports": "Otomatik önce / sonra foto raporları",
+        "documents": "Teklifler, faturalar ve geçmiş tek yerde"
+      },
+      "testimonial": {
+        "text": "Müşteri alanı gerçekten bir artı. Ne yapıldığını tam olarak görüyoruz, tüm raporları tek bir yerde tutuyoruz. Artık kağıt peşinde koşmak yok.",
+        "author": "Sophie M., CFO — avukatlık bürosu"
+      }
+    }
+  },
+  "reviews": {
+    "eyebrow": "MÜŞTERİ YORUMLARI",
+    "title": "Müşterilerimiz ne diyor",
+    "subtitle": "Her yorum, tamamlanan bir hizmetin ardından bir müşteri tarafından bırakılır. Güven, her müdahale ile birlikte inşa edilir.",
+    "verified": "Doğrulanmış yorum",
+    "filterByService": "Hizmete göre filtrele",
+    "filterByRating": "Puana göre filtrele",
+    "allServices": "Tümü",
+    "sort": "Sırala",
+    "ratings": {
+      "3": "★ 3 yıldız ve üzeri",
+      "4": "★ 4 yıldız ve üzeri",
+      "5": "★ 5 yıldız",
+      "all": "Tüm puanlar"
+    },
+    "sortOptions": {
+      "newest": "En yeni",
+      "oldest": "En eski",
+      "ratingDesc": "En yüksek puan",
+      "ratingAsc": "En düşük puan"
+    },
+    "resultsCount": "{{count}} yorum gösteriliyor",
+    "resetFilters": "Sıfırla",
+    "loadMore": "Daha fazla yorum yükle",
+    "source": {
+      "google": "Google",
+      "direct": "Doğrudan görüş"
+    },
+    "stats": {
+      "rating": {
+        "label": "Ortalama puan"
+      },
+      "experience": {
+        "value": "2026",
+        "label": "GmbH, Şubat'ta kuruldu"
+      }
+    },
+    "noResults": {
+      "title": "Eşleşen yorum yok",
+      "text": "Arama kriterlerinizi genişletmeyi deneyin."
+    },
+    "callout": {
+      "eyebrow": "MÜŞTERİ MİSİNİZ?",
+      "title": "Deneyiminizi paylaşın",
+      "text": "Geri bildiriminiz bizim gelişmemize yardımcı olur ve gelecekteki müşterilere yol gösterir. Yalnızca birkaç dakika sürer.",
+      "googleCta": "Google yorumu bırak",
+      "directCta": "Doğrudan görüş bildir"
+    },
+    "empty": {
+      "text": "GmbH'miz Basel'de yeni kuruldu. Müşterilerimizin ilk yorumları, hizmetlerinin ardından burada yayınlanacak."
+    }
+  },
+  "shop": {
+    "eyebrow": "ONLINE MAĞAZA",
+    "title": "Temizlik ürünlerimiz",
+    "subtitle": "Alanlarınızı her gün bakımlı tutmak için profesyonel seçki — ekolojik ve etkili.",
+    "trust": {
+      "delivery": {
+        "title": "Hızlı teslimat",
+        "hint": "İsviçre'de 48 saat içinde"
+      },
+      "eco": {
+        "title": "Ekolojik ürünler",
+        "hint": "Biyolojik olarak parçalanabilir, sertifikalı"
+      },
+      "returns": {
+        "title": "14 gün iade",
+        "hint": "Memnuniyet garantisi"
+      }
+    },
+    "searchPlaceholder": "Ürün ara…",
+    "clear": "Temizle",
+    "sort": "Sırala",
+    "sortOptions": {
+      "featured": "Öne çıkan",
+      "priceAsc": "Fiyat: artan",
+      "priceDesc": "Fiyat: azalan",
+      "rating": "En çok beğenilen",
+      "newest": "Yeni gelenler"
+    },
+    "categories": {
+      "all": "Tümü",
+      "surfaces": "Yüzeyler",
+      "bathroom": "Banyo",
+      "kitchen": "Mutfak",
+      "laundry": "Çamaşır",
+      "disinfection": "Dezenfeksiyon",
+      "accessories": "Aksesuarlar"
+    },
+    "resultsCount": "{{count}} ürün",
+    "resetFilters": "Sıfırla",
+    "noResults": {
+      "title": "Ürün bulunamadı",
+      "text": "Arama kriterlerinizi genişletmeyi deneyin."
+    },
+    "badge": {
+      "promo": "İndirim",
+      "new": "Yeni",
+      "bestseller": "Çok satan"
+    },
+    "outOfStock": "Stokta yok",
+    "inStock": "{{count}} stokta",
+    "reviews": "yorum",
+    "addToCart": "Sepete ekle",
+    "buyNow": "Hemen al",
+    "guarantees": {
+      "delivery": "48 saatte teslim",
+      "eco": "Ekolojik ürünler",
+      "returns": "14 gün içinde iade",
+      "secure": "Güvenli ödeme"
+    },
+    "cart": {
+      "title": "Sepetim",
+      "close": "Kapat",
+      "itemCount": "{{count}} ürün",
+      "emptyTitle": "Sepetiniz boş",
+      "emptyText": "Ürünlerimizi keşfedin ve alışverişe başlayın.",
+      "browse": "Mağazaya git",
+      "remove": "Kaldır",
+      "subtotal": "Ara toplam",
+      "total": "Toplam",
+      "shippingNote": "Kargo bir sonraki adımda hesaplanır.",
+      "checkout": "Siparişi tamamla",
+      "clear": "Sepeti boşalt",
+      "waIntro": "Merhaba, sipariş vermek istiyorum:",
+      "emailSubject": "Nzo Immo Clean mağaza siparişi"
+    },
+    "product": {
+      "notFound": "Ürün bulunamadı",
+      "backToShop": "Mağazaya dön",
+      "descriptionTitle": "Açıklama",
+      "featuresTitle": "Özellikler",
+      "relatedEyebrow": "BENZER ÜRÜNLER",
+      "relatedTitle": "Benzer ürünler",
+      "viewAll": "Tümünü gör"
+    },
+    "checkout": {
+      "title": "Siparişi tamamla",
+      "subtitle": "Birkaç detay daha ve tamamlandı.",
+      "back": "Geri",
+      "shippingTitle": "Teslimat adresi",
+      "notesLabel": "Sipariş notları",
+      "notesPlaceholder": "Teslimat talimatları…",
+      "consent": "Satış koşullarını ve gizlilik politikasını kabul ediyorum.",
+      "submit": "Siparişi onayla",
+      "altDivider": "VEYA",
+      "viaWhatsapp": "WhatsApp ile sipariş ver",
+      "viaEmail": "E-posta ile sipariş ver",
+      "summaryTitle": "Sipariş özeti",
+      "qty": "Adet: {{count}}",
+      "shipping": "Kargo",
+      "shippingFree": "Ücretsiz",
+      "freeShippingHint": "Ücretsiz kargo için {{amount}} daha.",
+      "total": "Toplam",
+      "success": {
+        "title": "Sipariş alındı!",
+        "message": "Siparişiniz için teşekkürler. Birkaç dakika içinde e-posta onayı alacaksınız.",
+        "cta": "Alışverişe devam et"
+      }
+    },
+    "products": {
+      "p001": {
+        "name": "Çok amaçlı Eko 1L",
+        "short": "Biyolojik olarak parçalanabilir çok yüzeyli sprey",
+        "description": "Konsantre çok yüzeyli temizleyici, %99 biyolojik olarak parçalanabilir. Yıkanabilir tüm yüzeylere uygundur.",
+        "f1": "%99 biyolojik olarak parçalanabilir",
+        "f2": "Çok yüzeyli — zemin, cam, tezgah",
+        "f3": "Konsantre — 1L = 100 kullanım",
+        "f4": "Taze okaliptüs kokusu"
+      },
+      "p002": {
+        "name": "Sirke kireç çözücü 750ml",
+        "short": "Banyo için doğal kireç önleyici",
+        "description": "Beyaz sirke bazlı güçlü kireç çözücü. Kireç ve sabun kalıntılarına karşı ideal. Mineye zararsız.",
+        "f1": "Sirke bazlı — doğal",
+        "f2": "Kireç ve sabun temizler",
+        "f3": "Kullanıma hazır sprey"
+      },
+      "p003": {
+        "name": "Pro mutfak yağ çözücü 500ml",
+        "short": "Yüksek performanslı yağ çözücü",
+        "description": "Profesyonel mutfak yağ çözücü: davlumbazlar, ocaklar, fırınlar. Yapışmış yağlara hızlı etki.",
+        "f1": "30 saniyede hızlı etki",
+        "f2": "Davlumbaz, ocak, fırın",
+        "f3": "Doğru dozda durulama gerekmez"
+      },
+      "p004": {
+        "name": "Konsantre çamaşır deterjanı 3L",
+        "short": "60 yıkama — yumuşak formül",
+        "description": "60 yıkamalık konsantre sıvı çamaşır deterjanı. Liflere ve cilde nazik formül.",
+        "f1": "Şişe başına 60 yıkama",
+        "f2": "Hipoalerjenik",
+        "f3": "30°C'den itibaren etkili"
+      },
+      "p005": {
+        "name": "Yüzey dezenfektan 1L",
+        "short": "Bakterisidal ve virüsidal",
+        "description": "Gıda yüzeyleri için dezenfektan: bakterisidal, virüsidal, fungisidal. EN 14476 standardı.",
+        "f1": "EN 14476 sertifikalı",
+        "f2": "Bakterisidal ve virüsidal",
+        "f3": "Gıda yüzeyleri",
+        "f4": "5 dakikada etki"
+      },
+      "p006": {
+        "name": "Mikrofiber bezler × 10",
+        "short": "10'lu premium bez paketi",
+        "description": "Yüksek yoğunluklu mikrofiber bezler, 500 kez yıkanabilir. Tüm yüzeyler için ideal — çizmez.",
+        "f1": "500 kez yıkanabilir",
+        "f2": "Tüm yüzeylerde çizilmez",
+        "f3": "10'lu paket — 30 × 30 cm"
+      },
+      "p007": {
+        "name": "Cam temizleyici 500ml",
+        "short": "İzsiz parlaklık",
+        "description": "Cam, ayna ve parlak yüzeyler için temizleyici. İz bırakmadan hızlı kurur.",
+        "f1": "İz veya kalıntı bırakmaz",
+        "f2": "Hızlı kuruma",
+        "f3": "Cam, ayna, ekran"
+      },
+      "p008": {
+        "name": "Pro mikrofiber paspas",
+        "short": "360° döner sistem",
+        "description": "Çıkarılabilir, yıkanabilir mikrofiber başlı profesyonel paspas. Döner kafa her köşeye ulaşır.",
+        "f1": "360° döner kafa",
+        "f2": "Makinede yıkanabilir",
+        "f3": "Teleskopik sap"
+      },
+      "p009": {
+        "name": "El dezenfektan jel 500ml",
+        "short": "El dezenfeksiyonu",
+        "description": "%70 alkollü el dezenfektan jeli. Kalıntı bırakmadan hızlı kurur.",
+        "f1": "%70 alkol",
+        "f2": "Durulama gerekmez"
+      },
+      "p010": {
+        "name": "Eko başlangıç seti",
+        "short": "5 temel ürün — premium paket",
+        "description": "Komple başlangıç seti: çok amaçlı, cam, banyo, yağ çözücü ve bezler. %22 tasarruf.",
+        "f1": "5 temel ürün",
+        "f2": "%22 tasarruf",
+        "f3": "Tümü biyolojik olarak parçalanabilir",
+        "f4": "Başlangıç için ideal"
+      },
+      "p011": {
+        "name": "Siyah sabun multi 1L",
+        "short": "Geleneksel çok amaçlı temizleyici",
+        "description": "Bitkisel yağ bazlı geleneksel siyah sabun. Çok amaçlı: zemin, teras, bahçe mobilyaları.",
+        "f1": "%100 bitkisel yağ",
+        "f2": "İç ve dış mekan",
+        "f3": "Ekonomik — çok konsantre"
+      },
+      "p012": {
+        "name": "Fırın yağ çözücü sprey",
+        "short": "Fırın için güçlü etki",
+        "description": "Özel fırın yağ çözücü sprey. Yapışmış yağlara ve yanmış kalıntılara güçlü etki.",
+        "f1": "Yapışmış yağlara karşı",
+        "f2": "Uzun süreli aktif köpük",
+        "f3": "Izgara ve BBQ için de"
+      }
+    }
+  },
+  "devis": {
+    "eyebrow": "ÜCRETSİZ TEKLİF",
+    "title": "Kişiselleştirilmiş teklifinizi alın",
+    "subtitle": "Yalnızca birkaç dakika sürer. 24 saat içinde cevap.",
+    "stepCounter": "Adım {{current}} / {{total}}",
+    "steps": {
+      "prestation": "Hizmet",
+      "details": "Detaylar",
+      "photos": "Fotoğraflar",
+      "coordonnees": "İletişim",
+      "compte": "Hesap"
+    },
+    "step1": {
+      "title": "Hangi hizmet?",
+      "subtitle": "İlgilendiğiniz hizmeti seçin.",
+      "audienceTitle": "Siz kimsiniz?"
+    },
+    "audiences": {
+      "particulier": {
+        "label": "Bireysel",
+        "hint": "Ev, daire, hane"
+      },
+      "entreprise": {
+        "label": "İşletme",
+        "hint": "Ofis, mağaza, alan"
+      },
+      "proImmo": {
+        "label": "Emlak profesyoneli",
+        "hint": "Acente, yönetim"
+      },
+      "association": {
+        "label": "Dernek",
+        "hint": "Kulüp, STK, vakıf"
+      }
+    },
+    "step2": {
+      "title": "Hizmet detayları",
+      "subtitle": "Teklifimizi şekillendirmek için birkaç bilgi."
+    },
+    "step3": {
+      "title": "Fotoğraf ekleyin",
+      "subtitle": "Talebinizi daha iyi anlamamıza yardımcı olun.",
+      "dropTitle": "Fotoğrafları buraya bırakın",
+      "dropHint": "ya da seçmek için tıklayın — JPG, PNG (en fazla 8 dosya)",
+      "optional": "Opsiyonel adım — geçebilirsiniz."
+    },
+    "step4": {
+      "title": "İletişim bilgileriniz",
+      "subtitle": "24 saat içinde detaylı bir teklifle size döneriz."
+    },
+    "step5": {
+      "title": "Onaylamak için hesabınızı oluşturun",
+      "subtitle": "Teklifiniz kaydedilecek ve e-postanızı doğruladıktan sonra müşteri alanınızda görüntülenecektir.",
+      "infoTitle": "Neden hesap oluşturmalısınız?",
+      "info": "Müşteri hesabınız ile teklifinizi takip edebilir, ekibimizle iletişim kurabilir ve tüm belgelerinizi tek yerden yönetebilirsiniz.",
+      "emailLabel": "Hesap e-postası",
+      "passwordLabel": "Şifre",
+      "passwordPlaceholder": "En az 8 karakter",
+      "passwordConfirmLabel": "Şifreyi onayla",
+      "mismatch": "Şifreler eşleşmiyor.",
+      "verifyHint": "Hesabınızı etkinleştirmek için doğrulama e-postası gönderilecektir.",
+      "haveAccount": "Zaten bir hesabınız var mı?",
+      "loginLink": "Giriş yap",
+      "showPwd": "Şifreyi göster",
+      "hidePwd": "Şifreyi gizle",
+      "submit": "Hesap oluştur & onayla"
+    },
+    "fields": {
+      "surface": "Alan",
+      "surface_facades": "Cephe alanı",
+      "surface_conciergerie": "Ortak alanların yüzölçümü",
+      "surface_garages": "Garaj alanı",
+      "surface_jardins": "Bahçe alanı",
+      "frequency": "Sıklık",
+      "startDate": "Tercih edilen tarih",
+      "startDate_arrosage": "Yokluğun başlangıcı",
+      "startDate_animaux": "Yokluğun başlangıcı",
+      "endDate": "Yokluğun bitişi",
+      "notes": "Notlar",
+      "notesPlaceholder": "Erişim kısıtlamaları, kat, özel durumlar…",
+      "address": "Adres",
+      "postalCode": "Posta kodu",
+      "city": "Şehir",
+      "panelCount": "Panel sayısı",
+      "roofType": "Çatı tipi",
+      "plantCount": "Bitki sayısı",
+      "plantLocation": "Bitkilerin konumu",
+      "visitFrequency": "Ziyaret sıklığı",
+      "petType": "Hayvan türü",
+      "petCount": "Hayvan sayısı",
+      "visitsPerDay": "Günlük ziyaret sayısı",
+      "buildingUnits": "Konut sayısı",
+      "parkingSpaces": "Yer sayısı",
+      "volume": "Tahmini hacim",
+      "locationType": "Mekân türü"
+    },
+    "frequencies": {
+      "unique": "Tek seferlik",
+      "hebdo": "Haftalık",
+      "bimensuel": "İki haftada bir",
+      "mensuel": "Aylık"
+    },
+    "plantLocations": {
+      "interieur": "İç mekân",
+      "balcon": "Balkon / Teras",
+      "jardin": "Bahçe",
+      "mixte": "İç + dış mekân"
+    },
+    "visitFrequencies": {
+      "quotidien": "Her gün",
+      "deuxJours": "2 günde bir",
+      "deuxParSemaine": "Haftada 2×",
+      "ponctuel": "Tek seferlik"
+    },
+    "petTypes": {
+      "chat": "Kedi",
+      "chien": "Köpek",
+      "autre": "Diğer",
+      "petit": "Küçük hayvan"
+    },
+    "visitsPerDay": {
+      "1": "1 ziyaret",
+      "2": "2 ziyaret"
+    },
+    "roofTypes": {
+      "plat": "Düz çatı",
+      "incline": "Eğimli çatı",
+      "tuile": "Kiremit çatı"
+    },
+    "locationTypes": {
+      "cave": "Bodrum",
+      "grenier": "Tavan arası",
+      "appartement": "Daire",
+      "bureau": "Ofis",
+      "garage": "Garaj",
+      "autre": "Diğer"
+    },
+    "prestationDetails": "Hizmet detayları",
+    "prev": "Geri",
+    "next": "İleri",
+    "submit": "İsteğimi gönder",
+    "success": {
+      "title": "E-postanızı kontrol edin!",
+      "message": "Size bir doğrulama bağlantısı gönderdik. Teklifinizi onaylamak ve müşteri alanınızda takip etmek için hesabınızı etkinleştirin.",
+      "cta": "Ana sayfaya dön",
+      "ctaLogin": "Müşteri alanıma git"
+    }
+  },
+  "contact": {
+    "eyebrow": "İLETİŞİM",
+    "title": "Projeniz hakkında konuşalım",
+    "subtitle": "Tüm sorularınızı yanıtlamak için sizi dinleyen bir ekip.",
+    "coordinatesTitle": "İletişim bilgileri",
+    "availability": "Haftanın 7 günü ulaşılabilir",
+    "followUs": "Bizi takip edin",
+    "formTitle": "Bize bir mesaj gönderin",
+    "formSubtitle": "24 saat içinde cevap veriyoruz.",
+    "fields": {
+      "firstName": "Ad",
+      "lastName": "Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "phoneOptional": "Telefon — isteğe bağlı",
+      "subject": "Konu",
+      "message": "Mesajınız",
+      "messagePlaceholder": "Talebinizi açıklayın…",
+      "address": "Adres",
+      "hours": "Çalışma saatleri"
+    },
+    "subjects": {
+      "general": "Genel soru",
+      "devis": "Teklif talebi",
+      "reclamation": "Şikayet",
+      "partenariat": "Ortaklık"
+    },
+    "consent": "Bu talep için verilerimin işlenmesini kabul ediyorum.",
+    "submit": "Mesajı gönder",
+    "successTitle": "Mesaj gönderildi!",
+    "successMessage": "Mesajınız için teşekkürler. Ekibimiz 24 saat içinde size dönecek.",
+    "map": {
+      "title": "Bizi bulun",
+      "subtitle": "Merkezimiz Basel'de bulunmaktadır.",
+      "directions": "Yol tarifi"
+    }
+  },
+  "trust": {
+    "reviewsSoon": "Yorumlar yakında",
+    "reviewsLabel": "Müşteri yorumları",
+    "reviewsCount_one": "{{count}} müşteri yorumu",
+    "reviewsCount_other": "{{count}} müşteri yorumu"
+  }
+}

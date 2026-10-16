@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>Nzo Immo Clean — Maintenance</title>
+    <link rel="icon" type="image/png" href="/maintenance/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primary-800: #112f53;
+        --primary-900: #0a1d33;
+        --secondary: #2ba5de;
+        --tertiary: #3bc1de;
+        --accent: #8cc44b;
+      }
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body { height: 100%; }
+      body {
+        margin: 0;
+        font-family: 'Inter', system-ui, sans-serif;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.85);
+        background: radial-gradient(ellipse at top left, var(--primary-800) 0%, var(--primary-900) 60%, #050d18 100%);
+        min-height: 100vh;
+        overflow-x: hidden;
+      }
+      body::before, body::after {
+        content: '';
+        position: fixed;
+        z-index: 0;
+        border-radius: 50%;
+        filter: blur(80px);
+        pointer-events: none;
+      }
+      body::before { top: -8rem; left: -8rem; width: 28rem; height: 28rem; background: rgba(43, 165, 222, 0.25); }
+      body::after { bottom: -10rem; right: -10rem; width: 32rem; height: 32rem; background: rgba(140, 196, 75, 0.18); }
+      .dots {
+        position: fixed;
+        inset: 0;
+        z-index: 0;
+        opacity: 0.06;
+        background-image: radial-gradient(circle at 1px 1px, #fff 1px, transparent 0);
+        background-size: 32px 32px;
+        pointer-events: none;
+      }
+      main {
+        position: relative;
+        z-index: 1;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 4.5rem 1rem 3rem;
+        text-align: center;
+      }
+      .lang-switch {
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+        /* Above <main> (z-index 1), which spans the whole viewport —
+           otherwise it swallows the clicks on the language buttons. */
+        z-index: 2;
+        display: flex;
+        gap: 0.25rem;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        border-radius: 9999px;
+        padding: 0.25rem;
+      }
+      .lang-switch button {
+        appearance: none;
+        background: transparent;
+        border: 0;
+        color: rgba(255, 255, 255, 0.7);
+        font: 700 11px/1 'Inter', sans-serif;
+        letter-spacing: 0.08em;
+        padding: 0.5rem 0.8rem;
+        border-radius: 9999px;
+        cursor: pointer;
+      }
+      .lang-switch button.active { background: var(--secondary); color: #fff; }
+      .container { width: 100%; max-width: 680px; display: flex; flex-direction: column; align-items: center; }
+      .logo { height: 68px; width: auto; margin-bottom: 2.25rem; }
+      .gear {
+        width: 64px;
+        height: 64px;
+        color: var(--secondary);
+        animation: spin 6s linear infinite;
+        margin-bottom: 1.25rem;
+      }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @media (prefers-reduced-motion: reduce) { .gear, .dot { animation: none !important; } }
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        padding: 0.4rem 0.95rem;
+        border-radius: 9999px;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+      .dot {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 50%;
+        background: #f5a623;
+        animation: pulse 1.8s ease-out infinite;
+      }
+      @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(245, 166, 35, 0.65); }
+        70% { box-shadow: 0 0 0 12px rgba(245, 166, 35, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(245, 166, 35, 0); }
+      }
+      h1 {
+        font-family: 'Anton', Impact, sans-serif;
+        font-weight: 400;
+        margin: 1.5rem 0 0;
+        font-size: clamp(2.2rem, 8vw, 4.5rem);
+        line-height: 1.05;
+        color: #fff;
+        text-transform: uppercase;
+      }
+      h1 .highlight {
+        background: linear-gradient(135deg, var(--secondary) 0%, var(--tertiary) 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+      }
+      .subtitle {
+        margin: 1.25rem 0 0;
+        max-width: 540px;
+        font-size: clamp(0.95rem, 1.6vw, 1.05rem);
+        line-height: 1.65;
+        color: rgba(255, 255, 255, 0.75);
+      }
+      .contact {
+        margin-top: 2.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem;
+        justify-content: center;
+      }
+      .contact a {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        background: rgba(255, 255, 255, 0.06);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        padding: 0.7rem 1.1rem;
+        border-radius: 9999px;
+        transition: background 0.2s ease, border-color 0.2s ease;
+      }
+      .contact a:hover { background: rgba(140, 196, 75, 0.18); border-color: var(--accent); }
+      .contact svg { width: 16px; height: 16px; color: var(--accent); flex: none; }
+      footer {
+        margin-top: 3rem;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.35);
+      }
+      @media (max-width: 480px) {
+        .logo { height: 54px; margin-bottom: 1.75rem; }
+        .lang-switch { top: 0.85rem; right: 50%; transform: translateX(50%); }
+        .lang-switch button { padding: 0.5rem 0.6rem; }
+        .contact a { width: 100%; justify-content: center; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="dots" aria-hidden="true"></div>
+    <div class="lang-switch" role="group" aria-label="Language">
+      <button type="button" data-lang="fr" class="active">FR</button>
+      <button type="button" data-lang="de">DE</button>
+      <button type="button" data-lang="en">EN</button>
+      <button type="button" data-lang="es">ES</button>
+      <button type="button" data-lang="it">IT</button>
+      <button type="button" data-lang="sr">SR</button>
+      <button type="button" data-lang="tr">TR</button>
+    </div>
+    <main>
+      <div class="container">
+        <img src="/maintenance/logo.png" alt="Nzo Immo Clean" class="logo" />
+        <svg class="gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1Z" />
+        </svg>
+        <div class="eyebrow">
+          <span class="dot" aria-hidden="true"></span>
+          <span data-i18n="eyebrow">Maintenance en cours</span>
+        </div>
+        <h1>
+          <span data-i18n="title1">Site en</span>
+          <span class="highlight" data-i18n="title2">maintenance</span>
+        </h1>
+        <p class="subtitle" data-i18n="subtitle">
+          Nous améliorons notre site pour mieux vous servir. Il sera de retour très bientôt. Pour toute demande urgente, contactez-nous directement.
+        </p>
+        <div class="contact">
+          <a href="tel:+41799362173">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.1 9.9a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z" /></svg>
+            +41 79 936 21 73
+          </a>
+          <a href="mailto:info@nzoimmoclean.ch">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2" /><path d="m22 7-10 6L2 7" /></svg>
+            info@nzoimmoclean.ch
+          </a>
+          <a href="https://wa.me/41799362173" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5Z" /></svg>
+            WhatsApp
+          </a>
+        </div>
+        <footer data-i18n="footer">© Nzo Immo Clean — Nettoyage professionnel en Suisse</footer>
+      </div>
+    </main>
+    <script>
+      var translations = {
+        fr: {
+          eyebrow: 'Maintenance en cours',
+          title1: 'Site en',
+          title2: 'maintenance',
+          subtitle:
+            'Nous améliorons notre site pour mieux vous servir. Il sera de retour très bientôt. Pour toute demande urgente, contactez-nous directement.',
+          footer: '© Nzo Immo Clean — Nettoyage professionnel en Suisse',
+          docTitle: 'Nzo Immo Clean — Maintenance',
+        },
+        de: {
+          eyebrow: 'Wartungsarbeiten',
+          title1: 'Website in',
+          title2: 'Wartung',
+          subtitle:
+            'Wir verbessern unsere Website, um Ihnen noch besser zu dienen. Sie ist in Kürze wieder verfügbar. Für dringende Anfragen kontaktieren Sie uns bitte direkt.',
+          footer: '© Nzo Immo Clean — Professionelle Reinigung in der Schweiz',
+          docTitle: 'Nzo Immo Clean — Wartung',
+        },
+        en: {
+          eyebrow: 'Maintenance in progress',
+          title1: 'Under',
+          title2: 'maintenance',
+          subtitle:
+            "We're improving our website to serve you better. It will be back very soon. For urgent requests, please contact us directly.",
+          footer: '© Nzo Immo Clean — Professional cleaning in Switzerland',
+          docTitle: 'Nzo Immo Clean — Maintenance',
+        },
+        es: {
+          eyebrow: 'Mantenimiento en curso',
+          title1: 'Sitio en',
+          title2: 'mantenimiento',
+          subtitle:
+            'Estamos mejorando nuestro sitio para ofrecerle un mejor servicio. Volverá a estar disponible muy pronto. Para cualquier solicitud urgente, contáctenos directamente.',
+          footer: '© Nzo Immo Clean — Limpieza profesional en Suiza',
+          docTitle: 'Nzo Immo Clean — Mantenimiento',
+        },
+        it: {
+          eyebrow: 'Manutenzione in corso',
+          title1: 'Sito in',
+          title2: 'manutenzione',
+          subtitle:
+            'Stiamo migliorando il nostro sito per servirvi meglio. Tornerà disponibile molto presto. Per richieste urgenti, contattateci direttamente.',
+          footer: '© Nzo Immo Clean — Pulizie professionali in Svizzera',
+          docTitle: 'Nzo Immo Clean — Manutenzione',
+        },
+        sr: {
+          eyebrow: 'Održavanje u toku',
+          title1: 'Sajt je na',
+          title2: 'održavanju',
+          subtitle:
+            'Unapređujemo naš sajt kako bismo vas bolje uslužili. Uskoro će ponovo biti dostupan. Za hitne zahteve, kontaktirajte nas direktno.',
+          footer: '© Nzo Immo Clean — Profesionalno čišćenje u Švajcarskoj',
+          docTitle: 'Nzo Immo Clean — Održavanje',
+        },
+        tr: {
+          eyebrow: 'Bakım çalışması',
+          title1: 'Site',
+          title2: 'bakımda',
+          subtitle:
+            'Size daha iyi hizmet verebilmek için sitemizi geliştiriyoruz. Çok yakında tekrar yayında olacak. Acil talepleriniz için lütfen doğrudan bizimle iletişime geçin.',
+          footer: '© Nzo Immo Clean — İsviçre’de profesyonel temizlik',
+          docTitle: 'Nzo Immo Clean — Bakım',
+        },
+      }
+      var buttons = document.querySelectorAll('.lang-switch button')
+      function applyLang(lang) {
+        var dict = translations[lang]
+        if (!dict) return
+        document.documentElement.lang = lang
+        document.title = dict.docTitle
+        document.querySelectorAll('[data-i18n]').forEach(function (el) {
+          var key = el.getAttribute('data-i18n')
+          if (dict[key] != null) el.textContent = dict[key]
+        })
+        buttons.forEach(function (b) {
+          b.classList.toggle('active', b.dataset.lang === lang)
+        })
+      }
+      // Same storage key as the site's i18n (src/i18n/index.js), so visitors
+      // see the language they already picked, and a pick here carries over.
+      var STORAGE_KEY = 'nzo-lang'
+      function savedLang() {
+        try { return localStorage.getItem(STORAGE_KEY) } catch (e) { return null }
+      }
+      buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          applyLang(b.dataset.lang)
+          try { localStorage.setItem(STORAGE_KEY, b.dataset.lang) } catch (e) {}
+        })
+      })
+      var initial = (savedLang() || navigator.language || 'de').slice(0, 2)
+      applyLang(translations[initial] ? initial : 'de')
+
+      // Auto-return: once maintenance is switched off, the homepage stops
+      // answering 503 — reload so visitors land back on the page they asked for.
+      setInterval(function () {
+        fetch('/', { method: 'HEAD', cache: 'no-store' })
+          .then(function (r) {
+            if (r.status === 503) return
+            if (location.pathname.indexOf('/maintenance') === 0) location.replace('/')
+            else location.reload()
+          })
+          .catch(function () {})
+      }, 60000)
+    </script>
+  </body>
+</html>

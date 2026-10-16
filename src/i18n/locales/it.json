@@ -1,0 +1,2208 @@
+{
+  "topbar": {
+    "hours": "Lun–Ven 8:00–17:00",
+    "cart": "Carrello",
+    "login": "Accedi"
+  },
+  "whatsappFloat": {
+    "aria": "Contattaci su WhatsApp",
+    "message": "Salve, vorrei informazioni sui vostri servizi."
+  },
+  "admin": {
+    "viewAll": "Vedi tutto",
+    "sidebar": {
+      "badge": "Admin",
+      "section": {
+        "main": "Gestione"
+      },
+      "dashboard": "Cruscotto",
+      "clients": "Clienti",
+      "devis": "Preventivi ricevuti",
+      "missions": "Servizi",
+      "planning": "Pianificazione",
+      "factures": "Fatture",
+      "demandes": "Richieste",
+      "reclamations": "Reclami",
+      "equipe": "Squadra",
+      "avis": "Recensioni clienti",
+      "archives": "Archivi",
+      "parametres": "Impostazioni",
+      "signOut": "Esci"
+    },
+    "topbar": {
+      "openMenu": "Apri il menu",
+      "searchPlaceholder": "Cerca un cliente, preventivo, fattura…",
+      "notifications": "Notifiche"
+    },
+    "kpi": {
+      "revenueMonth": "Fatturato del mese",
+      "revenueTotal": "Fatturato totale",
+      "revenueTotalHint": "Su {{count}} servizio/i completato/i",
+      "newQuotes": "Nuovi preventivi",
+      "activeMissions": "Servizi attivi",
+      "pendingInvoices": "Fatture in attesa",
+      "newClients": "Nuovi clienti",
+      "openComplaints": "Reclami aperti",
+      "conversionRate": "Tasso di conversione",
+      "shortcut": "Scorciatoia"
+    },
+    "statuses": {
+      "new": "Nuovo",
+      "pending": "Da trattare",
+      "quoted": "Inviato",
+      "accepted": "Accettato",
+      "rejected": "Rifiutato",
+      "scheduled": "Pianificato",
+      "inProgress": "In corso",
+      "completed": "Completato",
+      "cancelled": "Annullato",
+      "paid": "Pagata",
+      "overdue": "Scaduta",
+      "in_review": "In analisi",
+      "replied": "Risposto",
+      "closed": "Chiuso",
+      "open": "Aperto",
+      "resolved": "Risolto",
+      "active": "Attivo",
+      "inactive": "Inattivo",
+      "training": "In formazione"
+    },
+    "dashboard": {
+      "eyebrow": "GESTIONE",
+      "greeting": "Buongiorno {{name}} 👋",
+      "subtitle": "Panoramica dell'attività di Nzo Immo Clean.",
+      "reviewQuotes": "Gestire i preventivi",
+      "manageClients": "Gestire i clienti",
+      "revenue": {
+        "title": "Fatturato",
+        "subtitle": "Evoluzione su 6 mesi — IVA inclusa"
+      },
+      "activity": {
+        "title": "Attività recente",
+        "recent": "Oggi"
+      },
+      "upcoming": {
+        "title": "Servizi in arrivo",
+        "subtitle": "Pianificazione dei prossimi 7 giorni",
+        "empty": "Nessun servizio pianificato al momento."
+      },
+      "newDevis": {
+        "title": "Preventivi da trattare",
+        "subtitle": "Nuove richieste dal sito"
+      }
+    },
+    "clients": {
+      "eyebrow": "BASE CLIENTI",
+      "title": "Clienti",
+      "subtitle": "{{count}} clienti registrati.",
+      "newClient": "Nuovo cliente",
+      "searchPlaceholder": "Cerca per nome, azienda, email…",
+      "types": {
+        "all": "Tutti",
+        "particulier": "Privato",
+        "entreprise": "Azienda",
+        "proImmo": "Pro immobiliare",
+        "association": "Associazione"
+      },
+      "cols": {
+        "client": "Cliente",
+        "type": "Tipo",
+        "contact": "Contatto",
+        "since": "Cliente dal",
+        "spent": "Totale speso",
+        "activeMissions": "Servizi attivi",
+        "status": "Stato"
+      },
+      "empty": {
+        "title": "Nessun cliente trovato",
+        "text": "Prova ad ampliare i tuoi criteri di ricerca."
+      }
+    },
+    "clientDetail": {
+      "backToList": "Torna alla lista",
+      "view": "Vedi scheda",
+      "actions": {
+        "edit": "Modifica",
+        "message": "Invia un messaggio"
+      },
+      "kpi": {
+        "totalSpent": "Totale speso",
+        "activeMissions": "Servizi attivi",
+        "pendingAmount": "Importo in attesa",
+        "paidAmount": "Importo pagato"
+      },
+      "info": {
+        "company": "Azienda",
+        "email": "Email",
+        "phone": "Telefono",
+        "city": "Città",
+        "since": "Cliente dal",
+        "notes": "Note interne",
+        "noNotes": "Nessuna nota aggiunta per questo cliente.",
+        "addNote": "Aggiungi una nota"
+      },
+      "tabs": {
+        "devis": "Preventivi",
+        "missions": "Servizi",
+        "factures": "Fatture",
+        "demandes": "Richieste",
+        "reclamations": "Reclami"
+      },
+      "empty": {
+        "devis": {
+          "title": "Nessun preventivo",
+          "text": "Questo cliente non ha ancora richiesto preventivi."
+        },
+        "missions": {
+          "title": "Nessun servizio",
+          "text": "Nessun intervento registrato per questo cliente."
+        },
+        "factures": {
+          "title": "Nessuna fattura",
+          "text": "Nessuna fattura emessa per questo cliente."
+        },
+        "demandes": {
+          "title": "Nessuna richiesta",
+          "text": "Nessuno scambio né messaggio da questo cliente."
+        },
+        "reclamations": {
+          "title": "Nessun reclamo",
+          "text": "Nessun incidente segnalato — tutto bene!"
+        }
+      },
+      "notFound": {
+        "title": "Cliente non trovato",
+        "text": "L'identificativo richiesto non esiste o è stato eliminato."
+      }
+    },
+    "devis": {
+      "eyebrow": "PREVENTIVI",
+      "title": "Preventivi ricevuti dal sito",
+      "subtitle": "Richieste di privati, aziende e professionisti da trattare.",
+      "newDevis": "Nuovo preventivo",
+      "tabs": {
+        "all": "Tutti"
+      },
+      "searchPlaceholder": "Cerca per riferimento o cliente…",
+      "toEstimate": "Da stimare",
+      "toConvert": "Da convertire in servizio",
+      "converted": "Servizio creato",
+      "actions": {
+        "review": "Esamina",
+        "send": "Invia preventivo",
+        "accept": "Segna come accettato",
+        "reject": "Rifiuta",
+        "convert": "Converti in servizio"
+      },
+      "empty": {
+        "title": "Nessun preventivo in questa categoria",
+        "text": "Tutto gestito, complimenti!"
+      }
+    },
+    "missions": {
+      "eyebrow": "PIANIFICAZIONE",
+      "title": "Servizi",
+      "subtitle": "Monitoraggio operativo e pianificazione delle squadre.",
+      "new": "Nuovo servizio",
+      "searchPlaceholder": "Cerca un servizio o un cliente…",
+      "empty": {
+        "title": "Nessun servizio"
+      }
+    },
+    "factures": {
+      "eyebrow": "FATTURAZIONE",
+      "title": "Fatture",
+      "subtitle": "Monitoraggio dei pagamenti e delle scadenze.",
+      "new": "Nuova fattura",
+      "cols": {
+        "number": "N°",
+        "client": "Cliente",
+        "issueDate": "Emessa il",
+        "dueDate": "Scadenza",
+        "amount": "Importo",
+        "status": "Stato"
+      }
+    },
+    "demandes": {
+      "eyebrow": "MESSAGGI CLIENTI",
+      "title": "Richieste",
+      "subtitle": "Domande, richieste di informazioni e conversazioni.",
+      "priority": {
+        "low": "Bassa",
+        "normal": "Normale",
+        "high": "Urgente"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "ASSISTENZA",
+      "title": "Reclami",
+      "subtitle": "Reclami dei clienti da gestire e risolvere.",
+      "severity": {
+        "low": "Minore",
+        "medium": "Moderata",
+        "high": "Critica"
+      },
+      "category": {
+        "quality": "Qualità del servizio",
+        "delay": "Ritardo / pianificazione",
+        "damage": "Danni / rottura",
+        "billing": "Fatturazione",
+        "other": "Altro"
+      },
+      "actions": {
+        "reply": "Rispondi",
+        "resolve": "Segna come risolto"
+      }
+    },
+    "equipe": {
+      "eyebrow": "RISORSE",
+      "title": "Squadra sul campo",
+      "subtitle": "{{count}} collaboratori attivi.",
+      "new": "Aggiungi un membro",
+      "activeMissions": "servizi"
+    },
+    "planning": {
+      "eyebrow": "DISPATCHING",
+      "title": "Pianificazione",
+      "subtitle": "Vista calendario dei servizi — trascina e rilascia per riprogrammare.",
+      "views": {
+        "week": "Settimana",
+        "month": "Mese"
+      },
+      "filters": {
+        "allAgents": "Tutti gli operatori",
+        "unassigned": "Non assegnati"
+      },
+      "today": "Oggi",
+      "prev": "Precedente",
+      "next": "Successivo",
+      "empty": "Nessun servizio in questo periodo.",
+      "dropHere": "Rilascia qui",
+      "rescheduled": "Servizio spostato al {{date}}.",
+      "rescheduleFailed": "Impossibile riprogrammare il servizio — {{error}}"
+    },
+    "parametres": {
+      "eyebrow": "CONFIGURAZIONE",
+      "title": "Impostazioni",
+      "subtitle": "Configurazione del tuo account e della piattaforma.",
+      "configure": "Configura",
+      "sections": {
+        "company": {
+          "title": "Azienda",
+          "description": "Ragione sociale, indirizzo, contatti e identità visiva."
+        },
+        "branding": {
+          "title": "Identità e colori",
+          "description": "Personalizza logo, colori e tono di comunicazione."
+        },
+        "pricing": {
+          "title": "Tariffe",
+          "description": "Tariffario, IVA, condizioni di pagamento e acconti."
+        },
+        "notifications": {
+          "title": "Notifiche",
+          "description": "Avvisi email, SMS e interni — frequenza e destinatari."
+        },
+        "security": {
+          "title": "Sicurezza",
+          "description": "Password, autenticazione a due fattori e sessioni attive."
+        },
+        "languages": {
+          "title": "Lingue e regioni",
+          "description": "Lingue del sito, fuso orario e formati regionali."
+        }
+      },
+      "notice": {
+        "title": "Fase 2 — backend",
+        "text": "Le impostazioni saranno salvate nel database nella prossima iterazione."
+      }
+    }
+  },
+  "agent": {
+    "sidebar": {
+      "badge": "Agente",
+      "section": {
+        "main": "Campo"
+      },
+      "dashboard": "Cruscotto",
+      "missions": "I miei servizi",
+      "calendrier": "Calendario",
+      "demandes": "Le mie richieste",
+      "parametres": "Impostazioni",
+      "signOut": "Esci"
+    },
+    "topbar": {
+      "openMenu": "Apri il menu",
+      "closeMenu": "Chiudi",
+      "role": "Agente sul campo",
+      "signOut": "Esci"
+    },
+    "statuses": {
+      "scheduled": "Pianificato",
+      "scheduledPlural": "Pianificati",
+      "inProgress": "In corso",
+      "completed": "Completato",
+      "completedPlural": "Completati",
+      "cancelled": "Annullato"
+    },
+    "demandeStatuses": {
+      "new": "Nuova",
+      "in_review": "In esame",
+      "replied": "Risposta",
+      "closed": "Chiusa"
+    },
+    "priorities": {
+      "low": "Bassa",
+      "normal": "Normale",
+      "high": "Urgente"
+    },
+    "demandeTypes": {
+      "info": "Informazione",
+      "mission": "Su un servizio",
+      "devis": "Su un preventivo",
+      "planning": "Pianificazione",
+      "equipment": "Materiale",
+      "leave": "Ferie / assenza",
+      "incident": "Incidente",
+      "other": "Altro"
+    },
+    "errors": {
+      "generic": "Errore",
+      "upload": "Errore durante il caricamento",
+      "loading": "Errore di caricamento"
+    },
+    "common": {
+      "viewAll": "Vedi tutto",
+      "back": "Indietro",
+      "cancel": "Annulla",
+      "send": "Invia",
+      "add": "Aggiungi"
+    },
+    "dashboard": {
+      "eyebrow": "AGENTE SUL CAMPO",
+      "greeting": "Ciao {{name}}",
+      "summaryToday": "Hai {{count}} servizio/i oggi",
+      "summaryUpcomingExtra": " e {{count}} pianificato/i nei prossimi 7 giorni.",
+      "summaryDot": ".",
+      "kpiToday": "Oggi",
+      "kpiInProgress": "In corso",
+      "kpiUpcoming": "In arrivo (7g)",
+      "kpiCompletedMonth": "Fatti questo mese",
+      "todayTitle": "Oggi",
+      "viewAll": "Vedi tutto →",
+      "todayEmpty": "Nessun servizio oggi. Buona giornata!",
+      "upcomingTitle": "In arrivo questa settimana",
+      "upcomingEmpty": "Nessun servizio pianificato nei prossimi 7 giorni.",
+      "colTime": "Ora",
+      "colMission": "Missione",
+      "colClient": "Cliente",
+      "colCity": "Città",
+      "colStatus": "Stato",
+      "colActions": "Azioni",
+      "actionView": "Vedi la missione",
+      "actionStart": "Avvia"
+    },
+    "missions": {
+      "eyebrow": "I MIEI SERVIZI",
+      "title": "Servizi assegnati",
+      "subtitle": "Tutti i servizi a cui sei assegnato/a — pianificati, in corso e storici.",
+      "tabs": {
+        "all": "Tutti",
+        "scheduled": "Pianificati",
+        "inProgress": "In corso",
+        "completed": "Completati"
+      },
+      "empty": "Nessun servizio",
+      "emptyHint": "Nessun servizio corrisponde a questo filtro."
+    },
+    "missionDetail": {
+      "back": "Torna ai miei servizi",
+      "notFound": "Servizio non trovato",
+      "loadError": "Errore di caricamento",
+      "refPrefix": "MI-",
+      "duration": "{{hours}} h",
+      "actionStartTitle": "Pronto a iniziare?",
+      "actionInProgressTitle": "Servizio in corso",
+      "actionStartHint": "Avvia il servizio per notificare l'arrivo al cliente.",
+      "actionCompleteHint": "Quando tutto è fatto, segnalo come completato.",
+      "btnStart": "Inizia il servizio",
+      "btnComplete": "Termina il servizio",
+      "confirmComplete": "Segnare questo servizio come completato?",
+      "completedBadgeTitle": "Servizio completato",
+      "completedBadgeText": "Il {{date}} — bravo!",
+      "notesTitle": "Note interne",
+      "clientTitle": "Cliente",
+      "callClient": "Chiama il cliente",
+      "addressTitle": "Indirizzo",
+      "timelineTitle": "Monitoraggio",
+      "timelineScheduled": "Pianificato",
+      "timelineStarted": "Avviato",
+      "timelineCompleted": "Completato",
+      "phases": {
+        "before": "Prima",
+        "during": "Durante",
+        "after": "Dopo"
+      },
+      "phasePhotosLabel": "Foto {{phase}}",
+      "photoCount": "{{count}} foto",
+      "photoAdd": "Aggiungi",
+      "photosEmpty": "Nessuna foto per questa fase.",
+      "photoAltLabel": "{{phase}} {{n}}"
+    },
+    "calendrier": {
+      "eyebrow": "CALENDARIO",
+      "title": "Pianificazione dei servizi",
+      "monthlyCount": "{{count}} servizio/i questo mese.",
+      "today": "Oggi",
+      "prevMonth": "Mese precedente",
+      "nextMonth": "Mese successivo",
+      "weekdays": [
+        "Lun",
+        "Mar",
+        "Mer",
+        "Gio",
+        "Ven",
+        "Sab",
+        "Dom"
+      ],
+      "months": [
+        "Gennaio",
+        "Febbraio",
+        "Marzo",
+        "Aprile",
+        "Maggio",
+        "Giugno",
+        "Luglio",
+        "Agosto",
+        "Settembre",
+        "Ottobre",
+        "Novembre",
+        "Dicembre"
+      ],
+      "selectedDay": "Giorno selezionato",
+      "dayNoMission": "Nessun servizio.",
+      "dayMissionCount": "{{count}} servizio/i.",
+      "dayEmptyHint": "Goditi una giornata tranquilla!",
+      "hoursShort": "{{count}}h"
+    },
+    "demandes": {
+      "eyebrow": "LE MIE RICHIESTE",
+      "title": "Richieste all'amministrazione",
+      "subtitle": "Materiale, ferie, pianificazione, incidenti — invia le tue richieste all'admin.",
+      "new": "Nuova richiesta",
+      "empty": "Nessuna richiesta per ora",
+      "emptyHint": "Invia la tua prima richiesta all'amministrazione con un clic.",
+      "makeRequest": "Fare una richiesta",
+      "replyCount": "{{count}} risposta/e",
+      "lastReply": "Ultima risposta — {{author}}",
+      "authorAdmin": "Admin",
+      "authorYou": "Tu"
+    },
+    "demandeDetail": {
+      "back": "Torna alle mie richieste",
+      "notFound": "Richiesta non trovata",
+      "loadError": "Errore di caricamento",
+      "refPrefix": "DM-",
+      "sentOn": "Inviata il {{date}}",
+      "closedTitle": "Richiesta chiusa",
+      "closedText": "Nessuna nuova risposta possibile. Apri una nuova richiesta se necessario.",
+      "yourRequest": "La tua richiesta",
+      "relatedRef": "Rif. associato: {{ref}}",
+      "conversation": "Conversazione",
+      "replyTitle": "Rispondi all'admin",
+      "replyHint": "Precisa la tua richiesta o rispondi all'ultima domanda dell'amministrazione.",
+      "replyPlaceholder": "Il tuo messaggio…",
+      "send": "Invia",
+      "closedLock": "Questa richiesta è chiusa — non puoi più rispondere.",
+      "details": "Dettagli",
+      "fieldType": "Tipo",
+      "fieldPriority": "Priorità",
+      "fieldStatus": "Stato",
+      "fieldSent": "Inviata",
+      "fieldUpdated": "Aggiornata",
+      "fieldReplies": "Risposte",
+      "ctaNew": "+ Nuova richiesta",
+      "ctaNewHint": "Hai un'altra esigenza? Invia una nuova richiesta all'admin."
+    },
+    "demandeNew": {
+      "back": "Torna alle mie richieste",
+      "eyebrow": "NUOVA RICHIESTA",
+      "title": "Invia la tua richiesta all'admin",
+      "subtitle": "Descrivi precisamente la tua esigenza — riceverai una risposta in giornata.",
+      "typeLabel": "Tipo di richiesta",
+      "priorityLabel": "Priorità",
+      "subjectLabel": "Oggetto *",
+      "subjectPlaceholder": "Es. Rifornimento guanti nitrile",
+      "relatedRefLabel": "Riferimento associato — facoltativo",
+      "relatedRefPlaceholder": "Es. MI-2026-042",
+      "messageLabel": "Il tuo messaggio *",
+      "messagePlaceholder": "Descrivi la tua richiesta, contesto, urgenza…",
+      "cancel": "Annulla",
+      "submit": "Invia la richiesta",
+      "successTitle": "Richiesta inviata!",
+      "successText": "L'amministrazione riceverà la tua richiesta e ti risponderà a breve.",
+      "successViewAll": "Vedi le mie richieste",
+      "successAnother": "Fare un'altra richiesta",
+      "types": {
+        "equipment": "Materiale",
+        "leave": "Ferie",
+        "planning": "Pianificazione",
+        "incident": "Incidente",
+        "mission": "Servizio",
+        "other": "Altro"
+      },
+      "typeHints": {
+        "equipment": "Richiesta di materiale o consumabile",
+        "leave": "Assenza, ferie, indisponibilità",
+        "planning": "Conflitto, scambio di servizio",
+        "incident": "Problema sul campo",
+        "mission": "Domanda su un servizio",
+        "other": "Qualsiasi altra richiesta"
+      }
+    },
+    "parametres": {
+      "eyebrow": "CONFIGURAZIONE",
+      "title": "Impostazioni",
+      "subtitle": "Gestisci la sicurezza del tuo account e le tue preferenze.",
+      "accountBadge": "AGENTE SUL CAMPO",
+      "securityTitle": "Sicurezza",
+      "securityDesc": "Modifica la tua password per proteggere l'accesso al tuo spazio agente.",
+      "languageTitle": "Lingua e regione",
+      "languageDesc": "Cambia la lingua di visualizzazione della tua interfaccia.",
+      "managedByAdmin": "Il tuo account è gestito dall'admin —",
+      "managedByAdminText1": " contatta l'amministrazione tramite ",
+      "managedByAdminLink": "Le mie richieste",
+      "managedByAdminText2": " per qualsiasi modifica al profilo (nome, telefono, ecc.)."
+    }
+  },
+  "espace": {
+    "notifications": {
+      "aria": "Notifiche",
+      "title": "Notifiche",
+      "unreadCount": "{{count}} non lette",
+      "allRead": "Tutte lette",
+      "markAll": "Segna tutte come lette",
+      "unreadDot": "Non letta",
+      "close": "Chiudi",
+      "empty": {
+        "title": "Nessuna notifica",
+        "text": "Ti avviseremo qui non appena ci sarà attività."
+      }
+    },
+    "sidebar": {
+      "dashboard": "Cruscotto",
+      "quotes": "I miei preventivi",
+      "missions": "I miei servizi",
+      "requests": "Le mie richieste",
+      "complaints": "I miei reclami",
+      "invoices": "Le mie fatture",
+      "profile": "Il mio profilo",
+      "signOut": "Esci"
+    },
+    "dashboard": {
+      "eyebrow": "AREA CLIENTE",
+      "greeting": "Buongiorno {{name}} 👋",
+      "subtitle": "Ecco una panoramica della tua attività con Nzo Immo Clean.",
+      "newQuote": "Richiedi preventivo",
+      "viewAll": "Vedi tutto",
+      "tiles": {
+        "quotes": {
+          "label": "Preventivi in corso",
+          "cta": "Vedi i miei preventivi"
+        },
+        "missions": {
+          "label": "Servizi in arrivo",
+          "cta": "Vedi i miei servizi"
+        },
+        "invoices": {
+          "label": "Fatture da pagare",
+          "cta": "Vedi le mie fatture"
+        },
+        "complaints": {
+          "label": "Reclami aperti",
+          "cta": "Vedi i miei reclami"
+        }
+      },
+      "upcoming": {
+        "title": "Prossimi servizi",
+        "subtitle": "I tuoi interventi pianificati nei prossimi giorni.",
+        "statusScheduled": "Pianificato",
+        "empty": "Nessun servizio pianificato al momento."
+      },
+      "banner": {
+        "eyebrow": "VELOCE E GRATUITO",
+        "title": "Una nuova esigenza?",
+        "text": "Descrivi la tua richiesta e ti rispondiamo entro 24 ore con un preventivo dettagliato.",
+        "cta": "Richiedi preventivo"
+      },
+      "activity": {
+        "title": "Attività recente",
+        "last30": "Ultimi 30 giorni"
+      },
+      "quickActions": {
+        "title": "Azioni rapide",
+        "subtitle": "Accedi alle funzioni più utilizzate",
+        "items": {
+          "newQuote": "Richiedi preventivo",
+          "support": "Contatta il supporto",
+          "invoices": "Vedi le mie fatture",
+          "profile": "Aggiorna il mio profilo"
+        }
+      },
+      "notice": {
+        "title": "Area cliente in costruzione",
+        "text": "Tutti i dati mostrati sono esempi. La fase 2 del progetto collegherà la tua cronologia reale di preventivi, servizi e fatture."
+      }
+    },
+    "devis": {
+      "eyebrow": "I MIEI PREVENTIVI",
+      "title": "Monitora i tuoi preventivi",
+      "subtitle": "Tutte le tue richieste e i loro stati in tempo reale.",
+      "newCta": "Nuovo preventivo",
+      "estimate": "Stima",
+      "view": "Vedi dettaglio",
+      "empty": {
+        "title": "Nessun preventivo al momento",
+        "text": "Avvia la tua prima richiesta di preventivo — risposta entro 24 ore."
+      },
+      "statuses": {
+        "new": "Ricevuto",
+        "pending": "In attesa",
+        "reviewed": "In analisi",
+        "quoted": "Preventivato",
+        "accepted": "Accettato",
+        "rejected": "Rifiutato",
+        "cancelled": "Annullato"
+      }
+    },
+    "devisDetail": {
+      "back": "Torna ai miei preventivi",
+      "notFound": "Preventivo non trovato",
+      "requestedOn": "Richiesto il {{date}}",
+      "summary": {
+        "surface": "Superficie",
+        "frequency": "Frequenza",
+        "startDate": "Inizio desiderato",
+        "location": "Località",
+        "totalLabel": "Importo proposto",
+        "pending": "In attesa del preventivo",
+        "exclVat": "IVA esclusa",
+        "subtotal": "Subtotale",
+        "vat": "IVA ({{rate}}%)",
+        "totalTTC": "Totale IVA inclusa",
+        "validUntil": "Valido fino al {{date}}"
+      },
+      "address": {
+        "title": "Indirizzo di intervento"
+      },
+      "rooms": {
+        "title": "Ambienti coinvolti"
+      },
+      "photos": {
+        "title": "Foto allegate"
+      },
+      "includes": {
+        "title": "Cosa è incluso",
+        "subtitle": "Dettaglio del servizio proposto."
+      },
+      "notes": {
+        "title": "Le mie precisazioni"
+      },
+      "staffMessage": {
+        "title": "Messaggio del nostro team"
+      },
+      "reply": {
+        "title": "Rispondi al team",
+        "subtitle": "Poni una domanda o richiedi una modifica prima di accettare.",
+        "placeholder": "Il tuo messaggio…",
+        "send": "Invia",
+        "sent": "Messaggio inviato. Il nostro team ti risponderà a breve."
+      },
+      "actions": {
+        "accept": "Accetta il preventivo",
+        "reject": "Rifiuta",
+        "download": "Scarica il PDF",
+        "cancel": "Annulla la richiesta",
+        "acceptMock": "Preventivo accettato (simulazione). Nella fase 2, questo creerà un servizio e notificherà il team.",
+        "rejectMock": "Preventivo rifiutato (simulazione).",
+        "downloadMock": "Download PDF disponibile nella fase 2.",
+        "cancelConfirm": "Sei sicuro di voler annullare questa richiesta di preventivo?"
+      },
+      "timeline": {
+        "title": "Stato della richiesta",
+        "steps": {
+          "submitted": "Richiesta inviata",
+          "reviewed": "In analisi",
+          "quoted": "Preventivo emesso",
+          "accepted": "Preventivo accettato"
+        }
+      }
+    },
+    "missions": {
+      "eyebrow": "I MIEI SERVIZI",
+      "title": "I tuoi interventi",
+      "subtitle": "Monitoraggio dei servizi pianificati, in corso e completati.",
+      "photosCount": "{{count}} foto",
+      "empty": {
+        "title": "Nessun servizio pianificato",
+        "text": "I tuoi prossimi interventi appariranno qui una volta accettato un preventivo."
+      },
+      "statuses": {
+        "scheduled": "Pianificato",
+        "in_progress": "In corso",
+        "completed": "Completato",
+        "cancelled": "Annullato"
+      }
+    },
+    "missionDetail": {
+      "back": "Torna ai miei servizi",
+      "notFound": "Servizio non trovato",
+      "scheduledFor": "Previsto il {{date}}",
+      "completedOn": "Completato il {{date}}",
+      "summary": {
+        "date": "Data prevista",
+        "duration": "Durata stimata",
+        "surface": "Superficie",
+        "location": "Località"
+      },
+      "timeline": {
+        "title": "Stato dell'intervento",
+        "steps": {
+          "scheduled": "Pianificato",
+          "in_progress": "In corso",
+          "completed": "Completato"
+        }
+      },
+      "description": {
+        "title": "Descrizione dell'intervento"
+      },
+      "address": {
+        "title": "Indirizzo"
+      },
+      "photos": {
+        "title": "Foto prima / dopo",
+        "subtitle": "{{count}} foto scattate durante l'intervento.",
+        "kind": {
+          "before": "Prima",
+          "after": "Dopo"
+        },
+        "before": {
+          "title": "Foto prima dell'intervento",
+          "subtitle": "Scattate dal team all'arrivo sul posto."
+        },
+        "after": {
+          "title": "Foto dopo l'intervento",
+          "subtitle": "Scattate dal team alla fine del servizio."
+        },
+        "empty": {
+          "beforePending": {
+            "title": "Foto in arrivo",
+            "text": "Il team aggiungerà le foto di arrivo il giorno dell'intervento."
+          },
+          "beforeMissing": {
+            "title": "Nessuna foto prima",
+            "text": "Nessuna foto di arrivo è stata registrata per questo servizio."
+          },
+          "afterPending": {
+            "title": "Foto disponibili dopo l'intervento",
+            "text": "Le foto finali saranno pubblicate non appena il servizio sarà completato."
+          },
+          "afterMissing": {
+            "title": "Nessuna foto dopo",
+            "text": "Nessuna foto di fine intervento è stata registrata."
+          }
+        }
+      },
+      "feedback": {
+        "title": "Il tuo feedback",
+        "subtitle": "Com'è andato questo intervento?",
+        "ratingLabel": "Valutazione complessiva",
+        "starAria": "{{n}} stella su 5",
+        "notesLabel": "Commento (opzionale)",
+        "placeholder": "Condividi la tua esperienza con il team…",
+        "send": "Invia il mio feedback",
+        "sent": "Grazie per il tuo feedback! Aiuta il nostro team a migliorare."
+      },
+      "team": {
+        "title": "Team assegnato",
+        "sizeLabel": "Team di {{count}} persone"
+      },
+      "linked": {
+        "title": "Documenti collegati",
+        "quote": "Preventivo associato",
+        "invoice": "Fattura emessa"
+      },
+      "actions": {
+        "reschedule": "Rinvia il servizio",
+        "contact": "Contatta il team",
+        "cancel": "Annulla il servizio",
+        "rescheduleMock": "Richiesta di rinvio inviata al team (simulazione).",
+        "contactMock": "Un membro del team ti contatterà a breve (simulazione).",
+        "cancelMock": "Servizio annullato (simulazione).",
+        "cancelConfirm": "Sei sicuro di voler annullare questo servizio?"
+      }
+    },
+    "demandes": {
+      "eyebrow": "LE MIE RICHIESTE",
+      "title": "Richieste e scambi",
+      "subtitle": "Le tue richieste di informazioni e conversazioni con il nostro team.",
+      "newCta": "Nuova richiesta",
+      "empty": {
+        "title": "Nessuna richiesta al momento",
+        "text": "Facci una domanda, richiedi un'informazione — ti rispondiamo nella giornata."
+      },
+      "statuses": {
+        "new": "Nuova",
+        "in_review": "In analisi",
+        "replied": "Risposta inviata",
+        "closed": "Chiusa"
+      }
+    },
+    "demandeNew": {
+      "eyebrow": "NUOVA RICHIESTA",
+      "title": "Inviaci la tua richiesta",
+      "subtitle": "Descrivi cosa ti serve — il nostro team risponde entro 24 ore.",
+      "back": "Torna alla lista",
+      "cancel": "Annulla",
+      "submit": "Invia la richiesta",
+      "types": {
+        "info": "Domanda / informazione",
+        "mission": "Su un servizio",
+        "devis": "Su un preventivo",
+        "planning": "Pianificazione e appuntamenti"
+      },
+      "priorities": {
+        "low": "Bassa",
+        "normal": "Normale",
+        "high": "Urgente"
+      },
+      "fields": {
+        "type": "Tipo di richiesta",
+        "priority": "Priorità",
+        "subject": "Oggetto",
+        "subjectPlaceholder": "Es. Modifica della fascia oraria del martedì",
+        "relatedRef": "Riferimento associato — opzionale",
+        "relatedRefPlaceholder": "Es. DV-2026-042 o MI-2026-018",
+        "message": "Il tuo messaggio",
+        "messagePlaceholder": "Dettaglia la tua richiesta, contesto, vincoli…",
+        "attachments": "Allegati — opzionale",
+        "dropTitle": "Trascina i tuoi file qui",
+        "dropHint": "o clicca per sfogliare — PDF, immagini, documenti (max 5 file)"
+      },
+      "success": {
+        "title": "Richiesta inviata!",
+        "message": "Abbiamo ricevuto la tua richiesta. Il nostro team ti risponderà al più presto.",
+        "backToList": "Vedi le mie richieste",
+        "another": "Fai un'altra richiesta"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "I MIEI RECLAMI",
+      "title": "Segnala un problema",
+      "subtitle": "Monitora i reclami e il loro trattamento.",
+      "newCta": "Nuovo reclamo",
+      "empty": {
+        "title": "Nessun reclamo",
+        "text": "Tutto bene! Se riscontri un problema, puoi segnalarlo qui in qualsiasi momento."
+      }
+    },
+    "reclamationNew": {
+      "eyebrow": "NUOVO RECLAMO",
+      "title": "Segnala un problema",
+      "subtitle": "Descrivi cosa è successo — trattiamo il tuo reclamo entro 48 ore.",
+      "back": "Torna alla lista",
+      "cancel": "Annulla",
+      "submit": "Invia il reclamo",
+      "notice": {
+        "title": "Prima di inviare",
+        "text": "Più la tua descrizione è precisa (data, luogo, foto), più rapidamente potremo risolvere il tuo reclamo."
+      },
+      "consent": "Confermo che le informazioni fornite sono esatte e autorizzo il loro trattamento per risolvere il mio reclamo.",
+      "categories": {
+        "quality": "Qualità del servizio",
+        "delay": "Ritardo / pianificazione",
+        "damage": "Danno / rottura",
+        "billing": "Fatturazione",
+        "other": "Altro"
+      },
+      "severities": {
+        "low": "Minore",
+        "medium": "Moderata",
+        "high": "Critica"
+      },
+      "resolutions": {
+        "redo": "Ripetere il servizio",
+        "refund": "Rimborso",
+        "gesture": "Gesto commerciale",
+        "discuss": "Parlare con un consulente"
+      },
+      "fields": {
+        "category": "Categoria",
+        "severity": "Gravità",
+        "incidentDate": "Data dell'incidente",
+        "relatedRef": "Servizio o fattura associata — opzionale",
+        "relatedRefPlaceholder": "Es. MI-2026-058 o FA-2026-021",
+        "subject": "Oggetto",
+        "subjectPlaceholder": "Es. Vetri puliti male il 12 maggio",
+        "description": "Descrizione dettagliata",
+        "descriptionPlaceholder": "Cosa è successo? Quando? Quale impatto? Sii preciso…",
+        "resolution": "Risoluzione desiderata",
+        "attachments": "Foto / documenti — raccomandato",
+        "dropTitle": "Trascina foto o PDF qui",
+        "dropHint": "o clicca per sfogliare — JPG, PNG, PDF (max 6 file)"
+      },
+      "success": {
+        "title": "Reclamo registrato",
+        "message": "Ti ricontatteremo entro 48 ore con una risposta. Puoi seguire l'avanzamento dalla tua area cliente.",
+        "backToList": "Vedi i miei reclami",
+        "dashboard": "Torna al cruscotto"
+      }
+    },
+    "factures": {
+      "eyebrow": "LE MIE FATTURE",
+      "title": "Le tue fatture",
+      "subtitle": "Cronologia delle fatture, pagamenti e download PDF.",
+      "empty": {
+        "title": "Nessuna fattura al momento",
+        "text": "Le fatture appariranno qui non appena i nostri interventi saranno stati eseguiti."
+      },
+      "cols": {
+        "number": "N°",
+        "date": "Data",
+        "dueDate": "Scadenza",
+        "amount": "Importo",
+        "status": "Stato"
+      },
+      "statuses": {
+        "pending": "Da pagare",
+        "paid": "Pagata",
+        "overdue": "Scaduta"
+      }
+    },
+    "profil": {
+      "eyebrow": "IL MIO PROFILO",
+      "title": "Informazioni personali",
+      "subtitle": "Aggiorna i tuoi dati di contatto e preferenze.",
+      "save": "Salva",
+      "saved": "Modifiche salvate.",
+      "emailHint": "L'email non può essere modificata — contattaci se necessario.",
+      "company": "Azienda / ragione sociale"
+    }
+  },
+  "nav": {
+    "accueil": "Home",
+    "services": "Servizi",
+    "apropos": "Chi siamo",
+    "boutique": "Negozio",
+    "avis": "Recensioni",
+    "contact": "Contatti",
+    "cta": "Richiedi preventivo"
+  },
+  "services": {
+    "eyebrow": "I NOSTRI SERVIZI",
+    "sectionTitle": "Una competenza completa per tutte le vostre esigenze",
+    "sectionDescription": "Dalla pulizia regolare ai piccoli servizi durante le vostre assenze, i nostri dieci servizi coprono tutte le vostre esigenze di pulizia, manutenzione e portineria a Basilea Città e Basilea Campagna.",
+    "viewAll": "Vedi tutti i nostri servizi",
+    "discover": "Scopri",
+    "requestQuote": "Richiedi preventivo",
+    "bureaux": {
+      "title": "Pulizia uffici",
+      "description": "Manutenzione regolare degli spazi di lavoro",
+      "tagline": "Uffici impeccabili per un team motivato.",
+      "overviewTitle": "Un ambiente di lavoro che ispira",
+      "longDescription": "Ci occupiamo della manutenzione quotidiana, settimanale o mensile dei vostri locali: open space, sale riunioni, servizi igienici, cucine e zone reception. Un team formato, prodotti adeguati e un piano di servizio su misura per il vostro ritmo e budget.",
+      "includes": [
+        "Aspirazione e lavaggio dei pavimenti",
+        "Spolveratura di scrivanie e mobili",
+        "Disinfezione di bagni e cucine",
+        "Svuotamento e pulizia dei cestini",
+        "Pulizia dei vetri interni",
+        "Rifornimento di materiali di consumo (opzionale)"
+      ],
+      "audience": [
+        "PMI, startup, studi e uffici professionali",
+        "Spazi di coworking e open space",
+        "Strutture aperte al pubblico"
+      ]
+    },
+    "apresChantier": {
+      "title": "Pulizia fine cantiere",
+      "description": "Ripristino dopo lavori e ristrutturazioni",
+      "tagline": "Eliminiamo ogni traccia del cantiere.",
+      "overviewTitle": "Un ripristino accurato, pronto per la consegna",
+      "longDescription": "Dopo lavori o ristrutturazione, eliminiamo polveri sottili, residui di vernice, tracce di colla e detriti. I vostri locali tornano puliti, sani e pronti per essere abitati o utilizzati. Intervento rapido possibile con attrezzature professionali.",
+      "includes": [
+        "Spolveratura completa (pavimenti, pareti, soffitti)",
+        "Pulizia di vetri e infissi",
+        "Rimozione di etichette e residui di colla",
+        "Pulizia approfondita di bagni e cucine",
+        "Aspirazione HEPA delle polveri sottili",
+        "Smaltimento dei rifiuti di cantiere"
+      ],
+      "audience": [
+        "Costruttori e imprese generali",
+        "Architetti e direttori dei lavori",
+        "Privati a fine ristrutturazione"
+      ]
+    },
+    "facades": {
+      "title": "Pulizia facciate",
+      "description": "Restauro e manutenzione esterna",
+      "tagline": "Restituite splendore al vostro edificio.",
+      "overviewTitle": "Facciate come nuove, senza danneggiare il supporto",
+      "longDescription": "Puliamo le vostre facciate rispettando ogni materiale: pietra, intonaco, vetro, legno o metallo. Sabbiatura idro, pulizia a bassa pressione o prodotti biodegradabili — il metodo si adatta al supporto per un risultato duraturo e senza danni.",
+      "includes": [
+        "Diagnosi del supporto e scelta del metodo",
+        "Rimozione muschi e trattamento antimuschio",
+        "Pulizia ad alta o bassa pressione",
+        "Sabbiatura idro per superfici delicate",
+        "Trattamento idrorepellente (opzionale)",
+        "Ponteggio o piattaforma inclusi"
+      ],
+      "audience": [
+        "Amministratori e proprietari di immobili",
+        "Case unifamiliari e ville",
+        "Esercizi commerciali ed edifici terziari"
+      ]
+    },
+    "conciergerie": {
+      "title": "Portineria e stabili",
+      "description": "Manutenzione delle parti comuni",
+      "tagline": "Un servizio di portineria curato e affidabile.",
+      "overviewTitle": "La manutenzione regolare del vostro stabile, senza pensieri",
+      "longDescription": "Garantiamo la manutenzione completa delle parti comuni: scale, pianerottoli, atri, ascensori, locali rifiuti e aree esterne. Presenza regolare, interlocutore dedicato e reportistica trasparente per l'amministratore o il condominio. Avete già un fornitore per le scale? Ci occupiamo anche solo del garage o dell'area che ci affidate.",
+      "includes": [
+        "Pulizia settimanale o quindicinale",
+        "Uscita e rientro dei contenitori",
+        "Pulizia dei vetri di atrio ed entrate",
+        "Manutenzione dei locali rifiuti",
+        "Piccoli lavori di manutenzione (opzionale)",
+        "Reportistica digitale per l'amministratore"
+      ],
+      "audience": [
+        "Amministrazioni immobiliari",
+        "Proprietari di immobili",
+        "Condomini e PPE"
+      ]
+    },
+    "garages": {
+      "title": "Pulizia garage e parcheggi",
+      "description": "Grandi garage e parcheggi collettivi",
+      "tagline": "Il grande garage pulito, anche senza il contratto delle scale.",
+      "overviewTitle": "La specialità che i piccoli fornitori non coprono",
+      "longDescription": "La pulizia di un grande garage sotterraneo richiede attrezzature professionali — lavasciuga, monospazzola, aspiraliquidi industriale — che la maggior parte dei fornitori delle parti comuni non ha. Interveniamo sul vostro parcheggio anche se le scale del palazzo sono affidate ad altri: contratto separato, pianificazione flessibile e risultato impeccabile.",
+      "includes": [
+        "Sgrassaggio e lavaggio dei pavimenti in cemento",
+        "Passaggio con lavasciuga e monospazzola",
+        "Aspirazione delle polveri fini",
+        "Trattamento macchie di olio e idrocarburi",
+        "Pulizia di segnaletica, box e corsie",
+        "Spolveratura di canaline e tubazioni basse"
+      ],
+      "audience": [
+        "Amministratori e sindaci di condominio",
+        "Condomini con parcheggio sotterraneo",
+        "Palazzi con le scale già gestite"
+      ]
+    },
+    "photovoltaique": {
+      "title": "Pulizia di pannelli fotovoltaici",
+      "description": "Pannelli solari e tetti produttivi",
+      "tagline": "Rendimento solare ottimale, pulizia senza rischi.",
+      "overviewTitle": "Pannelli puliti: fino al 25% di resa in più",
+      "longDescription": "Polveri, polline, escrementi e inquinamento riducono la produzione dei vostri pannelli fotovoltaici. Li puliamo con acqua demineralizzata e spazzole adatte — senza prodotti chimici aggressivi, senza graffiare il vetro e senza compromettere le garanzie del costruttore. Intervento in sicurezza in copertura con imbrago o piattaforma, e report fotografico prima/dopo.",
+      "includes": [
+        "Pulizia con acqua pura demineralizzata",
+        "Spazzole rotanti morbide adatte al vetro",
+        "Ispezione visiva di connettori e fissaggi",
+        "Sicurezza in copertura (imbrago, linea vita, piattaforma)",
+        "Report fotografico prima/dopo",
+        "Frequenza consigliata: 1-2 volte l'anno"
+      ],
+      "audience": [
+        "Proprietari di ville con impianto FV",
+        "Amministrazioni e condomini con tetti produttivi",
+        "Aziende e gestori di centrali FV"
+      ]
+    },
+    "arrosage": {
+      "title": "Annaffiatura delle piante",
+      "description": "Annaffiatura regolare e durante le vostre assenze",
+      "tagline": "Le vostre piante curate come se foste a casa.",
+      "overviewTitle": "Un servizio di annaffiatura pensato per ogni momento",
+      "longDescription": "Che siate in vacanza, in trasferta di lavoro o vogliate semplicemente delegare, annaffiamo le vostre piante da interno ed esterno con la frequenza adeguata. Balconi, terrazze, appartamenti, atri di stabili o aree verdi condivise: ogni pianta riceve la giusta quantità d'acqua e un controllo visivo ad ogni passaggio.",
+      "includes": [
+        "Annaffiatura con frequenza adeguata a ogni pianta",
+        "Controllo visivo dello stato delle piante",
+        "Segnalazione di anomalie (foglie gialle, parassiti, disidratazione)",
+        "Passaggi regolari o occasionali secondo le vostre esigenze",
+        "Piante da interno, balconi, terrazze e giardini",
+        "Aree verdi comuni degli stabili (opzionale)"
+      ],
+      "audience": [
+        "Privati in vacanza o in trasferta",
+        "Condomini con piante nelle parti comuni",
+        "Inquilini e proprietari che vogliono delegare"
+      ]
+    },
+    "animaux": {
+      "title": "Cura di gatti e piccoli animali",
+      "description": "Alimentazione e visite a domicilio durante le vostre assenze",
+      "tagline": "Partite tranquilli: veniamo da voi, il vostro animale resta a casa.",
+      "overviewTitle": "Visite a domicilio, esclusivamente all'interno",
+      "longDescription": "Partite per qualche giorno? Passiamo a casa vostra una o due volte al giorno per nutrire il vostro gatto o piccolo animale (coniglio, porcellino d'India, uccelli, pesci…), cambiare l'acqua e verificare che tutto vada bene. Il servizio si svolge esclusivamente all'interno della vostra abitazione: nessuna passeggiata all'esterno e nessuna pensione o alloggio presso Nzo Immo Clean — il vostro animale resta nel suo ambiente abituale.",
+      "includes": [
+        "1 o 2 visite a domicilio al giorno secondo le vostre esigenze",
+        "Riempimento della ciotola con il vostro cibo",
+        "Cambio dell'acqua fresca",
+        "Controllo visivo del benessere dell'animale",
+        "Report fotografico ad ogni visita (opzionale)",
+        "Allerta immediata in caso di anomalia"
+      ],
+      "audience": [
+        "Proprietari di gatti in assenze brevi",
+        "Proprietari di piccoli animali (conigli, porcellini d'India, uccelli, pesci…)",
+        "Persone ricoverate o in trasferta professionale"
+      ]
+    },
+    "jardins": {
+      "title": "Manutenzione giardini",
+      "description": "Sfalcio, potatura e cura del verde",
+      "tagline": "Spazi verdi curati tutto l'anno.",
+      "overviewTitle": "Un giardino curato, pensato per durare",
+      "longDescription": "Dallo sfalcio alla potatura passando per il diserbo, curiamo i vostri spazi verdi al ritmo delle stagioni. Pacchetti annuali o interventi puntuali, con un team attrezzato e rispettoso della biodiversità.",
+      "includes": [
+        "Sfalcio e rifiniture del prato",
+        "Potatura di siepi e arbusti",
+        "Diserbo e manutenzione delle aiuole",
+        "Smaltimento degli scarti verdi",
+        "Soffiatura delle foglie in autunno",
+        "Piantagioni e consigli (opzionale)"
+      ],
+      "audience": [
+        "Privati e ville",
+        "Condomini con spazi verdi",
+        "Aziende e siti terziari"
+      ]
+    },
+    "debarras": {
+      "title": "Sgomberi",
+      "description": "Evacuazione e cernita degli ingombri",
+      "tagline": "Svuotiamo, selezioniamo, ricicliamo.",
+      "overviewTitle": "Uno sgombero pulito, rapido e responsabile",
+      "longDescription": "Cantina, soffitta, appartamento o uffici: svuotiamo gli ingombri selezionando ciò che può essere riciclato, donato o rivenduto. Preventivo trasparente, intervento rapido e isola ecologica inclusa — paghi un solo fornitore.",
+      "includes": [
+        "Sopralluogo preliminare e preventivo gratuito",
+        "Cernita in loco (riciclo, donazioni, rifiuti)",
+        "Smontaggio e movimentazione",
+        "Conferimento in centro di raccolta autorizzato",
+        "Pulizia finale del locale sgomberato",
+        "Certificato di distruzione (opzionale)"
+      ],
+      "audience": [
+        "Eredità e traslochi",
+        "Amministrazioni e proprietari",
+        "Aziende in riassetto"
+      ]
+    }
+  },
+  "hero": {
+    "highlight": "Pulizia professionale",
+    "title": "per privati, aziende e professionisti del settore immobiliare",
+    "description": "Un team qualificato sul campo e servizi su misura: uffici, fine cantiere, facciate, portineria, garage, pannelli solari, annaffiatura piante, cura di gatti e piccoli animali, giardini e sgomberi. Preventivo gratuito in meno di 24 ore.",
+    "ctaPrimary": "Richiedi un preventivo gratuito",
+    "ctaSecondary": "Scopri i nostri servizi",
+    "founded": "GmbH di nuova fondazione a Basilea",
+    "foundedCity": "Basilea",
+    "foundedShort": "GmbH di nuova fondazione"
+  },
+  "features": {
+    "equipeTitle": "Team qualificato",
+    "equipeText": "Personale formato, dichiarato e assicurato",
+    "prestationsTitle": "10 servizi chiave",
+    "prestationsText": "Una soluzione per ogni esigenza",
+    "ecoTitle": "Prodotti ecologici",
+    "ecoText": "Rispettosi dell'ambiente",
+    "devisTitle": "Preventivo 100% gratuito",
+    "devisText": "Risposta entro 24 ore"
+  },
+  "process": {
+    "eyebrow": "COME FUNZIONA",
+    "sectionTitle": "Un processo semplice in 6 passi",
+    "sectionDescription": "Dalla prima richiesta al controllo qualità, ogni fase è pensata per garantirvi un intervento efficace e sereno.",
+    "steps": {
+      "devis": {
+        "title": "Richiesta di preventivo",
+        "description": "Ci comunica la sua esigenza tramite il modulo, per telefono o WhatsApp."
+      },
+      "analyse": {
+        "title": "Analisi delle esigenze",
+        "description": "Sopralluogo o confronto dettagliato per capire con precisione le sue aspettative."
+      },
+      "validation": {
+        "title": "Conferma e acconto",
+        "description": "Preventivo personalizzato, conferma contrattuale e versamento dell'acconto."
+      },
+      "planification": {
+        "title": "Pianificazione",
+        "description": "Data dell'intervento, durata stimata e assegnazione del team dedicato."
+      },
+      "intervention": {
+        "title": "Intervento",
+        "description": "Il nostro team interviene con professionalità e attrezzature adeguate."
+      },
+      "controle": {
+        "title": "Controllo qualità",
+        "description": "Verifica finale congiunta e garanzia di soddisfazione."
+      }
+    }
+  },
+  "beforeAfter": {
+    "eyebrow": "PRIMA / DOPO",
+    "sectionTitle": "La differenza si vede subito",
+    "sectionDescription": "Trascini il cursore per scoprire la trasformazione dopo il nostro intervento. Risultati nitidi, misurabili e senza sorprese.",
+    "before": "Prima",
+    "after": "Dopo",
+    "hint": "Trascini il cursore per confrontare",
+    "ariaLabel": "Comparatore prima / dopo"
+  },
+  "footer": {
+    "tagline": "Azienda svizzera specializzata in pulizia e servizi immobiliari — per privati, aziende e professionisti del settore.",
+    "followUs": "Seguici",
+    "servicesTitle": "Servizi",
+    "usefulTitle": "Link utili",
+    "contactTitle": "Contatti",
+    "useful": {
+      "devis": "Richiedi preventivo",
+      "espace": "Area cliente"
+    },
+    "copyright": "© {{year}} Nzo Immo Clean. Tutti i diritti riservati.",
+    "legal": {
+      "mentions": "Note legali",
+      "privacy": "Privacy policy",
+      "cgv": "Termini",
+      "cookies": "Cookie"
+    }
+  },
+  "legal": {
+    "backHome": "Torna alla home",
+    "contactBox": {
+      "title": "Una domanda su queste condizioni?",
+      "text": "Il nostro team è a vostra disposizione per qualsiasi chiarimento.",
+      "cta": "Contattateci →"
+    },
+    "mentions": {
+      "eyebrow": "INFORMAZIONI LEGALI",
+      "title": "Note legali",
+      "lastUpdate": "Ultimo aggiornamento: 17 maggio 2026",
+      "intro": "Le presenti note legali si applicano al sito www.nzoimmoclean.ch e precisano l'identità dell'editore nonché le condizioni di utilizzo.",
+      "sections": [
+        {
+          "title": "Editore del sito",
+          "body": [
+            "Nzo Immo Clean — Azienda di pulizia professionale con sede in Svizzera.",
+            "Indirizzo: Gellertpark 6, 4052 Basilea, Svizzera.",
+            "Telefono: +41 79 936 21 73 — Email: info@nzoimmoclean.ch."
+          ]
+        },
+        {
+          "title": "Direttore della pubblicazione",
+          "body": "Il responsabile della pubblicazione è il rappresentante legale di Nzo Immo Clean."
+        },
+        {
+          "title": "Hosting",
+          "body": "Il sito è ospitato da un fornitore di hosting web situato in Europa. I dati del fornitore di hosting sono disponibili su richiesta a info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Proprietà intellettuale",
+          "body": "L'insieme dei contenuti presenti sul sito (testi, immagini, loghi, video, identità grafica) è protetto dal diritto d'autore e resta proprietà esclusiva di Nzo Immo Clean. È vietata qualsiasi riproduzione, rappresentazione, modifica o sfruttamento non autorizzato."
+        },
+        {
+          "title": "Responsabilità",
+          "body": "Nzo Immo Clean fa tutto il possibile per garantire l'esattezza delle informazioni diffuse ma non può essere ritenuta responsabile di errori, omissioni o interruzioni del servizio. L'utente riconosce di utilizzare il sito sotto la propria responsabilità."
+        },
+        {
+          "title": "Link esterni",
+          "body": "Il sito può contenere link a siti di terzi. Nzo Immo Clean non esercita alcun controllo su tali siti e declina ogni responsabilità sui loro contenuti."
+        },
+        {
+          "title": "Diritto applicabile",
+          "body": "Le presenti note legali sono regolate dal diritto svizzero. Qualsiasi controversia relativa all'uso del sito sarà di competenza esclusiva dei tribunali del cantone di Ginevra."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "DATI PERSONALI",
+      "title": "Informativa sulla privacy",
+      "lastUpdate": "Ultimo aggiornamento: 17 maggio 2026",
+      "intro": "Nzo Immo Clean si impegna a proteggere la privacy dei suoi utenti e a trattare i loro dati personali con trasparenza, in conformità con la Legge federale svizzera sulla protezione dei dati (LPD) e con il GDPR ove applicabile.",
+      "sections": [
+        {
+          "title": "Titolare del trattamento",
+          "body": "Nzo Immo Clean, Gellertpark 6, 4052 Basilea — info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Dati raccolti",
+          "body": "Raccogliamo solo i dati necessari alla fornitura dei nostri servizi:",
+          "list": [
+            "Identità: nome, cognome, ragione sociale",
+            "Contatto: indirizzo email, telefono, indirizzo postale",
+            "Dati del servizio: indirizzo di intervento, superficie, frequenza, note",
+            "Dati tecnici: indirizzo IP, tipo di browser, pagine visitate"
+          ]
+        },
+        {
+          "title": "Finalità del trattamento",
+          "body": "I vostri dati vengono utilizzati per rispondere alle vostre richieste di preventivo, pianificare e fatturare i servizi, inviarvi informazioni contrattuali e migliorare i nostri servizi."
+        },
+        {
+          "title": "Base giuridica",
+          "body": "Il trattamento si basa sull'esecuzione del contratto, sul rispetto di obblighi legali (in particolare contabili), sul vostro consenso (newsletter, cookie non essenziali) e sul nostro legittimo interesse a migliorare l'esperienza utente."
+        },
+        {
+          "title": "Periodo di conservazione",
+          "body": "I dati dei clienti vengono conservati per la durata del rapporto contrattuale e per 10 anni successivi, conformemente agli obblighi contabili svizzeri. I dati dei potenziali clienti vengono cancellati dopo 3 anni di inattività."
+        },
+        {
+          "title": "Destinatari",
+          "body": "I vostri dati non vengono mai venduti. Possono essere trasmessi ai nostri subappaltatori tecnici (hosting, fornitore email) che si impegnano contrattualmente a proteggerli, o alle autorità competenti in caso di obbligo legale."
+        },
+        {
+          "title": "I vostri diritti",
+          "body": "Conformemente alla legislazione applicabile, disponete dei seguenti diritti:",
+          "list": [
+            "Diritto di accesso, rettifica e cancellazione",
+            "Diritto di limitazione e opposizione al trattamento",
+            "Diritto alla portabilità dei vostri dati",
+            "Diritto di revocare il consenso in qualsiasi momento"
+          ]
+        },
+        {
+          "title": "Esercitare i vostri diritti",
+          "body": "Per esercitare i vostri diritti, scriveteci a info@nzoimmoclean.ch. Rispondiamo entro 30 giorni. In caso di disaccordo, potete rivolgervi all'Incaricato federale della protezione dei dati e della trasparenza (IFPDT)."
+        },
+        {
+          "title": "Sicurezza",
+          "body": "Adottiamo misure tecniche e organizzative adeguate per proteggere i vostri dati: crittografia HTTPS, controllo degli accessi, backup regolari e formazione del personale."
+        }
+      ]
+    },
+    "cgv": {
+      "eyebrow": "CONDIZIONI GENERALI",
+      "title": "Condizioni generali di vendita",
+      "lastUpdate": "Ultimo aggiornamento: 17 maggio 2026",
+      "intro": "Le presenti Condizioni Generali di Vendita (CGV) regolano i rapporti contrattuali tra Nzo Immo Clean e i suoi clienti, privati o professionali.",
+      "sections": [
+        {
+          "title": "1. Oggetto",
+          "body": "Le CGV si applicano a tutti i servizi di pulizia, portineria e servizi associati offerti da Nzo Immo Clean. Qualsiasi ordine implica l'accettazione senza riserve delle presenti condizioni."
+        },
+        {
+          "title": "2. Preventivo e ordine",
+          "body": "Ogni servizio è oggetto di un preventivo personalizzato, valido per 30 giorni. L'ordine è confermato con la firma del preventivo e l'eventuale versamento di un acconto."
+        },
+        {
+          "title": "3. Prezzi e fatturazione",
+          "body": "I prezzi sono espressi in franchi svizzeri (CHF), IVA svizzera dell'8,1% inclusa per i servizi soggetti a IVA. Le fatture vengono emesse al termine del servizio e sono pagabili entro 30 giorni."
+        },
+        {
+          "title": "4. Modalità di pagamento",
+          "body": "Sono accettati i pagamenti tramite bonifico bancario, TWINT o carta di credito. Qualsiasi ritardo nel pagamento comporta di diritto l'applicazione di interessi di mora al tasso legale svizzero."
+        },
+        {
+          "title": "5. Esecuzione dei servizi",
+          "body": "Nzo Immo Clean si impegna a eseguire i servizi con professionalità ed entro i termini concordati. Il cliente si impegna a fornire gli accessi e le condizioni necessarie alla corretta esecuzione del servizio."
+        },
+        {
+          "title": "6. Annullamento e rinvio",
+          "body": "Qualsiasi annullamento deve essere notificato almeno 48 ore prima dell'intervento previsto. In caso contrario, potrà essere fatturato il 50% dell'importo del servizio."
+        },
+        {
+          "title": "7. Responsabilità",
+          "body": "Nzo Immo Clean è coperta da un'assicurazione di responsabilità civile professionale. Qualsiasi reclamo deve essere formulato per iscritto entro 7 giorni dall'intervento."
+        },
+        {
+          "title": "8. Forza maggiore",
+          "body": "Nessuna delle parti potrà essere ritenuta responsabile in caso di evento di forza maggiore che renda impossibile l'esecuzione dei servizi."
+        },
+        {
+          "title": "9. Diritto applicabile e giurisdizione",
+          "body": "Le presenti CGV sono regolate dal diritto svizzero. Qualsiasi controversia sarà sottoposta alla competenza esclusiva dei tribunali del cantone di Ginevra."
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "GESTIONE DEI COOKIE",
+      "title": "Politica sui cookie",
+      "lastUpdate": "Ultimo aggiornamento: 17 maggio 2026",
+      "intro": "Il sito www.nzoimmoclean.ch utilizza cookie per garantire il suo corretto funzionamento, misurare l'audience e migliorare la vostra esperienza.",
+      "sections": [
+        {
+          "title": "Cos'è un cookie?",
+          "body": "Un cookie è un piccolo file di testo depositato sul vostro dispositivo (computer, tablet, smartphone) durante la visita di un sito web. Permette di memorizzare informazioni sulla vostra navigazione."
+        },
+        {
+          "title": "Cookie essenziali",
+          "body": "Questi cookie sono strettamente necessari al funzionamento del sito e non possono essere disattivati:",
+          "list": [
+            "Preferenze di lingua (i18nextLng)",
+            "Carrello (nzo-cart)",
+            "Sessione di accesso all'area cliente"
+          ]
+        },
+        {
+          "title": "Cookie di misurazione dell'audience",
+          "body": "Previo vostro consenso, utilizziamo strumenti di analisi per comprendere l'uso del sito e migliorarlo. Questi cookie raccolgono dati aggregati e anonimi."
+        },
+        {
+          "title": "Cookie di terze parti",
+          "body": "Alcuni servizi integrati (mappe, video) possono depositare i propri cookie. Sono soggetti alle politiche dei rispettivi editori."
+        },
+        {
+          "title": "Gestire le vostre preferenze",
+          "body": "Potete configurare in qualsiasi momento il vostro browser per bloccare o eliminare i cookie. Tenete presente che la disattivazione dei cookie essenziali può alterare il funzionamento del sito."
+        },
+        {
+          "title": "Periodo di conservazione",
+          "body": "I cookie vengono conservati per un periodo massimo di 13 mesi. Successivamente, è nuovamente richiesto il vostro consenso."
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "eyebrow": "ZONE DI INTERVENTO",
+    "title": "Esclusivamente Basilea Città e Basilea Campagna",
+    "description": "I nostri servizi sono strettamente limitati ai cantoni di Basilea Città (BS) e Basilea Campagna (BL). Non interveniamo al di fuori di questi due cantoni.",
+    "cityBasel": "Basilea",
+    "locator": "Svizzera nord-occidentale"
+  },
+  "homeEspace": {
+    "eyebrow": "TECNOLOGIA E MONITORAGGIO",
+    "title": "Un'area cliente pensata per voi",
+    "description": "Monitorate i vostri servizi, ricevete rapporti e foto in tempo reale. Uno strumento professionale per privati, aziende e professionisti del settore immobiliare.",
+    "features": {
+      "realtime": "Monitoraggio dei servizi in tempo reale",
+      "notifications": "Notifiche istantanee",
+      "photos": "Foto prima/dopo automatiche",
+      "documents": "Preventivi, fatture e rapporti centralizzati"
+    },
+    "cta": "Accedi alla mia area",
+    "dashboard": {
+      "title": "I miei servizi",
+      "activeBadge": "3 attivi"
+    },
+    "status": {
+      "inProgress": "In corso",
+      "planned": "Pianificato",
+      "done": "Completato"
+    },
+    "missions": {
+      "bureaux": {
+        "title": "Pulizia uffici",
+        "city": "Basilea"
+      },
+      "facades": {
+        "title": "Facciate",
+        "city": "Liestal"
+      },
+      "conciergerie": {
+        "title": "Portineria",
+        "city": "Riehen"
+      }
+    },
+    "kpi": {
+      "label": "Questo mese",
+      "value": "12 servizi"
+    },
+    "notification": {
+      "title": "Rapporto disponibile",
+      "time": "2 minuti fa"
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Disponibili ora",
+    "title": "Hai bisogno di una pulizia professionale a Basilea?",
+    "description": "Preventivo gratuito in meno di 24 ore. Il nostro team è a tua disposizione per rispondere a tutte le tue domande.",
+    "ctaPrimary": "Richiedi preventivo",
+    "trust": {
+      "response": {
+        "value": "24h",
+        "label": "Risposta garantita"
+      },
+      "rating": {
+        "label": "Recensioni clienti"
+      },
+      "guarantee": {
+        "value": "100%",
+        "label": "Soddisfatti o rifatto"
+      }
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "I NOSTRI SERVIZI",
+    "title": "Una competenza completa per tutte le vostre esigenze",
+    "description": "Sei servizi chiave per privati, aziende e professionisti del settore immobiliare — agenzie, amministratori e gestori. Esclusivamente nei cantoni di Basilea Città e Basilea Campagna."
+  },
+  "serviceDetail": {
+    "notFound": "Servizio non trovato",
+    "backToServices": "Vedi tutti i nostri servizi",
+    "requestQuote": "Richiedi preventivo",
+    "contactUs": "Contattaci",
+    "overviewEyebrow": "SERVIZIO",
+    "audienceTitle": "Per chi?",
+    "includesTitle": "Cosa è incluso",
+    "includesSubtitle": "Un servizio completo, senza sorprese.",
+    "relatedEyebrow": "ALTRI SERVIZI",
+    "relatedTitle": "Potreste aver bisogno anche di…"
+  },
+  "about": {
+    "eyebrow": "CHI SIAMO",
+    "title": "Nzo Immo Clean, la competenza svizzera nella pulizia e nei servizi immobiliari",
+    "subtitle": "Azienda svizzera specializzata in servizi di pulizia e servizi immobiliari — per privati, aziende e professionisti del settore immobiliare (agenzie, amministratori, gestori).",
+    "story": {
+      "p1": "Nzo Immo Clean GmbH è stata fondata a febbraio 2026 a Basilea. Interveniamo esclusivamente nei cantoni di Basilea Città e Basilea Campagna. Dalla pulizia regolare degli uffici al ripristino dopo cantiere, passando per la portineria degli immobili e la manutenzione esterna, ogni servizio è gestito con lo stesso rigore — dal primo preventivo al controllo qualità finale.",
+      "p2": "La nostra clientela — privati, aziende, agenzie immobiliari, amministratori e gestori — si aspetta un'esecuzione impeccabile e un interlocutore reattivo. Fin dall'inizio abbiamo puntato sugli strumenti digitali: monitoraggio in tempo reale, rapporti fotografici automatici, area cliente dedicata. La qualità sul campo unita alla trasparenza del digitale.",
+      "title": "Una GmbH basilese, fondata a febbraio 2026",
+      "badge": {
+        "label": "Zona di intervento",
+        "value": "BS · BL"
+      }
+    },
+    "cta": "Scopri i nostri servizi",
+    "heroBadge": {
+      "label": "GmbH fondata a febbraio",
+      "value": "2026"
+    },
+    "values": {
+      "eyebrow": "I NOSTRI VALORI",
+      "title": "Quattro principi che guidano i nostri servizi",
+      "subtitle": "Non sono slogan, sono le regole che strutturano la nostra quotidianità.",
+      "items": {
+        "quality": {
+          "title": "Qualità senza compromessi",
+          "description": "Un'esigenza sostenuta da team formati e un controllo sistematico a ogni intervento."
+        },
+        "trust": {
+          "title": "Rapporto di fiducia",
+          "description": "Un interlocutore dedicato, comunicazione chiara e impegni sempre mantenuti."
+        },
+        "eco": {
+          "title": "Impegno ecologico",
+          "description": "Prodotti biodegradabili, dosaggio controllato e raccolta differenziata sistematica in tutti i nostri cantieri."
+        },
+        "reliability": {
+          "title": "Affidabilità operativa",
+          "description": "Personale dichiarato, assicurazioni complete e tempi rispettati — è la base del mestiere."
+        }
+      }
+    },
+    "stats": {
+      "founded": {
+        "value": "2026",
+        "label": "GmbH fondata a febbraio"
+      },
+      "seat": {
+        "value": "Basilea",
+        "label": "Sede sociale"
+      },
+      "cantons": {
+        "value": "BS · BL",
+        "label": "Cantoni serviti"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Risposta alle richieste"
+      }
+    },
+    "coverage": {
+      "eyebrow": "ZONE DI INTERVENTO",
+      "cta": "Verifica la mia zona",
+      "title": "Strettamente Basilea Città e Basilea Campagna",
+      "subtitle": "I nostri servizi sono strettamente limitati ai cantoni di Basilea Città e Basilea Campagna. Gli indirizzi situati al di fuori di questi due cantoni non possono essere serviti.",
+      "regions": {
+        "bs": {
+          "name": "Basilea Città (BS)",
+          "cities": "Basilea · Riehen · Bettingen"
+        },
+        "bl": {
+          "name": "Basilea Campagna (BL)",
+          "cities": "Liestal · Allschwil · Binningen · Muttenz · Pratteln · Reinach · Münchenstein · Sissach · Laufen"
+        }
+      }
+    },
+    "heroChips": {
+      "swiss": "Società svizzera",
+      "certified": "Personale dichiarato e assicurato",
+      "since": "Fondata a febbraio 2026"
+    }
+  },
+  "signup": {
+    "eyebrow": "REGISTRAZIONE",
+    "title": "Crea la tua area cliente",
+    "subtitle": "Apertura account in 1 minuto. Nessun impegno.",
+    "back": "Torna al sito",
+    "accountTypeTitle": "Sei?",
+    "accountTypes": {
+      "particulier": "Privato",
+      "entreprise": "Azienda",
+      "proImmo": "Pro immobiliare",
+      "association": "Associazione"
+    },
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Email",
+      "emailPlaceholder": "tu@esempio.ch",
+      "password": "Password",
+      "passwordPlaceholder": "Min. 8 caratteri"
+    },
+    "strength": {
+      "hint": "Forza",
+      "weak": "Debole",
+      "fair": "Media",
+      "good": "Buona",
+      "strong": "Forte"
+    },
+    "consent": "Accetto le condizioni generali e l'informativa sulla privacy.",
+    "newsletter": "Desidero ricevere le novità e le offerte di Nzo Immo Clean.",
+    "submit": "Crea il mio account",
+    "showPwd": "Mostra la password",
+    "hidePwd": "Nascondi la password",
+    "haveAccount": "Hai già un account?",
+    "login": "Accedi",
+    "demoNotice": "Area in costruzione — sarà attivata nella fase 2 del progetto.",
+    "brand": {
+      "eyebrow": "BENVENUTO",
+      "title": "Unisciti ai nostri clienti che gestiscono i loro servizi online.",
+      "subtitle": "Un'area pensata per privati, aziende e professionisti del settore immobiliare.",
+      "features": {
+        "quickSetup": {
+          "title": "Registrazione in 1 minuto",
+          "hint": "Email o Google — nessuna carta richiesta"
+        },
+        "secure": {
+          "title": "Dati protetti",
+          "hint": "Hosting svizzero e crittografia SSL"
+        },
+        "firstQuote": {
+          "title": "Primo preventivo gratuito",
+          "hint": "Risposta entro 24h, senza impegno"
+        }
+      },
+      "bonus": {
+        "title": "Offerta di benvenuto",
+        "hint": "−10% sul tuo primo servizio"
+      }
+    }
+  },
+  "login": {
+    "eyebrow": "AREA CLIENTE",
+    "title": "Bentornato",
+    "subtitle": "Accedi per monitorare i tuoi servizi e accedere ai tuoi documenti.",
+    "back": "Torna al sito",
+    "fields": {
+      "email": "Email",
+      "emailPlaceholder": "tu@esempio.ch",
+      "password": "Password",
+      "passwordPlaceholder": "La tua password"
+    },
+    "remember": "Resta connesso",
+    "forgot": "Password dimenticata?",
+    "submit": "Accedi",
+    "showPwd": "Mostra la password",
+    "hidePwd": "Nascondi la password",
+    "noAccount": "Non hai ancora un account?",
+    "signup": "Crea un account",
+    "brand": {
+      "eyebrow": "LA TUA AREA",
+      "title": "Monitora i tuoi servizi in tempo reale, ovunque tu sia.",
+      "subtitle": "Un cruscotto pensato per privati, aziende e professionisti del settore immobiliare.",
+      "features": {
+        "tracking": "Monitoraggio degli interventi in diretta",
+        "reports": "Rapporti fotografici prima / dopo automatici",
+        "documents": "Preventivi, fatture e cronologia centralizzati"
+      },
+      "testimonial": {
+        "text": "L'area cliente è un vero plus. Vediamo esattamente cosa è stato fatto, manteniamo tutti i nostri rapporti nello stesso posto. Basta inseguire scartoffie.",
+        "author": "Sophie M., CFO — studio legale"
+      }
+    }
+  },
+  "reviews": {
+    "eyebrow": "RECENSIONI CLIENTI",
+    "title": "Cosa dicono i nostri clienti",
+    "subtitle": "Ogni recensione è lasciata da un cliente dopo un intervento eseguito. La fiducia si costruisce, intervento dopo intervento.",
+    "verified": "Recensione verificata",
+    "filterByService": "Filtra per servizio",
+    "filterByRating": "Filtra per valutazione",
+    "allServices": "Tutti",
+    "sort": "Ordina",
+    "ratings": {
+      "3": "★ 3 stelle e +",
+      "4": "★ 4 stelle e +",
+      "5": "★ 5 stelle",
+      "all": "Tutte le valutazioni"
+    },
+    "sortOptions": {
+      "newest": "Più recenti",
+      "oldest": "Più vecchie",
+      "ratingDesc": "Migliori valutazioni",
+      "ratingAsc": "Valutazioni basse prima"
+    },
+    "resultsCount": "{{count}} recensioni mostrate",
+    "resetFilters": "Reimposta",
+    "loadMore": "Carica altre recensioni",
+    "source": {
+      "google": "Google",
+      "direct": "Testimonianza diretta"
+    },
+    "stats": {
+      "rating": {
+        "label": "Valutazione media"
+      },
+      "experience": {
+        "value": "2026",
+        "label": "GmbH fondata a febbraio"
+      }
+    },
+    "noResults": {
+      "title": "Nessuna recensione corrispondente",
+      "text": "Prova ad ampliare i tuoi criteri di ricerca."
+    },
+    "callout": {
+      "eyebrow": "SEI UN CLIENTE?",
+      "title": "Condividi la tua esperienza",
+      "text": "Il tuo feedback ci aiuta a migliorare e accompagna i futuri clienti nella loro scelta. Bastano pochi minuti.",
+      "googleCta": "Lascia una recensione Google",
+      "directCta": "Testimonia direttamente"
+    },
+    "empty": {
+      "text": "La nostra GmbH è stata appena fondata a Basilea. Le prime recensioni dei nostri clienti saranno pubblicate qui dopo i loro interventi."
+    }
+  },
+  "shop": {
+    "eyebrow": "NEGOZIO ONLINE",
+    "title": "I nostri prodotti per la pulizia",
+    "subtitle": "Selezione professionale per curare i vostri spazi ogni giorno — ecologica ed efficace.",
+    "trust": {
+      "delivery": {
+        "title": "Spedizione rapida",
+        "hint": "In Svizzera entro 48h"
+      },
+      "eco": {
+        "title": "Prodotti ecologici",
+        "hint": "Biodegradabili e certificati"
+      },
+      "returns": {
+        "title": "Resi 14 giorni",
+        "hint": "Soddisfatti o rimborsati"
+      }
+    },
+    "searchPlaceholder": "Cerca un prodotto…",
+    "clear": "Cancella",
+    "sort": "Ordina",
+    "sortOptions": {
+      "featured": "In evidenza",
+      "priceAsc": "Prezzo crescente",
+      "priceDesc": "Prezzo decrescente",
+      "rating": "Migliori valutazioni",
+      "newest": "Novità"
+    },
+    "categories": {
+      "all": "Tutti",
+      "surfaces": "Superfici",
+      "bathroom": "Bagno",
+      "kitchen": "Cucina",
+      "laundry": "Bucato",
+      "disinfection": "Disinfezione",
+      "accessories": "Accessori"
+    },
+    "resultsCount": "{{count}} prodotto/i",
+    "resetFilters": "Reimposta",
+    "noResults": {
+      "title": "Nessun prodotto trovato",
+      "text": "Prova ad ampliare i tuoi criteri di ricerca."
+    },
+    "badge": {
+      "promo": "Promo",
+      "new": "Novità",
+      "bestseller": "Più venduto"
+    },
+    "outOfStock": "Esaurito",
+    "inStock": "{{count}} disponibili",
+    "reviews": "recensioni",
+    "addToCart": "Aggiungi al carrello",
+    "buyNow": "Acquista ora",
+    "guarantees": {
+      "delivery": "Spedizione in 48h",
+      "eco": "Prodotti ecologici",
+      "returns": "Resi entro 14 giorni",
+      "secure": "Pagamento sicuro"
+    },
+    "cart": {
+      "title": "Il mio carrello",
+      "close": "Chiudi",
+      "itemCount": "{{count}} prodotto/i",
+      "emptyTitle": "Il tuo carrello è vuoto",
+      "emptyText": "Scopri i nostri prodotti e inizia i tuoi acquisti.",
+      "browse": "Vai al negozio",
+      "remove": "Rimuovi",
+      "subtotal": "Subtotale",
+      "total": "Totale",
+      "shippingNote": "Spedizione calcolata alla fase successiva.",
+      "checkout": "Procedi all'ordine",
+      "clear": "Svuota carrello",
+      "waIntro": "Salve, vorrei ordinare:",
+      "emailSubject": "Ordine negozio Nzo Immo Clean"
+    },
+    "product": {
+      "notFound": "Prodotto non trovato",
+      "backToShop": "Torna al negozio",
+      "descriptionTitle": "Descrizione",
+      "featuresTitle": "Caratteristiche",
+      "relatedEyebrow": "TI POTREBBE PIACERE ANCHE",
+      "relatedTitle": "Prodotti simili",
+      "viewAll": "Vedi tutto"
+    },
+    "checkout": {
+      "title": "Finalizza il mio ordine",
+      "subtitle": "Ancora qualche dettaglio e sei a posto.",
+      "back": "Indietro",
+      "shippingTitle": "Indirizzo di spedizione",
+      "notesLabel": "Note all'ordine",
+      "notesPlaceholder": "Precisazioni per la consegna…",
+      "consent": "Accetto le condizioni generali di vendita e l'informativa sulla privacy.",
+      "submit": "Conferma il mio ordine",
+      "altDivider": "OPPURE",
+      "viaWhatsapp": "Ordina via WhatsApp",
+      "viaEmail": "Ordina via email",
+      "summaryTitle": "Riepilogo ordine",
+      "qty": "Qtà: {{count}}",
+      "shipping": "Spedizione",
+      "shippingFree": "Gratuita",
+      "freeShippingHint": "Mancano {{amount}} per la spedizione gratuita.",
+      "total": "Totale",
+      "success": {
+        "title": "Ordine registrato!",
+        "message": "Grazie per il tuo ordine. Riceverai un'email di conferma entro pochi minuti.",
+        "cta": "Continua gli acquisti"
+      }
+    },
+    "products": {
+      "p001": {
+        "name": "Multiuso Eco 1L",
+        "short": "Spray multisuperficie biodegradabile",
+        "description": "Detergente multisuperficie concentrato, biodegradabile al 99%. Adatto a tutte le superfici lavabili: pavimenti, piani di lavoro, vetri, mobili. Senza risciacquo.",
+        "f1": "Biodegradabile al 99% — senza fosfati",
+        "f2": "Multisuperficie — pavimenti, vetri, piani",
+        "f3": "Concentrato — 1L = 100 usi",
+        "f4": "Profumo fresco di eucalipto"
+      },
+      "p002": {
+        "name": "Anticalcare Aceto 750ml",
+        "short": "Anticalcare naturale per il bagno",
+        "description": "Anticalcare potente a base di aceto bianco, ideale contro calcare e residui di sapone. Non danneggia lo smalto.",
+        "f1": "Base aceto — naturale",
+        "f2": "Elimina calcare e sapone",
+        "f3": "Spray pronto all'uso"
+      },
+      "p003": {
+        "name": "Sgrassante cucina Pro 500ml",
+        "short": "Sgrassante ad alte prestazioni",
+        "description": "Sgrassante professionale per cucine: cappe, piani, forni. Azione rapida sui grassi incrostati.",
+        "f1": "Azione rapida in 30 secondi",
+        "f2": "Cappe, piastre, forni, piani",
+        "f3": "Senza risciacquo se ben dosato"
+      },
+      "p004": {
+        "name": "Detersivo concentrato 3L",
+        "short": "60 lavaggi — formula delicata",
+        "description": "Detersivo liquido concentrato per 60 lavaggi. Formula rispettosa delle fibre e della pelle, ideale per tutta la famiglia.",
+        "f1": "60 lavaggi per flacone",
+        "f2": "Ipoallergenico",
+        "f3": "Efficace già a 30°C"
+      },
+      "p005": {
+        "name": "Disinfettante superfici 1L",
+        "short": "Battericida e virucida",
+        "description": "Disinfettante alimentare per superfici: battericida, virucida, fungicida. Norma EN 14476. Sicuro su superfici alimentari.",
+        "f1": "Norma EN 14476",
+        "f2": "Battericida e virucida",
+        "f3": "Superfici alimentari",
+        "f4": "Azione in 5 minuti"
+      },
+      "p006": {
+        "name": "Panni in microfibra × 10",
+        "short": "Confezione da 10 panni premium",
+        "description": "Panni in microfibra ad alta densità, lavabili 500 volte. Ideali per tutte le superfici senza graffi.",
+        "f1": "Lavabili 500 volte",
+        "f2": "Non graffiano alcuna superficie",
+        "f3": "Confezione da 10 — 30 × 30 cm"
+      },
+      "p007": {
+        "name": "Detergente vetri 500ml",
+        "short": "Lucidatura senza aloni",
+        "description": "Detergente per vetri, specchi e superfici lucide. Asciugatura rapida senza aloni né residui.",
+        "f1": "Senza aloni né residui",
+        "f2": "Asciugatura rapida",
+        "f3": "Vetri, specchi, schermi"
+      },
+      "p008": {
+        "name": "Mocio in microfibra Pro",
+        "short": "Sistema rotante 360°",
+        "description": "Mocio professionale con frangia in microfibra rimovibile e lavabile. Testa rotante per raggiungere ogni angolo.",
+        "f1": "Testa rotante 360°",
+        "f2": "Frangia lavabile in lavatrice",
+        "f3": "Manico telescopico"
+      },
+      "p009": {
+        "name": "Gel idroalcolico 500ml",
+        "short": "Disinfezione delle mani",
+        "description": "Gel idroalcolico al 70% per la disinfezione delle mani. Si asciuga rapidamente senza lasciare residui.",
+        "f1": "70% di alcol",
+        "f2": "Senza risciacquo"
+      },
+      "p010": {
+        "name": "Kit scoperta Eco",
+        "short": "5 prodotti essenziali — pacchetto premium",
+        "description": "Kit completo per iniziare: multiuso, vetri, sanitari, sgrassante e panni. Risparmio del 22% sui prodotti individuali.",
+        "f1": "5 prodotti essenziali",
+        "f2": "Risparmio del 22%",
+        "f3": "Tutti biodegradabili",
+        "f4": "Ideale per iniziare"
+      },
+      "p011": {
+        "name": "Sapone nero multiuso 1L",
+        "short": "Detergente tradizionale polivalente",
+        "description": "Sapone nero tradizionale a base di olio vegetale. Multiuso: pavimenti, terrazze, mobili da giardino.",
+        "f1": "100% olio vegetale",
+        "f2": "Interno ed esterno",
+        "f3": "Economico — molto concentrato"
+      },
+      "p012": {
+        "name": "Spray sgrassante per forno",
+        "short": "Azione potente per il forno",
+        "description": "Spray sgrassante speciale forno. Azione potente sui grassi cotti e sui residui bruciati.",
+        "f1": "Efficace sui grassi cotti",
+        "f2": "Schiuma attiva di lunga durata",
+        "f3": "Anche per griglie e BBQ"
+      }
+    }
+  },
+  "devis": {
+    "eyebrow": "PREVENTIVO GRATUITO",
+    "title": "Richiedi il tuo preventivo personalizzato",
+    "subtitle": "Bastano pochi minuti. Risposta entro 24 ore.",
+    "stepCounter": "Passo {{current}} di {{total}}",
+    "steps": {
+      "prestation": "Servizio",
+      "details": "Dettagli",
+      "photos": "Foto",
+      "coordonnees": "Contatti",
+      "compte": "Account"
+    },
+    "step1": {
+      "title": "Quale servizio?",
+      "subtitle": "Seleziona il servizio che ti interessa.",
+      "audienceTitle": "Sei?"
+    },
+    "audiences": {
+      "particulier": {
+        "label": "Privato",
+        "hint": "Casa, appartamento, pulizie"
+      },
+      "entreprise": {
+        "label": "Azienda",
+        "hint": "Uffici, negozi, locali"
+      },
+      "proImmo": {
+        "label": "Pro immobiliare",
+        "hint": "Agenzia, amministratore, gestore"
+      },
+      "association": {
+        "label": "Associazione",
+        "hint": "Club, ONG, fondazione"
+      }
+    },
+    "step2": {
+      "title": "Dettagli del servizio",
+      "subtitle": "Qualche informazione per calibrare il nostro preventivo."
+    },
+    "step3": {
+      "title": "Aggiungi foto",
+      "subtitle": "Aiutaci a capire meglio la tua richiesta.",
+      "dropTitle": "Trascina le foto qui",
+      "dropHint": "o clicca per selezionare — JPG, PNG (max 8 file)",
+      "optional": "Passaggio opzionale — puoi proseguire.",
+      "tipTitle": "Consiglio — foto chiare accelerano il preventivo",
+      "tipText": "Scatta foto ben illuminate, nitide, da più angolazioni. Questo ci permette di stimare con maggiore precisione la superficie, lo stato di pavimenti/pareti e il materiale necessario.",
+      "byRoom": "Foto per ambiente",
+      "general": "Foto generali",
+      "generalHint": "Vedute d'insieme, esterno, accessi — tutto ciò che aiuta a comprendere il luogo.",
+      "addPhotos": "Aggiungi",
+      "dropRoom": "Trascina o clicca per aggiungere",
+      "roomHint": "max {{count}} foto"
+    },
+    "step4": {
+      "title": "I tuoi contatti",
+      "subtitle": "Ti ricontatteremo entro 24 ore con un preventivo preciso."
+    },
+    "step5": {
+      "title": "Crea il tuo account per confermare",
+      "subtitle": "Il tuo preventivo sarà salvato e accessibile nella tua area cliente dopo la conferma dell'email.",
+      "infoTitle": "Perché creare un account?",
+      "info": "Il tuo account cliente ti permette di monitorare l'avanzamento del preventivo, comunicare con il nostro team e ritrovare tutti i tuoi documenti in un unico posto.",
+      "emailLabel": "Email dell'account",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "8 caratteri minimo",
+      "passwordConfirmLabel": "Conferma la password",
+      "mismatch": "Le password non corrispondono.",
+      "verifyHint": "Un'email di verifica ti sarà inviata per attivare il tuo account.",
+      "haveAccount": "Hai già un account?",
+      "loginLink": "Accedi",
+      "showPwd": "Mostra la password",
+      "hidePwd": "Nascondi la password",
+      "submit": "Crea il mio account e conferma"
+    },
+    "fields": {
+      "surface": "Superficie",
+      "surface_facades": "Superficie della facciata",
+      "surface_conciergerie": "Superficie parti comuni",
+      "surface_garages": "Superficie del garage",
+      "surface_jardins": "Superficie del giardino",
+      "frequency": "Frequenza",
+      "forfait": "Pacchetto",
+      "forfaitHint": "Scegli la cadenza d'intervento adatta alla tua attività.",
+      "startDate": "Data desiderata",
+      "startDate_arrosage": "Inizio dell'assenza",
+      "startDate_animaux": "Inizio dell'assenza",
+      "endDate": "Fine dell'assenza",
+      "notes": "Precisazioni",
+      "notesPlaceholder": "Vincoli di accesso, piano, particolarità del luogo…",
+      "address": "Indirizzo",
+      "postalCode": "CAP",
+      "city": "Città",
+      "rooms": "Ambienti da pulire",
+      "roomsHint": "Seleziona gli ambienti coinvolti e indica il numero per ciascuno.",
+      "panelCount": "Numero di pannelli",
+      "roofType": "Tipo di tetto",
+      "plantCount": "Numero di piante",
+      "plantLocation": "Posizione delle piante",
+      "visitFrequency": "Frequenza dei passaggi",
+      "petType": "Tipo di animale",
+      "petCount": "Numero di animali",
+      "visitsPerDay": "Passaggi al giorno",
+      "buildingUnits": "Numero di unità abitative",
+      "parkingSpaces": "Numero di posti",
+      "volume": "Volume stimato",
+      "locationType": "Tipo di locale"
+    },
+    "rooms": {
+      "cuisine": "Cucina",
+      "salon": "Soggiorno",
+      "chambre": "Camera",
+      "sdb": "Bagno",
+      "toilette": "Servizio igienico",
+      "bureau": "Ufficio",
+      "couloir": "Corridoio",
+      "entree": "Ingresso",
+      "balcon": "Balcone",
+      "cave": "Cantina / Garage",
+      "autre": "Altro"
+    },
+    "frequencies": {
+      "unique": "Una tantum",
+      "hebdo": "Settimanale",
+      "bimensuel": "Quindicinale",
+      "mensuel": "Mensile"
+    },
+    "plantLocations": {
+      "interieur": "Interno",
+      "balcon": "Balcone / Terrazza",
+      "jardin": "Giardino",
+      "mixte": "Interno + esterno"
+    },
+    "visitFrequencies": {
+      "quotidien": "Tutti i giorni",
+      "deuxJours": "Ogni 2 giorni",
+      "deuxParSemaine": "2× / settimana",
+      "ponctuel": "Una tantum"
+    },
+    "petTypes": {
+      "chat": "Gatto",
+      "chien": "Cane",
+      "autre": "Altro",
+      "petit": "Piccolo animale"
+    },
+    "visitsPerDay": {
+      "1": "1 passaggio",
+      "2": "2 passaggi"
+    },
+    "roofTypes": {
+      "plat": "Tetto piano",
+      "incline": "Tetto inclinato",
+      "tuile": "Tetto in tegole"
+    },
+    "locationTypes": {
+      "cave": "Cantina",
+      "grenier": "Soffitta",
+      "appartement": "Appartamento",
+      "bureau": "Ufficio",
+      "garage": "Garage",
+      "autre": "Altro"
+    },
+    "prestationDetails": "Dettagli del servizio",
+    "prev": "Precedente",
+    "next": "Avanti",
+    "submit": "Invia la mia richiesta",
+    "success": {
+      "title": "Controlla la tua email!",
+      "message": "Abbiamo appena inviato un link di verifica. Attiva il tuo account per confermare il preventivo e seguirne l'avanzamento nella tua area cliente.",
+      "cta": "Torna alla home",
+      "ctaLogin": "Vai alla mia area cliente"
+    }
+  },
+  "contact": {
+    "eyebrow": "CONTATTI",
+    "title": "Parliamo del tuo progetto",
+    "subtitle": "Un team all'ascolto per rispondere a tutte le tue domande.",
+    "coordinatesTitle": "Contatti",
+    "availability": "Disponibili 7 giorni su 7",
+    "followUs": "Seguici",
+    "formTitle": "Inviaci un messaggio",
+    "formSubtitle": "Rispondiamo entro 24 ore.",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Email",
+      "phone": "Telefono",
+      "phoneOptional": "Telefono — opzionale",
+      "subject": "Oggetto",
+      "message": "Il tuo messaggio",
+      "messagePlaceholder": "Descrivi la tua richiesta…",
+      "address": "Indirizzo",
+      "hours": "Orari"
+    },
+    "subjects": {
+      "general": "Domanda generale",
+      "devis": "Richiesta di preventivo",
+      "reclamation": "Reclamo",
+      "partenariat": "Partnership"
+    },
+    "consent": "Accetto che i miei dati siano trattati per questa richiesta.",
+    "submit": "Invia il messaggio",
+    "successTitle": "Messaggio inviato!",
+    "successMessage": "Grazie per il tuo messaggio. Il nostro team ti risponderà entro 24 ore.",
+    "map": {
+      "title": "Dove trovarci",
+      "subtitle": "La nostra sede si trova a Basilea.",
+      "directions": "Indicazioni"
+    }
+  },
+  "trust": {
+    "reviewsSoon": "Recensioni in arrivo",
+    "reviewsLabel": "Recensioni clienti",
+    "reviewsCount_one": "{{count}} recensione cliente",
+    "reviewsCount_other": "{{count}} recensioni clienti"
+  }
+}

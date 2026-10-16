@@ -1,0 +1,2162 @@
+{
+  "topbar": {
+    "hours": "Pon–Pet 8:00–17:00",
+    "cart": "Korpa",
+    "login": "Prijava"
+  },
+  "whatsappFloat": {
+    "aria": "Kontaktirajte nas preko WhatsApp-a",
+    "message": "Zdravo, želim informacije o vašim uslugama."
+  },
+  "admin": {
+    "viewAll": "Vidi sve",
+    "sidebar": {
+      "badge": "Admin",
+      "section": {
+        "main": "Upravljanje"
+      },
+      "dashboard": "Kontrolna tabla",
+      "clients": "Klijenti",
+      "devis": "Primljene ponude",
+      "missions": "Zadaci",
+      "planning": "Raspored",
+      "factures": "Fakture",
+      "demandes": "Zahtevi",
+      "reclamations": "Reklamacije",
+      "equipe": "Tim",
+      "avis": "Recenzije",
+      "archives": "Arhiva",
+      "parametres": "Podešavanja",
+      "signOut": "Odjava"
+    },
+    "topbar": {
+      "openMenu": "Otvori meni",
+      "searchPlaceholder": "Pretraži klijenta, ponudu, fakturu…",
+      "notifications": "Obaveštenja"
+    },
+    "kpi": {
+      "revenueMonth": "Promet meseca",
+      "revenueTotal": "Ukupan promet",
+      "revenueTotalHint": "Na {{count}} završen(ih) zadatak(a)",
+      "newQuotes": "Nove ponude",
+      "activeMissions": "Aktivni zadaci",
+      "pendingInvoices": "Fakture na čekanju",
+      "newClients": "Novi klijenti",
+      "openComplaints": "Otvorene reklamacije",
+      "conversionRate": "Stopa konverzije",
+      "shortcut": "Prečica"
+    },
+    "statuses": {
+      "new": "Novo",
+      "pending": "Na obradi",
+      "quoted": "Poslato",
+      "accepted": "Prihvaćeno",
+      "rejected": "Odbijeno",
+      "scheduled": "Zakazano",
+      "inProgress": "U toku",
+      "completed": "Završeno",
+      "cancelled": "Otkazano",
+      "paid": "Plaćeno",
+      "overdue": "Kasni",
+      "in_review": "U razmatranju",
+      "replied": "Odgovoreno",
+      "closed": "Zatvoreno",
+      "open": "Otvoreno",
+      "resolved": "Rešeno",
+      "active": "Aktivan",
+      "inactive": "Neaktivan",
+      "training": "Na obuci"
+    },
+    "dashboard": {
+      "eyebrow": "UPRAVLJANJE",
+      "greeting": "Zdravo {{name}} 👋",
+      "subtitle": "Pregled aktivnosti Nzo Immo Clean.",
+      "reviewQuotes": "Obradi ponude",
+      "manageClients": "Upravljaj klijentima",
+      "revenue": {
+        "title": "Promet",
+        "subtitle": "Kretanje u 6 meseci — sa PDV"
+      },
+      "activity": {
+        "title": "Skorašnja aktivnost",
+        "recent": "Danas"
+      },
+      "upcoming": {
+        "title": "Predstojeći zadaci",
+        "subtitle": "Raspored za narednih 7 dana",
+        "empty": "Trenutno nije zakazan nijedan zadatak."
+      },
+      "newDevis": {
+        "title": "Ponude za obradu",
+        "subtitle": "Novi zahtevi sa sajta"
+      }
+    },
+    "clients": {
+      "eyebrow": "BAZA KLIJENATA",
+      "title": "Klijenti",
+      "subtitle": "{{count}} registrovanih klijenata.",
+      "newClient": "Novi klijent",
+      "searchPlaceholder": "Pretraga po imenu, firmi, e-mailu…",
+      "types": {
+        "all": "Svi",
+        "particulier": "Fizičko lice",
+        "entreprise": "Preduzeće",
+        "proImmo": "Nekretnine pro",
+        "association": "Udruženje"
+      },
+      "cols": {
+        "client": "Klijent",
+        "type": "Tip",
+        "contact": "Kontakt",
+        "since": "Klijent od",
+        "spent": "Ukupno potrošeno",
+        "activeMissions": "Aktivni zadaci",
+        "status": "Status"
+      },
+      "empty": {
+        "title": "Nijedan klijent nije pronađen",
+        "text": "Pokušajte da proširite kriterijume pretrage."
+      }
+    },
+    "clientDetail": {
+      "backToList": "Nazad na listu",
+      "view": "Pogledaj profil",
+      "actions": {
+        "edit": "Izmeni",
+        "message": "Pošalji poruku"
+      },
+      "kpi": {
+        "totalSpent": "Ukupno potrošeno",
+        "activeMissions": "Aktivni zadaci",
+        "pendingAmount": "Iznos na čekanju",
+        "paidAmount": "Plaćeni iznos"
+      },
+      "info": {
+        "company": "Firma",
+        "email": "E-mail",
+        "phone": "Telefon",
+        "city": "Grad",
+        "since": "Klijent od",
+        "notes": "Interne beleške",
+        "noNotes": "Nema beleški za ovog klijenta.",
+        "addNote": "Dodaj belešku"
+      },
+      "tabs": {
+        "devis": "Ponude",
+        "missions": "Zadaci",
+        "factures": "Fakture",
+        "demandes": "Zahtevi",
+        "reclamations": "Reklamacije"
+      },
+      "empty": {
+        "devis": {
+          "title": "Nema ponuda",
+          "text": "Ovaj klijent još nije zatražio ponudu."
+        },
+        "missions": {
+          "title": "Nema zadataka",
+          "text": "Nijedna intervencija nije zabeležena za ovog klijenta."
+        },
+        "factures": {
+          "title": "Nema faktura",
+          "text": "Nije izdata nijedna faktura za ovog klijenta."
+        },
+        "demandes": {
+          "title": "Nema zahteva",
+          "text": "Nema razmene ni poruka od ovog klijenta."
+        },
+        "reclamations": {
+          "title": "Nema reklamacija",
+          "text": "Nijedan incident nije prijavljen — sve je u redu!"
+        }
+      },
+      "notFound": {
+        "title": "Klijent nije pronađen",
+        "text": "Traženi identifikator ne postoji ili je obrisan."
+      }
+    },
+    "devis": {
+      "eyebrow": "PONUDE",
+      "title": "Ponude sa sajta",
+      "subtitle": "Zahtevi fizičkih lica, preduzeća i profesionalaca za obradu.",
+      "newDevis": "Nova ponuda",
+      "tabs": {
+        "all": "Sve"
+      },
+      "searchPlaceholder": "Pretraga po referenci ili klijentu…",
+      "toEstimate": "Za procenu",
+      "toConvert": "Za pretvaranje u zadatak",
+      "converted": "Zadatak kreiran",
+      "actions": {
+        "review": "Pregledaj",
+        "send": "Pošalji ponudu",
+        "accept": "Označi kao prihvaćeno",
+        "reject": "Odbij",
+        "convert": "Pretvori u zadatak"
+      },
+      "empty": {
+        "title": "Nema ponuda u ovoj kategoriji",
+        "text": "Sve je obrađeno, bravo!"
+      }
+    },
+    "missions": {
+      "eyebrow": "RASPORED",
+      "title": "Zadaci",
+      "subtitle": "Operativno praćenje i raspored timova.",
+      "new": "Novi zadatak",
+      "searchPlaceholder": "Pretraga zadatka ili klijenta…",
+      "empty": {
+        "title": "Nema zadataka"
+      }
+    },
+    "factures": {
+      "eyebrow": "FAKTURISANJE",
+      "title": "Fakture",
+      "subtitle": "Praćenje plaćanja i rokova.",
+      "new": "Nova faktura",
+      "cols": {
+        "number": "Br.",
+        "client": "Klijent",
+        "issueDate": "Izdata",
+        "dueDate": "Rok",
+        "amount": "Iznos",
+        "status": "Status"
+      }
+    },
+    "demandes": {
+      "eyebrow": "PORUKE KLIJENATA",
+      "title": "Zahtevi",
+      "subtitle": "Pitanja, zahtevi za informacije i razgovori.",
+      "priority": {
+        "low": "Nizak",
+        "normal": "Normalan",
+        "high": "Hitan"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "POSLEPRODAJA",
+      "title": "Reklamacije",
+      "subtitle": "Reklamacije klijenata za obradu i rešavanje.",
+      "severity": {
+        "low": "Lakša",
+        "medium": "Srednja",
+        "high": "Kritična"
+      },
+      "category": {
+        "quality": "Kvalitet usluge",
+        "delay": "Kašnjenje / raspored",
+        "damage": "Šteta / lom",
+        "billing": "Fakturisanje",
+        "other": "Drugo"
+      },
+      "actions": {
+        "reply": "Odgovori",
+        "resolve": "Označi kao rešeno"
+      }
+    },
+    "equipe": {
+      "eyebrow": "RESURSI",
+      "title": "Terenski tim",
+      "subtitle": "{{count}} aktivnih saradnika.",
+      "new": "Dodaj člana",
+      "activeMissions": "zadataka"
+    },
+    "planning": {
+      "eyebrow": "DISPATCHING",
+      "title": "Raspored",
+      "subtitle": "Kalendarski prikaz zadataka — prevucite i pustite za promenu termina.",
+      "views": {
+        "week": "Nedelja",
+        "month": "Mesec"
+      },
+      "filters": {
+        "allAgents": "Svi agenti",
+        "unassigned": "Nedodeljeni"
+      },
+      "today": "Danas",
+      "prev": "Nazad",
+      "next": "Dalje",
+      "empty": "Nema zadataka u ovom periodu.",
+      "dropHere": "Ovde pusti",
+      "rescheduled": "Zadatak premešten na {{date}}.",
+      "rescheduleFailed": "Nije moguće promeniti termin — {{error}}"
+    },
+    "parametres": {
+      "eyebrow": "KONFIGURACIJA",
+      "title": "Podešavanja",
+      "subtitle": "Konfiguracija naloga i platforme.",
+      "configure": "Konfiguriši",
+      "sections": {
+        "company": {
+          "title": "Firma",
+          "description": "Naziv firme, adresa, kontakt podaci i vizuelni identitet."
+        },
+        "branding": {
+          "title": "Identitet i boje",
+          "description": "Prilagodite logo, boje i ton komunikacije."
+        },
+        "pricing": {
+          "title": "Cenovnik",
+          "description": "Cenovnik, PDV, uslovi plaćanja i avans."
+        },
+        "notifications": {
+          "title": "Obaveštenja",
+          "description": "E-mail, SMS i interna obaveštenja — frekvencija i primaoci."
+        },
+        "security": {
+          "title": "Bezbednost",
+          "description": "Lozinka, dvofaktorska autentifikacija i aktivne sesije."
+        },
+        "languages": {
+          "title": "Jezici i regije",
+          "description": "Jezici sajta, vremenska zona i regionalni formati."
+        }
+      },
+      "notice": {
+        "title": "Faza 2 — backend",
+        "text": "Podešavanja će biti sačuvana u bazi u sledećoj iteraciji."
+      }
+    }
+  },
+  "agent": {
+    "sidebar": {
+      "badge": "Agent",
+      "section": {
+        "main": "Teren"
+      },
+      "dashboard": "Kontrolna tabla",
+      "missions": "Moji zadaci",
+      "calendrier": "Kalendar",
+      "demandes": "Moji zahtevi",
+      "parametres": "Podešavanja",
+      "signOut": "Odjava"
+    },
+    "topbar": {
+      "openMenu": "Otvori meni",
+      "closeMenu": "Zatvori",
+      "role": "Terenski agent",
+      "signOut": "Odjava"
+    },
+    "statuses": {
+      "scheduled": "Zakazan",
+      "scheduledPlural": "Zakazani",
+      "inProgress": "U toku",
+      "completed": "Završen",
+      "completedPlural": "Završeni",
+      "cancelled": "Otkazan"
+    },
+    "demandeStatuses": {
+      "new": "Novi",
+      "in_review": "Na razmatranju",
+      "replied": "Odgovoreno",
+      "closed": "Zatvoren"
+    },
+    "priorities": {
+      "low": "Nizak",
+      "normal": "Normalan",
+      "high": "Hitan"
+    },
+    "demandeTypes": {
+      "info": "Informacija",
+      "mission": "O zadatku",
+      "devis": "O ponudi",
+      "planning": "Raspored",
+      "equipment": "Oprema",
+      "leave": "Odsustvo / odmor",
+      "incident": "Incident",
+      "other": "Ostalo"
+    },
+    "errors": {
+      "generic": "Greška",
+      "upload": "Greška pri otpremanju",
+      "loading": "Greška pri učitavanju"
+    },
+    "common": {
+      "viewAll": "Vidi sve",
+      "back": "Nazad",
+      "cancel": "Otkaži",
+      "send": "Pošalji",
+      "add": "Dodaj"
+    },
+    "dashboard": {
+      "eyebrow": "TERENSKI AGENT",
+      "greeting": "Zdravo {{name}}",
+      "summaryToday": "Danas imate {{count}} zadatak/zadataka",
+      "summaryUpcomingExtra": " i {{count}} zakazan(ih) u narednih 7 dana.",
+      "summaryDot": ".",
+      "kpiToday": "Danas",
+      "kpiInProgress": "U toku",
+      "kpiUpcoming": "Predstoji (7d)",
+      "kpiCompletedMonth": "Završeno ovog meseca",
+      "todayTitle": "Danas",
+      "viewAll": "Vidi sve →",
+      "todayEmpty": "Danas nema zadataka. Prijatan dan!",
+      "upcomingTitle": "Predstoji ove nedelje",
+      "upcomingEmpty": "Nema zakazanih zadataka u narednih 7 dana.",
+      "colTime": "Vreme",
+      "colMission": "Misija",
+      "colClient": "Klijent",
+      "colCity": "Grad",
+      "colStatus": "Status",
+      "colActions": "Radnje",
+      "actionView": "Pogledaj misiju",
+      "actionStart": "Započni"
+    },
+    "missions": {
+      "eyebrow": "MOJI ZADACI",
+      "title": "Dodeljeni zadaci",
+      "subtitle": "Svi zadaci na koje ste raspoređeni — zakazani, u toku i istorija.",
+      "tabs": {
+        "all": "Svi",
+        "scheduled": "Zakazani",
+        "inProgress": "U toku",
+        "completed": "Završeni"
+      },
+      "empty": "Nema zadataka",
+      "emptyHint": "Nijedan zadatak ne odgovara ovom filteru."
+    },
+    "missionDetail": {
+      "back": "Nazad na moje zadatke",
+      "notFound": "Zadatak nije pronađen",
+      "loadError": "Greška pri učitavanju",
+      "refPrefix": "MI-",
+      "duration": "{{hours}} h",
+      "actionStartTitle": "Spremni za početak?",
+      "actionInProgressTitle": "Zadatak u toku",
+      "actionStartHint": "Započnite zadatak da obavestite klijenta o vašem dolasku.",
+      "actionCompleteHint": "Kada je sve gotovo, označite ga kao završen.",
+      "btnStart": "Započni zadatak",
+      "btnComplete": "Završi zadatak",
+      "confirmComplete": "Označiti ovaj zadatak kao završen?",
+      "completedBadgeTitle": "Zadatak završen",
+      "completedBadgeText": "Dana {{date}} — bravo!",
+      "notesTitle": "Interne beleške",
+      "clientTitle": "Klijent",
+      "callClient": "Pozovi klijenta",
+      "addressTitle": "Adresa",
+      "timelineTitle": "Praćenje",
+      "timelineScheduled": "Zakazan",
+      "timelineStarted": "Započet",
+      "timelineCompleted": "Završen",
+      "phases": {
+        "before": "Pre",
+        "during": "Tokom",
+        "after": "Posle"
+      },
+      "phasePhotosLabel": "Fotografije {{phase}}",
+      "photoCount": "{{count}} fotografija",
+      "photoAdd": "Dodaj",
+      "photosEmpty": "Nema fotografija za ovu fazu.",
+      "photoAltLabel": "{{phase}} {{n}}"
+    },
+    "calendrier": {
+      "eyebrow": "KALENDAR",
+      "title": "Raspored zadataka",
+      "monthlyCount": "{{count}} zadatak/zadataka ovog meseca.",
+      "today": "Danas",
+      "prevMonth": "Prethodni mesec",
+      "nextMonth": "Sledeći mesec",
+      "weekdays": [
+        "Pon",
+        "Uto",
+        "Sre",
+        "Čet",
+        "Pet",
+        "Sub",
+        "Ned"
+      ],
+      "months": [
+        "Januar",
+        "Februar",
+        "Mart",
+        "April",
+        "Maj",
+        "Jun",
+        "Jul",
+        "Avgust",
+        "Septembar",
+        "Oktobar",
+        "Novembar",
+        "Decembar"
+      ],
+      "selectedDay": "Izabrani dan",
+      "dayNoMission": "Nema zadataka.",
+      "dayMissionCount": "{{count}} zadatak/zadataka.",
+      "dayEmptyHint": "Uživajte u mirnom danu!",
+      "hoursShort": "{{count}}h"
+    },
+    "demandes": {
+      "eyebrow": "MOJI ZAHTEVI",
+      "title": "Zahtevi administraciji",
+      "subtitle": "Oprema, odsustvo, raspored, incidenti — šaljite zahteve adminu.",
+      "new": "Novi zahtev",
+      "empty": "Još nema zahteva",
+      "emptyHint": "Pošaljite svoj prvi zahtev administraciji jednim klikom.",
+      "makeRequest": "Pošalji zahtev",
+      "replyCount": "{{count}} odgovor(a)",
+      "lastReply": "Poslednji odgovor — {{author}}",
+      "authorAdmin": "Admin",
+      "authorYou": "Vi"
+    },
+    "demandeDetail": {
+      "back": "Nazad na moje zahteve",
+      "notFound": "Zahtev nije pronađen",
+      "loadError": "Greška pri učitavanju",
+      "refPrefix": "DM-",
+      "sentOn": "Poslato {{date}}",
+      "closedTitle": "Zahtev zatvoren",
+      "closedText": "Nije moguć novi odgovor. Otvorite novi zahtev po potrebi.",
+      "yourRequest": "Vaš zahtev",
+      "relatedRef": "Povezana ref.: {{ref}}",
+      "conversation": "Razgovor",
+      "replyTitle": "Odgovori adminu",
+      "replyHint": "Precizirajte zahtev ili odgovorite na poslednje pitanje administracije.",
+      "replyPlaceholder": "Vaša poruka…",
+      "send": "Pošalji",
+      "closedLock": "Ovaj zahtev je zatvoren — više ne možete odgovoriti.",
+      "details": "Detalji",
+      "fieldType": "Tip",
+      "fieldPriority": "Prioritet",
+      "fieldStatus": "Status",
+      "fieldSent": "Poslato",
+      "fieldUpdated": "Ažurirano",
+      "fieldReplies": "Odgovori",
+      "ctaNew": "+ Novi zahtev",
+      "ctaNewHint": "Imate još nešto? Pošaljite novi zahtev adminu."
+    },
+    "demandeNew": {
+      "back": "Nazad na moje zahteve",
+      "eyebrow": "NOVI ZAHTEV",
+      "title": "Pošaljite zahtev adminu",
+      "subtitle": "Precizno opišite potrebu — odgovor stiže u toku dana.",
+      "typeLabel": "Tip zahteva",
+      "priorityLabel": "Prioritet",
+      "subjectLabel": "Naslov *",
+      "subjectPlaceholder": "Npr. Dopuna nitrilnih rukavica",
+      "relatedRefLabel": "Povezana referenca — opciono",
+      "relatedRefPlaceholder": "Npr. MI-2026-042",
+      "messageLabel": "Vaša poruka *",
+      "messagePlaceholder": "Opišite zahtev, kontekst, hitnost…",
+      "cancel": "Otkaži",
+      "submit": "Pošalji zahtev",
+      "successTitle": "Zahtev poslat!",
+      "successText": "Administracija će primiti vaš zahtev i uskoro odgovoriti.",
+      "successViewAll": "Pogledaj moje zahteve",
+      "successAnother": "Pošalji još jedan zahtev",
+      "types": {
+        "equipment": "Oprema",
+        "leave": "Odsustvo",
+        "planning": "Raspored",
+        "incident": "Incident",
+        "mission": "Zadatak",
+        "other": "Ostalo"
+      },
+      "typeHints": {
+        "equipment": "Zahtev za opremu ili potrošni materijal",
+        "leave": "Odsustvo, godišnji, nedostupnost",
+        "planning": "Konflikt, razmena zadataka",
+        "incident": "Problem na terenu",
+        "mission": "Pitanje o zadatku",
+        "other": "Bilo koji drugi zahtev"
+      }
+    },
+    "parametres": {
+      "eyebrow": "KONFIGURACIJA",
+      "title": "Podešavanja",
+      "subtitle": "Upravljajte bezbednošću naloga i preferencama.",
+      "accountBadge": "TERENSKI AGENT",
+      "securityTitle": "Bezbednost",
+      "securityDesc": "Promenite lozinku radi sigurnijeg pristupa vašem agentskom prostoru.",
+      "languageTitle": "Jezik i region",
+      "languageDesc": "Promenite jezik prikaza interfejsa.",
+      "managedByAdmin": "Vaš nalog vodi admin —",
+      "managedByAdminText1": " kontaktirajte administraciju preko ",
+      "managedByAdminLink": "Moji zahtevi",
+      "managedByAdminText2": " za sve izmene profila (ime, telefon, itd.)."
+    }
+  },
+  "espace": {
+    "notifications": {
+      "aria": "Obaveštenja",
+      "title": "Obaveštenja",
+      "unreadCount": "{{count}} nepročitanih",
+      "allRead": "Sve pročitano",
+      "markAll": "Označi sve kao pročitano",
+      "unreadDot": "Nepročitano",
+      "close": "Zatvori",
+      "empty": {
+        "title": "Nema obaveštenja",
+        "text": "Bićete obavešteni ovde čim se nešto desi."
+      }
+    },
+    "sidebar": {
+      "dashboard": "Tabla",
+      "quotes": "Moje ponude",
+      "missions": "Moje misije",
+      "requests": "Moji zahtevi",
+      "complaints": "Moje reklamacije",
+      "invoices": "Moje fakture",
+      "profile": "Moj profil",
+      "signOut": "Odjava"
+    },
+    "dashboard": {
+      "eyebrow": "KORISNIČKI PROSTOR",
+      "greeting": "Zdravo {{name}} 👋",
+      "subtitle": "Evo pregleda vaše aktivnosti u Nzo Immo Clean.",
+      "newQuote": "Zatraži ponudu",
+      "viewAll": "Pogledaj sve",
+      "tiles": {
+        "quotes": {
+          "label": "Otvorene ponude",
+          "cta": "Moje ponude"
+        },
+        "missions": {
+          "label": "Predstojeće misije",
+          "cta": "Moje misije"
+        },
+        "invoices": {
+          "label": "Neplaćene fakture",
+          "cta": "Moje fakture"
+        },
+        "complaints": {
+          "label": "Otvorene reklamacije",
+          "cta": "Moje reklamacije"
+        }
+      },
+      "upcoming": {
+        "title": "Predstojeće misije",
+        "subtitle": "Vaše intervencije zakazane za naredne dane.",
+        "statusScheduled": "Zakazano"
+      },
+      "banner": {
+        "eyebrow": "BRZO & BESPLATNO",
+        "title": "Nova potreba?",
+        "text": "Opišite vaš zahtev, odgovaramo u roku od 24 sata sa detaljnom ponudom.",
+        "cta": "Zatraži ponudu"
+      },
+      "activity": {
+        "title": "Skorija aktivnost",
+        "last30": "Poslednjih 30 dana"
+      },
+      "quickActions": {
+        "title": "Brze radnje",
+        "subtitle": "Pristup najkorišćenijim funkcijama",
+        "items": {
+          "newQuote": "Zatraži ponudu",
+          "support": "Kontaktiraj podršku",
+          "invoices": "Moje fakture",
+          "profile": "Ažuriraj profil"
+        }
+      },
+      "notice": {
+        "title": "Korisnički prostor u izradi",
+        "text": "Svi prikazani podaci su primeri. Faza 2 projekta će povezati vašu pravu istoriju ponuda, misija i faktura."
+      }
+    },
+    "devis": {
+      "eyebrow": "MOJE PONUDE",
+      "title": "Pratite vaše ponude",
+      "subtitle": "Svi vaši zahtevi i njihovi statusi u realnom vremenu.",
+      "newCta": "Nova ponuda",
+      "estimate": "Procena",
+      "view": "Pogledaj detalje",
+      "statuses": {
+        "pending": "Na čekanju",
+        "reviewed": "U pregledu",
+        "quoted": "Ponuđeno",
+        "accepted": "Prihvaćeno",
+        "rejected": "Odbijeno",
+        "cancelled": "Otkazano"
+      }
+    },
+    "devisDetail": {
+      "back": "Nazad na moje ponude",
+      "notFound": "Ponuda nije pronađena",
+      "requestedOn": "Zahtev poslat {{date}}",
+      "summary": {
+        "surface": "Površina",
+        "frequency": "Učestalost",
+        "startDate": "Željeni početak",
+        "location": "Lokacija",
+        "totalLabel": "Predloženi iznos",
+        "pending": "Čeka se ponuda",
+        "exclVat": "Bez PDV-a",
+        "subtotal": "Međuzbir",
+        "vat": "PDV ({{rate}}%)",
+        "totalTTC": "Ukupno sa PDV-om",
+        "validUntil": "Važi do {{date}}"
+      },
+      "address": {
+        "title": "Adresa intervencije"
+      },
+      "includes": {
+        "title": "Šta je uključeno",
+        "subtitle": "Detalji predložene usluge."
+      },
+      "notes": {
+        "title": "Moje napomene"
+      },
+      "staffMessage": {
+        "title": "Poruka našeg tima"
+      },
+      "reply": {
+        "title": "Odgovorite timu",
+        "subtitle": "Postavite pitanje ili zatražite izmenu pre prihvatanja.",
+        "placeholder": "Vaša poruka…",
+        "send": "Pošalji",
+        "sent": "Poruka poslata. Naš tim će vam se uskoro javiti."
+      },
+      "actions": {
+        "accept": "Prihvati ponudu",
+        "reject": "Odbij",
+        "download": "Preuzmi PDF",
+        "cancel": "Otkaži zahtev",
+        "acceptMock": "Ponuda prihvaćena (simulacija). U fazi 2 ovo će kreirati misiju.",
+        "rejectMock": "Ponuda odbijena (simulacija).",
+        "downloadMock": "PDF preuzimanje dostupno u fazi 2.",
+        "cancelConfirm": "Da li ste sigurni da želite da otkažete ovaj zahtev za ponudu?"
+      },
+      "timeline": {
+        "title": "Status zahteva",
+        "steps": {
+          "submitted": "Zahtev poslat",
+          "reviewed": "U pregledu",
+          "quoted": "Ponuda izdata",
+          "accepted": "Ponuda prihvaćena"
+        }
+      }
+    },
+    "missions": {
+      "eyebrow": "MOJE MISIJE",
+      "title": "Vaše intervencije",
+      "subtitle": "Praćenje zakazanih, tekućih i završenih misija.",
+      "photosCount": "{{count}} fotografija",
+      "statuses": {
+        "scheduled": "Zakazano",
+        "in_progress": "U toku",
+        "completed": "Završeno",
+        "cancelled": "Otkazano"
+      }
+    },
+    "missionDetail": {
+      "back": "Nazad na moje misije",
+      "notFound": "Misija nije pronađena",
+      "scheduledFor": "Zakazano za {{date}}",
+      "completedOn": "Završeno {{date}}",
+      "summary": {
+        "date": "Zakazani datum",
+        "duration": "Procenjeno trajanje",
+        "surface": "Površina",
+        "location": "Lokacija"
+      },
+      "timeline": {
+        "title": "Status intervencije",
+        "steps": {
+          "scheduled": "Zakazano",
+          "in_progress": "U toku",
+          "completed": "Završeno"
+        }
+      },
+      "description": {
+        "title": "Detalji intervencije"
+      },
+      "address": {
+        "title": "Adresa"
+      },
+      "photos": {
+        "title": "Fotografije pre / posle",
+        "subtitle": "{{count}} fotografija sa intervencije.",
+        "kind": {
+          "before": "Pre",
+          "after": "Posle"
+        },
+        "before": {
+          "title": "Fotografije pre intervencije",
+          "subtitle": "Snima ih tim po dolasku na lokaciju."
+        },
+        "after": {
+          "title": "Fotografije posle intervencije",
+          "subtitle": "Snima ih tim na kraju misije."
+        },
+        "empty": {
+          "beforePending": {
+            "title": "Fotografije uskoro",
+            "text": "Tim će dodati fotografije po dolasku na dan intervencije."
+          },
+          "beforeMissing": {
+            "title": "Bez fotografija pre",
+            "text": "Za ovu misiju nisu zabeležene fotografije po dolasku."
+          },
+          "afterPending": {
+            "title": "Dostupno posle intervencije",
+            "text": "Završne fotografije biće objavljene čim se misija završi."
+          },
+          "afterMissing": {
+            "title": "Bez fotografija posle",
+            "text": "Nisu zabeležene fotografije na kraju intervencije."
+          }
+        }
+      },
+      "feedback": {
+        "title": "Vaš utisak",
+        "subtitle": "Kako je prošla ova intervencija?",
+        "ratingLabel": "Ukupna ocena",
+        "starAria": "{{n}} od 5 zvezdica",
+        "notesLabel": "Komentar (opciono)",
+        "placeholder": "Podelite svoje iskustvo sa timom…",
+        "send": "Pošalji utisak",
+        "sent": "Hvala na povratnoj informaciji! Pomaže našem timu da se poboljša."
+      },
+      "team": {
+        "title": "Dodeljen tim",
+        "sizeLabel": "Tim od {{count}} ljudi"
+      },
+      "linked": {
+        "title": "Povezani dokumenti",
+        "quote": "Povezana ponuda",
+        "invoice": "Izdata faktura"
+      },
+      "actions": {
+        "reschedule": "Pomeri misiju",
+        "contact": "Kontaktiraj tim",
+        "cancel": "Otkaži misiju",
+        "rescheduleMock": "Zahtev za pomeranje poslat timu (simulacija).",
+        "contactMock": "Član tima će vas uskoro kontaktirati (simulacija).",
+        "cancelMock": "Misija otkazana (simulacija).",
+        "cancelConfirm": "Da li ste sigurni da želite da otkažete ovu misiju?"
+      }
+    },
+    "demandes": {
+      "eyebrow": "MOJI ZAHTEVI",
+      "title": "Zahtevi i poruke",
+      "subtitle": "Vaši upiti i razgovori sa našim timom.",
+      "newCta": "Novi zahtev",
+      "empty": {
+        "title": "Još nema zahteva",
+        "text": "Postavite nam pitanje ili zatražite informaciju — odgovaramo u toku dana."
+      },
+      "statuses": {
+        "new": "Novo",
+        "in_review": "U pregledu",
+        "replied": "Odgovoreno",
+        "closed": "Zatvoreno"
+      }
+    },
+    "demandeNew": {
+      "eyebrow": "NOVI ZAHTEV",
+      "title": "Pošaljite nam zahtev",
+      "subtitle": "Opišite šta vam je potrebno — naš tim odgovara u roku od 24 sata.",
+      "back": "Nazad na listu",
+      "cancel": "Otkaži",
+      "submit": "Pošalji zahtev",
+      "types": {
+        "info": "Pitanje / informacija",
+        "mission": "O angažovanju",
+        "devis": "O ponudi",
+        "planning": "Raspored i termini"
+      },
+      "priorities": {
+        "low": "Nizak",
+        "normal": "Normalan",
+        "high": "Hitno"
+      },
+      "fields": {
+        "type": "Tip zahteva",
+        "priority": "Prioritet",
+        "subject": "Predmet",
+        "subjectPlaceholder": "Npr. Promena utornika",
+        "relatedRef": "Povezana referenca — opciono",
+        "relatedRefPlaceholder": "Npr. DV-2026-042 ili MI-2026-018",
+        "message": "Vaša poruka",
+        "messagePlaceholder": "Opišite zahtev, kontekst, ograničenja…",
+        "attachments": "Prilozi — opciono",
+        "dropTitle": "Prevucite fajlove ovde",
+        "dropHint": "ili kliknite za izbor — PDF, slike, dokumenti (maks. 5 fajlova)"
+      },
+      "success": {
+        "title": "Zahtev poslat!",
+        "message": "Primili smo vaš zahtev. Naš tim će vam se uskoro javiti.",
+        "backToList": "Pogledaj moje zahteve",
+        "another": "Pošalji novi zahtev"
+      }
+    },
+    "reclamationNew": {
+      "eyebrow": "NOVA REKLAMACIJA",
+      "title": "Prijavi problem",
+      "subtitle": "Opišite šta se desilo — reklamacije obrađujemo u roku od 48 sati.",
+      "back": "Nazad na listu",
+      "cancel": "Otkaži",
+      "submit": "Pošalji reklamaciju",
+      "notice": {
+        "title": "Pre slanja",
+        "text": "Što je opis precizniji (datum, mesto, fotografije), brže ćemo rešiti reklamaciju."
+      },
+      "consent": "Potvrđujem da su podaci tačni i odobravam njihovo korišćenje za rešavanje moje reklamacije.",
+      "categories": {
+        "quality": "Kvalitet usluge",
+        "delay": "Kašnjenje / raspored",
+        "damage": "Šteta / oštećenje",
+        "billing": "Naplata",
+        "other": "Drugo"
+      },
+      "severities": {
+        "low": "Mala",
+        "medium": "Umerena",
+        "high": "Kritična"
+      },
+      "resolutions": {
+        "redo": "Ponoviti uslugu",
+        "refund": "Povraćaj sredstava",
+        "gesture": "Komercijalni gest",
+        "discuss": "Razgovor sa savetnikom"
+      },
+      "fields": {
+        "category": "Kategorija",
+        "severity": "Ozbiljnost",
+        "incidentDate": "Datum incidenta",
+        "relatedRef": "Povezano angažovanje ili faktura — opciono",
+        "relatedRefPlaceholder": "Npr. MI-2026-058 ili FA-2026-021",
+        "subject": "Predmet",
+        "subjectPlaceholder": "Npr. Prozori loše očišćeni 12. maja",
+        "description": "Detaljan opis",
+        "descriptionPlaceholder": "Šta se desilo? Kada? Kakav je uticaj? Budite precizni…",
+        "resolution": "Željeno rešenje",
+        "attachments": "Fotografije / dokumenti — preporučeno",
+        "dropTitle": "Prevucite fotografije ili PDF ovde",
+        "dropHint": "ili kliknite za izbor — JPG, PNG, PDF (maks. 6 fajlova)"
+      },
+      "success": {
+        "title": "Reklamacija evidentirana",
+        "message": "Javljamo se u roku od 48 sati. Napredak možete pratiti iz vašeg klijent prostora.",
+        "backToList": "Pogledaj moje reklamacije",
+        "dashboard": "Nazad na kontrolnu tablu"
+      }
+    },
+    "reclamations": {
+      "eyebrow": "MOJE REKLAMACIJE",
+      "title": "Prijavi problem",
+      "subtitle": "Praćenje reklamacija i njihovog rešavanja.",
+      "newCta": "Nova reklamacija",
+      "empty": {
+        "title": "Nema reklamacija",
+        "text": "Sve je u redu! Ako ikada naiđete na problem, možete ga prijaviti ovde u bilo kom trenutku."
+      }
+    },
+    "factures": {
+      "eyebrow": "MOJE FAKTURE",
+      "title": "Vaše fakture",
+      "subtitle": "Istorija faktura, plaćanja i PDF preuzimanja.",
+      "cols": {
+        "number": "Br.",
+        "date": "Datum",
+        "dueDate": "Rok",
+        "amount": "Iznos",
+        "status": "Status"
+      },
+      "statuses": {
+        "pending": "Za plaćanje",
+        "paid": "Plaćeno",
+        "overdue": "Kašnjenje"
+      }
+    },
+    "profil": {
+      "eyebrow": "MOJ PROFIL",
+      "title": "Lični podaci",
+      "subtitle": "Ažurirajte svoje kontakt podatke i postavke.",
+      "save": "Sačuvaj",
+      "saved": "Promene sačuvane."
+    }
+  },
+  "nav": {
+    "accueil": "Početna",
+    "services": "Usluge",
+    "apropos": "O nama",
+    "boutique": "Prodavnica",
+    "avis": "Recenzije",
+    "contact": "Kontakt",
+    "cta": "Zatražite ponudu"
+  },
+  "services": {
+    "eyebrow": "NAŠE USLUGE",
+    "sectionTitle": "Sveobuhvatna stručnost za sve vaše potrebe",
+    "sectionDescription": "Od redovnog čišćenja do malih usluga tokom vaše odsutnosti — naših deset usluga pokriva sve vaše potrebe za čišćenjem, održavanjem i concierge uslugama u kantonima Basel-Stadt i Basel-Landschaft.",
+    "viewAll": "Pogledajte sve usluge",
+    "discover": "Otkrijte",
+    "requestQuote": "Zatražite ponudu",
+    "bureaux": {
+      "title": "Čišćenje kancelarija",
+      "description": "Redovno održavanje vaših radnih prostora",
+      "tagline": "Besprekorne kancelarije za motivisan tim.",
+      "overviewTitle": "Radno okruženje koje inspiriše",
+      "longDescription": "Preuzimamo svakodnevno, sedmično ili mesečno održavanje vaših prostorija: open-space, sale za sastanke, sanitarije, kuhinje i recepcije. Obučen tim, prilagođeni proizvodi i plan rada po vašoj meri i budžetu.",
+      "includes": [
+        "Usisavanje i pranje podova",
+        "Brisanje prašine sa stolova i nameštaja",
+        "Dezinfekcija sanitarija i kuhinja",
+        "Pražnjenje i pranje kanti",
+        "Čišćenje unutrašnjih prozora",
+        "Dopuna potrošnog materijala (opcija)"
+      ],
+      "audience": [
+        "MSP, startapi i kancelarije",
+        "Koworking i open-space",
+        "Ustanove sa korisnicima"
+      ]
+    },
+    "apresChantier": {
+      "title": "Čišćenje nakon gradnje",
+      "description": "Obnova nakon radova i renoviranja",
+      "tagline": "Brišemo svaki trag gradilišta.",
+      "overviewTitle": "Čista predaja, spremno za korišćenje",
+      "longDescription": "Nakon radova ili renoviranja uklanjamo fine prašine, ostatke boje, tragove lepka i otpad. Vaši prostori se predaju čisti, zdravi i spremni za upotrebu. Brza intervencija sa profesionalnom opremom.",
+      "includes": [
+        "Kompletno uklanjanje prašine (podovi, zidovi, plafoni)",
+        "Pranje prozora i okvira",
+        "Uklanjanje nalepnica i ostataka lepka",
+        "Dubinsko čišćenje sanitarija i kuhinja",
+        "HEPA usisavanje fine prašine",
+        "Odvoz građevinskog otpada"
+      ],
+      "audience": [
+        "Investitori i izvođači",
+        "Arhitekte i naručioci",
+        "Privatnici nakon renoviranja"
+      ]
+    },
+    "facades": {
+      "title": "Čišćenje fasada",
+      "description": "Spoljno čišćenje i održavanje",
+      "tagline": "Vratite sjaj vašoj zgradi.",
+      "overviewTitle": "Fasade kao nove, bez oštećenja podloge",
+      "longDescription": "Čistimo fasade poštujući svaki materijal: kamen, malter, staklo, drvo ili metal. Hidropeskarenje, niskopritisno pranje ili biorazgradivi proizvodi — metoda se prilagođava podlozi za trajan rezultat bez oštećenja.",
+      "includes": [
+        "Dijagnoza podloge i izbor metode",
+        "Uklanjanje mahovine i tretman",
+        "Čišćenje pod visokim ili niskim pritiskom",
+        "Hidropeskarenje za osetljive površine",
+        "Hidrofobni tretman (opcija)",
+        "Skela ili korpa uključena"
+      ],
+      "audience": [
+        "Upravitelji i vlasnici zgrada",
+        "Porodične kuće i vile",
+        "Trgovine i poslovni objekti"
+      ]
+    },
+    "conciergerie": {
+      "title": "Održavanje zgrada",
+      "description": "Održavanje zajedničkih prostorija",
+      "tagline": "Pouzdana i pažljiva usluga održavanja.",
+      "overviewTitle": "Redovno održavanje zgrade, bez briga",
+      "longDescription": "Obezbeđujemo kompletno održavanje zajedničkih prostorija: stepenice, hodnici, ulazi, liftovi, ostave i okolina. Redovno prisustvo, posvećen kontakt i transparentno izveštavanje za upravu ili skupštinu. Već imate izvođača za stepenice? Možemo preuzeti samo garažu ili deo koji nam poverite.",
+      "includes": [
+        "Sedmično ili dvosedmično čišćenje",
+        "Iznošenje i vraćanje kontejnera",
+        "Čišćenje prozora ulaza",
+        "Održavanje ostava za smeće",
+        "Sitni poslovi održavanja (opcija)",
+        "Digitalno izveštavanje za upravu"
+      ],
+      "audience": [
+        "Upravljači nekretninama",
+        "Vlasnici zgrada",
+        "Stambene zajednice"
+      ]
+    },
+    "garages": {
+      "title": "Čišćenje garaža i parkinga",
+      "description": "Velike garaže i zajednički parkinzi",
+      "tagline": "Čista velika garaža — čak i bez ugovora za stepenice.",
+      "overviewTitle": "Specijalnost koju mali izvođači ne pokrivaju",
+      "longDescription": "Čišćenje velike podzemne garaže zahteva profesionalnu opremu — mašinu za pranje i sušenje, monobrušu, industrijski usisivač za vodu i prašinu — kojom većina izvođača za zajedničke prostorije ne raspolaže. Radimo na vašem parkingu i kada su stepenice u zgradi poverene nekom drugom: poseban ugovor, fleksibilan raspored i besprekoran rezultat.",
+      "includes": [
+        "Odmašćivanje i pranje betonskih podova",
+        "Mašina za pranje/sušenje i monobruša",
+        "Usisavanje sitne prašine",
+        "Tretman mrlja od ulja i ugljovodonika",
+        "Čišćenje oznaka, boksova i prolaza",
+        "Otprašivanje niskih cevi i kanala"
+      ],
+      "audience": [
+        "Upravnici i stambene zajednice",
+        "Zgrade sa podzemnim parkingom",
+        "Zgrade kojima su stepenice već pokrivene"
+      ]
+    },
+    "photovoltaique": {
+      "title": "Čišćenje solarnih panela",
+      "description": "Fotonaponski paneli i produktivni krovovi",
+      "tagline": "Optimalan solarni prinos, čišćenje bez rizika.",
+      "overviewTitle": "Čisti paneli — do 25% veći prinos",
+      "longDescription": "Prašina, polen, izmet i zagađenje smanjuju proizvodnju vaših fotonaponskih panela. Čistimo ih demineralizovanom vodom i odgovarajućim četkama — bez agresivnih hemikalija, bez grebanja stakla i bez uticaja na garancije proizvođača. Bezbedan rad na krovu sa pojasom ili korpom, i foto izveštaj pre/posle.",
+      "includes": [
+        "Čišćenje čistom demineralizovanom vodom",
+        "Meke rotirajuće četke prilagođene staklu",
+        "Vizuelna inspekcija konektora i nosača",
+        "Bezbednost na krovu (pojas, sigurnosna linija, korpa)",
+        "Foto izveštaj pre/posle",
+        "Preporučena učestalost: 1-2 puta godišnje"
+      ],
+      "audience": [
+        "Vlasnici kuća sa PV sistemom",
+        "Upravnici i zajednice sa produktivnim krovovima",
+        "Firme i operateri PV elektrana"
+      ]
+    },
+    "arrosage": {
+      "title": "Zalivanje biljaka",
+      "description": "Redovno zalivanje i tokom vaše odsutnosti",
+      "tagline": "Vaše biljke negovane kao da ste kod kuće.",
+      "overviewTitle": "Usluga zalivanja prilagođena svakoj situaciji",
+      "longDescription": "Bilo da ste na odmoru, na službenom putu ili jednostavno želite da poverite ovaj zadatak, zalivamo vaše sobne i spoljne biljke u odgovarajućem ritmu. Balkoni, terase, stanovi, ulazi zgrada ili zajedničke zelene površine: svaka biljka dobija pravu količinu vode i vizuelnu proveru pri svakoj poseti.",
+      "includes": [
+        "Zalivanje prilagođeno svakoj biljci",
+        "Vizuelna provera stanja biljaka",
+        "Prijava svake nepravilnosti (žuti listovi, štetočine, sušenje)",
+        "Redovne ili povremene posete prema potrebi",
+        "Sobne biljke, balkoni, terase i bašte",
+        "Zajedničke zelene površine zgrada (opcija)"
+      ],
+      "audience": [
+        "Privatna lica na odmoru ili na putu",
+        "Stambene zajednice sa biljkama u zajedničkim prostorima",
+        "Zakupci i vlasnici koji žele da poverе posao"
+      ]
+    },
+    "animaux": {
+      "title": "Briga o mačkama i malim životinjama",
+      "description": "Hranjenje i obilasci u vašem domu tokom vašeg odsustva",
+      "tagline": "Putujte bez brige — mi dolazimo kod vas, vaš ljubimac ostaje kod kuće.",
+      "overviewTitle": "Obilasci u vašem domu — isključivo u unutrašnjosti",
+      "longDescription": "Odlazite na nekoliko dana? Dolazimo u vaš dom jednom ili dva puta dnevno da nahranimo vašu mačku ili malu životinju (zec, zamorac, ptice, ribice…), promenimo vodu i proverimo da li je sve u redu. Usluga se obavlja isključivo unutar vašeg doma: bez šetnji napolju i bez pansiona ili smeštaja kod Nzo Immo Clean — vaš ljubimac ostaje u svom poznatom okruženju.",
+      "includes": [
+        "1 ili 2 obilaska dnevno prema potrebi",
+        "Punjenje posude vašom hranom",
+        "Zamena sveže vode",
+        "Vizuelna provera dobrobiti životinje",
+        "Foto-izveštaj pri svakom obilasku (opcija)",
+        "Hitno obaveštenje u slučaju problema"
+      ],
+      "audience": [
+        "Vlasnici mačaka tokom kraćeg odsustva",
+        "Vlasnici malih životinja (zečevi, zamorci, ptice, ribice…)",
+        "Osobe u bolnici ili na službenom putu"
+      ]
+    },
+    "jardins": {
+      "title": "Održavanje bašti",
+      "description": "Košenje, orezivanje i održavanje zelenih površina",
+      "tagline": "Uređene zelene površine tokom cele godine.",
+      "overviewTitle": "Uređena bašta — napravljena da traje",
+      "longDescription": "Od košenja preko orezivanja do plevljenja, održavamo vaše zelene površine u ritmu godišnjih doba. Godišnji paketi ili pojedinačne intervencije sa opremljenim timom koji poštuje biodiverzitet.",
+      "includes": [
+        "Košenje i obrada ivica",
+        "Orezivanje živica i žbunja",
+        "Plevljenje i nega leja",
+        "Odvoz zelenog otpada",
+        "Duvanje lišća u jesen",
+        "Sadnja i saveti (opcija)"
+      ],
+      "audience": [
+        "Privatne kuće i vile",
+        "Stambene zajednice sa baštom",
+        "Kompanije i poslovni kompleksi"
+      ]
+    },
+    "debarras": {
+      "title": "Iznošenje i raspremanje",
+      "description": "Odvoz i sortiranje krupnog otpada",
+      "tagline": "Pražnimo, sortiramo, recikliramo.",
+      "overviewTitle": "Čisto, brzo i odgovorno raspremanje",
+      "longDescription": "Podrum, tavan, stan ili kancelarija: iznosimo vaše krupne stvari, sortirajući ono što može da se reciklira, pokloni ili proda. Transparentna ponuda, brza intervencija, deponija uključena — jedan izvođač, jedna cena.",
+      "includes": [
+        "Prethodna poseta i besplatna ponuda",
+        "Sortiranje na licu mesta (reciklaža, donacije, otpad)",
+        "Demontaža i manipulacija",
+        "Odlaganje u ovlašćenu deponiju",
+        "Završno čišćenje ispražnjenog prostora",
+        "Sertifikat o uništenju (opcija)"
+      ],
+      "audience": [
+        "Naslednici i selidbe",
+        "Upravljači i vlasnici",
+        "Kompanije u reorganizaciji"
+      ]
+    }
+  },
+  "hero": {
+    "highlight": "Profesionalno čišćenje",
+    "title": "za fizička lica, kompanije i profesionalce u nekretninama",
+    "description": "Kvalifikovan tim na terenu i prilagođene usluge: kancelarije, posle gradnje, fasade, održavanje zgrada, garaže, solarni paneli, zalivanje biljaka, briga o mačkama i malim životinjama, bašte i raspremanje. Besplatna ponuda za manje od 24 sata.",
+    "ctaPrimary": "Zatražite besplatnu ponudu",
+    "ctaSecondary": "Otkrijte naše usluge",
+    "founded": "Novoosnovana GmbH u Bazelu",
+    "foundedCity": "Bazel",
+    "foundedShort": "Novoosnovana GmbH"
+  },
+  "features": {
+    "equipeTitle": "Kvalifikovan tim",
+    "equipeText": "Obučeno, prijavljeno i osigurano osoblje",
+    "prestationsTitle": "10 ključnih usluga",
+    "prestationsText": "Rešenje za svaku potrebu",
+    "ecoTitle": "Ekološki proizvodi",
+    "ecoText": "Bezbedni za životnu sredinu",
+    "devisTitle": "100% besplatna ponuda",
+    "devisText": "Odgovor u roku od 24h"
+  },
+  "process": {
+    "eyebrow": "KAKO FUNKCIONIŠE",
+    "sectionTitle": "Jednostavan proces u 6 koraka",
+    "sectionDescription": "Od prvog zahteva do kontrole kvaliteta, svaki korak je osmišljen tako da vam garantuje miran i efikasan rad.",
+    "steps": {
+      "devis": {
+        "title": "Zahtev za ponudu",
+        "description": "Pošaljite nam svoje potrebe putem formulara, telefonom ili WhatsApp-om."
+      },
+      "analyse": {
+        "title": "Analiza potreba",
+        "description": "Poseta lokaciji ili detaljan razgovor radi preciznog razumevanja vaših očekivanja."
+      },
+      "validation": {
+        "title": "Potvrda i avans",
+        "description": "Personalizovana ponuda, ugovorno odobrenje i uplata avansa."
+      },
+      "planification": {
+        "title": "Planiranje",
+        "description": "Datum izvođenja, procenjeno trajanje i dodela posvećenog tima."
+      },
+      "intervention": {
+        "title": "Izvođenje",
+        "description": "Naš tim radi profesionalno i sa odgovarajućom opremom."
+      },
+      "controle": {
+        "title": "Kontrola kvaliteta",
+        "description": "Zajednička završna provera i garancija zadovoljstva."
+      }
+    }
+  },
+  "beforeAfter": {
+    "eyebrow": "PRE / POSLE",
+    "sectionTitle": "Razlika se odmah vidi",
+    "sectionDescription": "Prevucite klizač da otkrijete transformaciju nakon naše intervencije. Jasni, merljivi rezultati bez iznenađenja.",
+    "before": "Pre",
+    "after": "Posle",
+    "hint": "Prevucite klizač za poređenje",
+    "ariaLabel": "Klizač za poređenje pre / posle"
+  },
+  "footer": {
+    "tagline": "Švajcarska kompanija specijalizovana za čišćenje i nekretninske usluge — za fizička lica, kompanije i profesionalce u nekretninama.",
+    "followUs": "Pratite nas",
+    "servicesTitle": "Usluge",
+    "usefulTitle": "Korisni linkovi",
+    "contactTitle": "Kontakt",
+    "useful": {
+      "devis": "Zatražite ponudu",
+      "espace": "Korisnički prostor"
+    },
+    "copyright": "© {{year}} Nzo Immo Clean. Sva prava zadržana.",
+    "legal": {
+      "mentions": "Pravne napomene",
+      "privacy": "Politika privatnosti",
+      "cgv": "Uslovi prodaje",
+      "cookies": "Kolačići"
+    }
+  },
+  "legal": {
+    "backHome": "Nazad na početnu",
+    "contactBox": {
+      "title": "Pitanje o ovim uslovima?",
+      "text": "Naš tim je tu za sva pojašnjenja.",
+      "cta": "Kontaktirajte nas →"
+    },
+    "mentions": {
+      "eyebrow": "PRAVNE INFORMACIJE",
+      "title": "Pravne napomene",
+      "lastUpdate": "Poslednje ažuriranje: 17. maj 2026.",
+      "intro": "Ove pravne napomene se odnose na sajt www.nzoimmoclean.ch i navode izdavača i uslove korišćenja.",
+      "sections": [
+        {
+          "title": "Izdavač",
+          "body": [
+            "Nzo Immo Clean — Profesionalno preduzeće za čišćenje sa sedištem u Švajcarskoj.",
+            "Adresa: Gellertpark 6, 4052 Bazel, Švajcarska.",
+            "Telefon: +41 79 936 21 73 — E-pošta: info@nzoimmoclean.ch."
+          ]
+        },
+        {
+          "title": "Direktor izdavaštva",
+          "body": "Pravni zastupnik Nzo Immo Clean je direktor izdavaštva."
+        },
+        {
+          "title": "Hosting",
+          "body": "Sajt je hostovan kod evropskog hosting provajdera. Detalji su dostupni na zahtev na info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Intelektualna svojina",
+          "body": "Sav sadržaj sajta (tekst, slike, logotipi, video, dizajn) zaštićen je autorskim pravom i isključivo je vlasništvo Nzo Immo Clean. Neovlašćeno reprodukovanje ili korišćenje je zabranjeno."
+        },
+        {
+          "title": "Odgovornost",
+          "body": "Nzo Immo Clean ulaže napor u tačnost informacija ali ne odgovara za greške, propuste ili prekide. Korisnici pristupaju sajtu na sopstvenu odgovornost."
+        },
+        {
+          "title": "Spoljne veze",
+          "body": "Sajt može sadržati veze ka sajtovima trećih strana. Nzo Immo Clean ne kontroliše njihov sadržaj i ne snosi odgovornost."
+        },
+        {
+          "title": "Merodavno pravo",
+          "body": "Ove napomene su uređene švajcarskim pravom. Sudovi kantona Ženeva imaju isključivu nadležnost."
+        }
+      ]
+    },
+    "privacy": {
+      "eyebrow": "LIČNI PODACI",
+      "title": "Politika privatnosti",
+      "lastUpdate": "Poslednje ažuriranje: 17. maj 2026.",
+      "intro": "Nzo Immo Clean se obavezuje da štiti privatnost korisnika i obrađuje lične podatke transparentno, u skladu sa švajcarskim Zakonom o zaštiti podataka (LPD) i GDPR-om kada je primenljivo.",
+      "sections": [
+        {
+          "title": "Rukovalac podacima",
+          "body": "Nzo Immo Clean, Gellertpark 6, 4052 Bazel — info@nzoimmoclean.ch."
+        },
+        {
+          "title": "Prikupljeni podaci",
+          "body": "Prikupljamo samo podatke neophodne za pružanje usluga:",
+          "list": [
+            "Identitet: ime, prezime, naziv firme",
+            "Kontakt: e-pošta, telefon, poštanska adresa",
+            "Podaci o angažovanju: adresa, površina, učestalost, napomene",
+            "Tehnički: IP adresa, tip pretraživača, pregledane stranice"
+          ]
+        },
+        {
+          "title": "Svrhe",
+          "body": "Podaci se koriste za odgovaranje na zahteve za ponudu, planiranje i fakturisanje usluga, slanje ugovornih informacija i unapređenje naše ponude."
+        },
+        {
+          "title": "Pravni osnov",
+          "body": "Izvršenje ugovora, zakonske obaveze (naročito računovodstvene), vaš pristanak (bilten, neobavezni kolačići) i naš legitimni interes za bolje korisničko iskustvo."
+        },
+        {
+          "title": "Period čuvanja",
+          "body": "Podaci klijenata se čuvaju tokom trajanja ugovora i 10 godina nakon toga, u skladu sa švajcarskim računovodstvenim obavezama. Podaci potencijalnih klijenata se brišu nakon 3 godine neaktivnosti."
+        },
+        {
+          "title": "Primaoci",
+          "body": "Vaši podaci se ne prodaju. Mogu se podeliti sa našim tehničkim podizvođačima (hosting, e-pošta) koji su ugovorno obavezani da ih štite, ili sa nadležnim organima kada je to zakonom propisano."
+        },
+        {
+          "title": "Vaša prava",
+          "body": "Prema važećem propisu imate sledeća prava:",
+          "list": [
+            "Pristup, ispravka i brisanje",
+            "Ograničenje i prigovor na obradu",
+            "Prenosivost podataka",
+            "Povlačenje pristanka u bilo kom trenutku"
+          ]
+        },
+        {
+          "title": "Ostvarivanje prava",
+          "body": "Pišite nam na info@nzoimmoclean.ch. Odgovaramo u roku od 30 dana. U slučaju nezadovoljstva, možete kontaktirati nadležno telo za zaštitu podataka."
+        },
+        {
+          "title": "Bezbednost",
+          "body": "Primenjujemo odgovarajuće tehničke i organizacione mere: HTTPS šifrovanje, kontrolu pristupa, redovne rezerve i obuku zaposlenih."
+        }
+      ]
+    },
+    "cgv": {
+      "eyebrow": "OPŠTI USLOVI",
+      "title": "Opšti uslovi prodaje",
+      "lastUpdate": "Poslednje ažuriranje: 17. maj 2026.",
+      "intro": "Ovi Opšti uslovi prodaje regulišu ugovorni odnos između Nzo Immo Clean i njenih klijenata, fizičkih i pravnih lica.",
+      "sections": [
+        {
+          "title": "1. Predmet",
+          "body": "Uslovi se primenjuju na sve usluge čišćenja, kućnog upravnika i povezane usluge koje nudi Nzo Immo Clean. Svaka narudžbina znači prihvatanje ovih uslova."
+        },
+        {
+          "title": "2. Ponuda i narudžbina",
+          "body": "Svaka usluga se obavlja na osnovu personalizovane ponude koja važi 30 dana. Narudžbina se potvrđuje potpisom ponude i eventualnim avansom."
+        },
+        {
+          "title": "3. Cene i fakturisanje",
+          "body": "Cene su u švajcarskim francima (CHF), sa uračunatim švajcarskim PDV-om od 8,1 % kada je primenljivo. Računi se izdaju nakon usluge i plaćaju u roku od 30 dana."
+        },
+        {
+          "title": "4. Plaćanje",
+          "body": "Plaćanja prihvatamo bankovnim prenosom, TWINT-om ili karticom. Kašnjenja u plaćanju automatski podležu zakonskoj kamati."
+        },
+        {
+          "title": "5. Izvršenje",
+          "body": "Nzo Immo Clean se obavezuje da usluge izvodi profesionalno i u dogovorenim rokovima. Klijent obezbeđuje neophodan pristup i uslove."
+        },
+        {
+          "title": "6. Otkazivanje",
+          "body": "Otkazivanje se mora prijaviti najmanje 48 sati pre planirane intervencije. U suprotnom se može fakturisati 50 % iznosa usluge."
+        },
+        {
+          "title": "7. Odgovornost",
+          "body": "Nzo Immo Clean ima profesionalno osiguranje od odgovornosti. Reklamacije se podnose pisanim putem u roku od 7 dana od pružanja usluge."
+        },
+        {
+          "title": "8. Viša sila",
+          "body": "Nijedna strana nije odgovorna u slučaju više sile koja onemogućava izvršenje usluga."
+        },
+        {
+          "title": "9. Pravo i nadležnost",
+          "body": "Ovi uslovi su uređeni švajcarskim pravom. Nadležni su sudovi kantona Ženeva."
+        }
+      ]
+    },
+    "cookies": {
+      "eyebrow": "UPRAVLJANJE KOLAČIĆIMA",
+      "title": "Politika kolačića",
+      "lastUpdate": "Poslednje ažuriranje: 17. maj 2026.",
+      "intro": "Sajt www.nzoimmoclean.ch koristi kolačiće za pravilno funkcionisanje, merenje posete i poboljšanje iskustva.",
+      "sections": [
+        {
+          "title": "Šta je kolačić?",
+          "body": "Kolačić je mala tekstualna datoteka koja se postavlja na vaš uređaj prilikom posete sajta i čuva informacije o pretraživanju."
+        },
+        {
+          "title": "Neophodni kolačići",
+          "body": "Ovi kolačići su strogo neophodni i ne mogu se isključiti:",
+          "list": [
+            "Izbor jezika (i18nextLng)",
+            "Korpa za kupovinu (nzo-cart)",
+            "Sesija u klijent prostoru"
+          ]
+        },
+        {
+          "title": "Analitički kolačići",
+          "body": "Uz vaš pristanak koristimo alate za analizu radi razumevanja i poboljšanja korišćenja sajta. Sakupljaju agregirane, anonimne podatke."
+        },
+        {
+          "title": "Kolačići trećih strana",
+          "body": "Neki ugrađeni servisi (mape, video) mogu postaviti sopstvene kolačiće, koji podležu njihovim politikama."
+        },
+        {
+          "title": "Upravljanje preferencama",
+          "body": "Možete u svakom trenutku podesiti pretraživač da blokira ili briše kolačiće. Onemogućavanje neophodnih kolačića može uticati na rad sajta."
+        },
+        {
+          "title": "Period čuvanja",
+          "body": "Kolačići se čuvaju najviše 13 meseci. Posle toga ponovo se traži vaš pristanak."
+        }
+      ]
+    }
+  },
+  "coverage": {
+    "eyebrow": "PODRUČJA RADA",
+    "title": "Isključivo Basel-Stadt i Basel-Landschaft",
+    "description": "Naše usluge su strogo ograničene na kantone Basel-Stadt (BS) i Basel-Landschaft (BL). Van ova dva kantona ne radimo.",
+    "cityBasel": "Bazel",
+    "locator": "Severozapadna Švajcarska"
+  },
+  "homeEspace": {
+    "eyebrow": "TEHNOLOGIJA & PRAĆENJE",
+    "title": "Korisnički portal napravljen za vas",
+    "description": "Pratite svoje misije, primajte izveštaje i fotografije u realnom vremenu. Profesionalni alat za pojedince, kompanije i profesionalce u nekretninama.",
+    "features": {
+      "realtime": "Praćenje misija u realnom vremenu",
+      "notifications": "Trenutna obaveštenja",
+      "photos": "Automatske fotografije pre / posle",
+      "documents": "Ponude, fakture i izveštaji na jednom mestu"
+    },
+    "cta": "Idi na moj portal",
+    "dashboard": {
+      "title": "Moje misije",
+      "activeBadge": "3 aktivne"
+    },
+    "status": {
+      "inProgress": "U toku",
+      "planned": "Planirano",
+      "done": "Završeno"
+    },
+    "missions": {
+      "bureaux": {
+        "title": "Čišćenje kancelarija",
+        "city": "Bazel"
+      },
+      "facades": {
+        "title": "Fasade",
+        "city": "Liestal"
+      },
+      "conciergerie": {
+        "title": "Održavanje zgrade",
+        "city": "Riehen"
+      }
+    },
+    "kpi": {
+      "label": "Ovaj mesec",
+      "value": "12 misija"
+    },
+    "notification": {
+      "title": "Izveštaj je dostupan",
+      "time": "Pre 2 minuta"
+    }
+  },
+  "finalCta": {
+    "eyebrow": "Dostupni odmah",
+    "title": "Potrebno profesionalno čišćenje u Bazelu?",
+    "description": "Besplatna ponuda u roku od 24 sata. Naš tim je tu da odgovori na sva vaša pitanja.",
+    "ctaPrimary": "Zatražite ponudu",
+    "trust": {
+      "response": {
+        "value": "24h",
+        "label": "Garantovan odgovor"
+      },
+      "rating": {
+        "label": "Recenzije klijenata"
+      },
+      "guarantee": {
+        "value": "100%",
+        "label": "Zadovoljstvo ili ponavljanje"
+      }
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "NAŠE USLUGE",
+    "title": "Sveobuhvatna stručnost za sve vaše potrebe",
+    "description": "Šest ključnih usluga za fizička lica, kompanije i profesionalce u nekretninama — agencije, upravitelje i skupštine zgrada. Isključivo u kantonima Basel-Stadt i Basel-Landschaft."
+  },
+  "serviceDetail": {
+    "notFound": "Usluga nije pronađena",
+    "backToServices": "Pogledajte sve usluge",
+    "requestQuote": "Zatražite ponudu",
+    "contactUs": "Kontaktirajte nas",
+    "overviewEyebrow": "USLUGA",
+    "audienceTitle": "Za koga je?",
+    "includesTitle": "Šta je uključeno",
+    "includesSubtitle": "Kompletna usluga, bez iznenađenja.",
+    "relatedEyebrow": "DRUGE USLUGE",
+    "relatedTitle": "Možda vam treba i…"
+  },
+  "about": {
+    "eyebrow": "O NAMA",
+    "title": "Nzo Immo Clean — švajcarska ekspertiza za čišćenje i nekretninske usluge",
+    "subtitle": "Švajcarska kompanija specijalizovana za čišćenje i nekretninske usluge — za fizička lica, kompanije i profesionalce u nekretninama (agencije, upravitelje, skupštine zgrada).",
+    "story": {
+      "p1": "Nzo Immo Clean GmbH osnovana je u februaru 2026. u Bazelu. Radimo isključivo u kantonima Basel-Stadt i Basel-Landschaft. Od redovnog čišćenja kancelarija do čišćenja posle gradnje, preko održavanja zgrada i spoljnog uređenja, svaka usluga se vodi sa istom pažnjom — od prve ponude do završne kontrole kvaliteta.",
+      "p2": "Naša klijentela — fizička lica, kompanije, agencije za nekretnine, upravitelji i skupštine zgrada — očekuje besprekorno izvršenje i reaktivnog kontakta. Od samog početka oslanjamo se na digitalne alate: praćenje u realnom vremenu, automatski foto-izveštaji, posvećen korisnički portal. Kvalitet na terenu udružen sa transparentnošću digitalnog.",
+      "title": "GmbH iz Bazela, osnovana u februaru 2026.",
+      "badge": {
+        "label": "Zona rada",
+        "value": "BS · BL"
+      }
+    },
+    "cta": "Otkrijte naše usluge",
+    "heroBadge": {
+      "label": "GmbH osnovana u februaru",
+      "value": "2026"
+    },
+    "values": {
+      "eyebrow": "NAŠE VREDNOSTI",
+      "title": "Četiri principa koja vode svaku uslugu",
+      "subtitle": "Nisu slogani — to su pravila koja oblikuju našu svakodnevicu.",
+      "items": {
+        "quality": {
+          "title": "Beskompromisni kvalitet",
+          "description": "Standard koji održavaju obučeni timovi i sistematska provera na svakoj intervenciji."
+        },
+        "trust": {
+          "title": "Odnos poverenja",
+          "description": "Posvećen kontakt, jasna komunikacija i obaveze koje uvek poštujemo."
+        },
+        "eco": {
+          "title": "Ekološka posvećenost",
+          "description": "Biorazgradivi proizvodi, kontrolisana doza i sistematska reciklaža na svim gradilištima."
+        },
+        "reliability": {
+          "title": "Operativna pouzdanost",
+          "description": "Prijavljeno osoblje, puno osiguranje i poštovan raspored — osnovna stvar."
+        }
+      }
+    },
+    "stats": {
+      "founded": {
+        "value": "2026",
+        "label": "GmbH osnovana u februaru"
+      },
+      "seat": {
+        "value": "Bazel",
+        "label": "Sedište"
+      },
+      "cantons": {
+        "value": "BS · BL",
+        "label": "Kantoni koje pokrivamo"
+      },
+      "response": {
+        "value": "24h",
+        "label": "Odgovor na upite"
+      }
+    },
+    "coverage": {
+      "eyebrow": "ZONE RADA",
+      "cta": "Proveri moju zonu",
+      "title": "Strogo Basel-Stadt i Basel-Landschaft",
+      "subtitle": "Naše usluge su strogo ograničene na kantone Basel-Stadt i Basel-Landschaft. Adrese van ova dva kantona ne možemo da opslužimo.",
+      "regions": {
+        "bs": {
+          "name": "Basel-Stadt (BS)",
+          "cities": "Bazel · Riehen · Bettingen"
+        },
+        "bl": {
+          "name": "Basel-Landschaft (BL)",
+          "cities": "Liestal · Allschwil · Binningen · Muttenz · Pratteln · Reinach · Münchenstein · Sissach · Laufen"
+        }
+      }
+    },
+    "heroChips": {
+      "swiss": "Švajcarska firma",
+      "certified": "Prijavljeno i osigurano osoblje",
+      "since": "Osnovana u februaru 2026."
+    }
+  },
+  "signup": {
+    "eyebrow": "REGISTRACIJA",
+    "title": "Napravite svoj korisnički prostor",
+    "subtitle": "Otvaranje naloga za 1 minut. Bez obaveze.",
+    "back": "Nazad na sajt",
+    "accountTypeTitle": "Vi ste?",
+    "accountTypes": {
+      "particulier": "Privatno lice",
+      "entreprise": "Preduzeće",
+      "proImmo": "Profesionalac u nekretninama",
+      "association": "Udruženje"
+    },
+    "fields": {
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "email": "Email",
+      "emailPlaceholder": "vi@primer.ch",
+      "password": "Lozinka",
+      "passwordPlaceholder": "Min. 8 karaktera"
+    },
+    "strength": {
+      "hint": "Jačina",
+      "weak": "Slaba",
+      "fair": "Srednja",
+      "good": "Dobra",
+      "strong": "Jaka"
+    },
+    "consent": "Prihvatam uslove i politiku privatnosti.",
+    "newsletter": "Želim da primam novosti i ponude od Nzo Immo Clean.",
+    "submit": "Napravi nalog",
+    "showPwd": "Prikaži lozinku",
+    "hidePwd": "Sakrij lozinku",
+    "haveAccount": "Već imate nalog?",
+    "login": "Prijavi se",
+    "demoNotice": "Prostor u izradi — biće aktiviran u fazi 2 projekta.",
+    "brand": {
+      "eyebrow": "DOBRODOŠLI",
+      "title": "Pridružite se našim klijentima koji upravljaju uslugama online.",
+      "subtitle": "Prostor za fizička lica, kompanije i profesionalce u nekretninama.",
+      "features": {
+        "quickSetup": {
+          "title": "Registracija za 1 minut",
+          "hint": "Email ili Google — bez kartice"
+        },
+        "secure": {
+          "title": "Zaštićeni podaci",
+          "hint": "Hostovanje u Švajcarskoj i SSL enkripcija"
+        },
+        "firstQuote": {
+          "title": "Prva ponuda besplatno",
+          "hint": "Odgovor u 24h, bez obaveze"
+        }
+      },
+      "bonus": {
+        "title": "Ponuda dobrodošlice",
+        "hint": "−10% na vašu prvu uslugu"
+      }
+    }
+  },
+  "login": {
+    "eyebrow": "KORISNIČKI PROSTOR",
+    "title": "Dobrodošli nazad",
+    "subtitle": "Prijavite se da pratite svoje misije i pristupite svojim dokumentima.",
+    "back": "Nazad na sajt",
+    "fields": {
+      "email": "Email",
+      "emailPlaceholder": "vi@primer.ch",
+      "password": "Lozinka",
+      "passwordPlaceholder": "Vaša lozinka"
+    },
+    "remember": "Ostani prijavljen",
+    "forgot": "Zaboravljena lozinka?",
+    "submit": "Prijavi se",
+    "showPwd": "Prikaži lozinku",
+    "hidePwd": "Sakrij lozinku",
+    "noAccount": "Još nemate nalog?",
+    "signup": "Napravi nalog",
+    "brand": {
+      "eyebrow": "VAŠ PROSTOR",
+      "title": "Pratite svoje misije u realnom vremenu, gde god da ste.",
+      "subtitle": "Tabla za fizička lica, kompanije i profesionalce u nekretninama.",
+      "features": {
+        "tracking": "Praćenje intervencija uživo",
+        "reports": "Automatski foto-izveštaji pre / posle",
+        "documents": "Ponude, fakture i istorija na jednom mestu"
+      },
+      "testimonial": {
+        "text": "Korisnički prostor je pravi plus. Tačno vidimo šta je urađeno, sve izveštaje držimo na jednom mestu. Nema više jurnjave za papirima.",
+        "author": "Sophie M., direktor finansija — advokatska kancelarija"
+      }
+    }
+  },
+  "reviews": {
+    "eyebrow": "RECENZIJE KLIJENATA",
+    "title": "Šta kažu naši klijenti",
+    "subtitle": "Svaku recenziju ostavlja klijent nakon obavljene intervencije. Poverenje se gradi, intervenciju za intervencijom.",
+    "verified": "Verifikovana recenzija",
+    "filterByService": "Filtriraj po usluzi",
+    "filterByRating": "Filtriraj po oceni",
+    "allServices": "Sve",
+    "sort": "Sortiraj",
+    "ratings": {
+      "3": "★ 3 zvezdice i više",
+      "4": "★ 4 zvezdice i više",
+      "5": "★ 5 zvezdica",
+      "all": "Sve ocene"
+    },
+    "sortOptions": {
+      "newest": "Najnovije",
+      "oldest": "Najstarije",
+      "ratingDesc": "Najbolje ocenjeno",
+      "ratingAsc": "Najniže prvo"
+    },
+    "resultsCount": "{{count}} prikazanih recenzija",
+    "resetFilters": "Resetuj",
+    "loadMore": "Učitaj još recenzija",
+    "source": {
+      "google": "Google",
+      "direct": "Direktno svedočenje"
+    },
+    "stats": {
+      "rating": {
+        "label": "Prosečna ocena"
+      },
+      "experience": {
+        "value": "2026",
+        "label": "GmbH osnovana u februaru"
+      }
+    },
+    "noResults": {
+      "title": "Nema odgovarajućih recenzija",
+      "text": "Pokušajte da proširite kriterijume pretrage."
+    },
+    "callout": {
+      "eyebrow": "VI STE KLIJENT?",
+      "title": "Podelite svoje iskustvo",
+      "text": "Vaš feedback nam pomaže da napredujemo i pomaže budućim klijentima u izboru. Potrebno je samo nekoliko minuta.",
+      "googleCta": "Ostavi Google recenziju",
+      "directCta": "Direktno svedoči"
+    },
+    "empty": {
+      "text": "Naša GmbH je upravo osnovana u Bazelu. Prve recenzije naših klijenata biće objavljene ovde nakon intervencija."
+    }
+  },
+  "shop": {
+    "eyebrow": "ONLINE PRODAVNICA",
+    "title": "Naši proizvodi za čišćenje",
+    "subtitle": "Profesionalni izbor za svakodnevno održavanje prostora — ekološki i efikasan.",
+    "trust": {
+      "delivery": {
+        "title": "Brza dostava",
+        "hint": "U Švajcarskoj u roku od 48h"
+      },
+      "eco": {
+        "title": "Ekološki",
+        "hint": "Biorazgradivi i sertifikovani"
+      },
+      "returns": {
+        "title": "Povraćaj 14 dana",
+        "hint": "Garancija zadovoljstva"
+      }
+    },
+    "searchPlaceholder": "Pretraži proizvod…",
+    "clear": "Obriši",
+    "sort": "Sortiraj",
+    "sortOptions": {
+      "featured": "Izdvojeno",
+      "priceAsc": "Cena: rastuće",
+      "priceDesc": "Cena: opadajuće",
+      "rating": "Najbolje ocenjeno",
+      "newest": "Novosti"
+    },
+    "categories": {
+      "all": "Sve",
+      "surfaces": "Površine",
+      "bathroom": "Kupatilo",
+      "kitchen": "Kuhinja",
+      "laundry": "Veš",
+      "disinfection": "Dezinfekcija",
+      "accessories": "Pribor"
+    },
+    "resultsCount": "{{count}} proizvod(a)",
+    "resetFilters": "Resetuj",
+    "noResults": {
+      "title": "Nije pronađen proizvod",
+      "text": "Pokušajte da proširite kriterijume pretrage."
+    },
+    "badge": {
+      "promo": "Akcija",
+      "new": "Novo",
+      "bestseller": "Najprodavanije"
+    },
+    "outOfStock": "Nema na stanju",
+    "inStock": "{{count}} na stanju",
+    "reviews": "ocena",
+    "addToCart": "Dodaj u korpu",
+    "buyNow": "Kupi odmah",
+    "guarantees": {
+      "delivery": "Dostava u 48h",
+      "eco": "Ekološki proizvodi",
+      "returns": "Povraćaj u 14 dana",
+      "secure": "Sigurno plaćanje"
+    },
+    "cart": {
+      "title": "Moja korpa",
+      "close": "Zatvori",
+      "itemCount": "{{count}} proizvod(a)",
+      "emptyTitle": "Vaša korpa je prazna",
+      "emptyText": "Otkrijte naše proizvode i započnite kupovinu.",
+      "browse": "Pogledaj prodavnicu",
+      "remove": "Ukloni",
+      "subtotal": "Međuzbir",
+      "total": "Ukupno",
+      "shippingNote": "Dostava se obračunava u sledećem koraku.",
+      "checkout": "Naruči",
+      "clear": "Isprazni korpu",
+      "waIntro": "Pozdrav, želim da naručim:",
+      "emailSubject": "Porudžbina Nzo Immo Clean prodavnica"
+    },
+    "product": {
+      "notFound": "Proizvod nije pronađen",
+      "backToShop": "Nazad na prodavnicu",
+      "descriptionTitle": "Opis",
+      "featuresTitle": "Karakteristike",
+      "relatedEyebrow": "MOŽDA VAM SE SVIDI",
+      "relatedTitle": "Slični proizvodi",
+      "viewAll": "Pogledaj sve"
+    },
+    "checkout": {
+      "title": "Završi porudžbinu",
+      "subtitle": "Još nekoliko detalja i gotovo je.",
+      "back": "Nazad",
+      "shippingTitle": "Adresa za isporuku",
+      "notesLabel": "Napomene",
+      "notesPlaceholder": "Uputstva za isporuku…",
+      "consent": "Prihvatam opšte uslove prodaje i politiku privatnosti.",
+      "submit": "Pošalji porudžbinu",
+      "altDivider": "ILI",
+      "viaWhatsapp": "Naruči preko WhatsApp-a",
+      "viaEmail": "Naruči email-om",
+      "summaryTitle": "Pregled porudžbine",
+      "qty": "Kol.: {{count}}",
+      "shipping": "Dostava",
+      "shippingFree": "Besplatno",
+      "freeShippingHint": "Još {{amount}} za besplatnu dostavu.",
+      "total": "Ukupno",
+      "success": {
+        "title": "Porudžbina poslata!",
+        "message": "Hvala vam na porudžbini. Dobićete email potvrdu za nekoliko minuta.",
+        "cta": "Nastavi kupovinu"
+      }
+    },
+    "products": {
+      "p001": {
+        "name": "Višenamenski Eko 1L",
+        "short": "Biorazgradivi sprej za sve površine",
+        "description": "Koncentrovani višenamenski sredstvo, 99% biorazgradivo. Pogodno za sve površine koje se peru.",
+        "f1": "99% biorazgradivo — bez fosfata",
+        "f2": "Višenamenski — podovi, staklo, površine",
+        "f3": "Koncentrovano — 1L = 100 upotreba",
+        "f4": "Svež miris eukaliptusa"
+      },
+      "p002": {
+        "name": "Sirće sredstvo 750ml",
+        "short": "Prirodni protiv kamenca za kupatilo",
+        "description": "Moćno sredstvo za uklanjanje kamenca na bazi belog sirćeta. Bezbedno za emajl.",
+        "f1": "Na bazi sirćeta — prirodno",
+        "f2": "Uklanja kamenac i sapun",
+        "f3": "Sprej spreman za upotrebu"
+      },
+      "p003": {
+        "name": "Pro odmašćivač 500ml",
+        "short": "Visokoperformansni odmašćivač",
+        "description": "Profesionalni odmašćivač za kuhinju: nape, šporete, rerne. Brza akcija na nataloženim mastima.",
+        "f1": "Brza akcija u 30 sekundi",
+        "f2": "Nape, šporeti, rerne",
+        "f3": "Bez ispiranja uz pravilno doziranje"
+      },
+      "p004": {
+        "name": "Koncentrovani deterdžent 3L",
+        "short": "60 pranja — blaga formula",
+        "description": "Koncentrovani tečni deterdžent za 60 pranja. Blago prema vlaknima i koži.",
+        "f1": "60 pranja po flaši",
+        "f2": "Hipoalergeni",
+        "f3": "Efikasan od 30°C"
+      },
+      "p005": {
+        "name": "Dezinfekcioni sprej 1L",
+        "short": "Baktericidni i virucidni",
+        "description": "Dezinfekciono sredstvo za površine: baktericidno, virucidno, fungicidno. Standard EN 14476.",
+        "f1": "EN 14476 sertifikovano",
+        "f2": "Baktericidno i virucidno",
+        "f3": "Površine za hranu",
+        "f4": "Dejstvo za 5 minuta"
+      },
+      "p006": {
+        "name": "Mikrofibre krpe × 10",
+        "short": "Pakovanje od 10 premium krpa",
+        "description": "Mikrofibre krpe visoke gustine, peru se 500 puta. Idealne za sve površine bez grebanja.",
+        "f1": "Periva 500 puta",
+        "f2": "Bez grebanja na svim površinama",
+        "f3": "Pakovanje 10 — 30 × 30 cm"
+      },
+      "p007": {
+        "name": "Sredstvo za stakla 500ml",
+        "short": "Sjaj bez tragova",
+        "description": "Sredstvo za stakla, ogledala i sjajne površine. Brzo sušenje bez tragova.",
+        "f1": "Bez tragova",
+        "f2": "Brzo sušenje",
+        "f3": "Stakla, ogledala, ekrani"
+      },
+      "p008": {
+        "name": "Pro mikrofibre mop",
+        "short": "Sistem rotacije 360°",
+        "description": "Profesionalni mop sa zamenjivom mikrofibre glavom. Rotirajuća glava dostiže svaki ćošak.",
+        "f1": "Rotirajuća glava 360°",
+        "f2": "Periva u mašini",
+        "f3": "Teleskopska drška"
+      },
+      "p009": {
+        "name": "Antibakterijski gel 500ml",
+        "short": "Dezinfekcija ruku",
+        "description": "Antibakterijski gel sa 70% alkohola za dezinfekciju ruku. Brzo se suši.",
+        "f1": "70% alkohola",
+        "f2": "Bez ispiranja"
+      },
+      "p010": {
+        "name": "Eko početni set",
+        "short": "5 osnovnih proizvoda — premium paket",
+        "description": "Kompletni set: višenamenski, staklo, kupatilo, odmašćivač i krpe. Ušteda od 22%.",
+        "f1": "5 osnovnih proizvoda",
+        "f2": "Ušteda 22%",
+        "f3": "Svi biorazgradivi",
+        "f4": "Idealno za početak"
+      },
+      "p011": {
+        "name": "Crni sapun multi 1L",
+        "short": "Tradicionalni univerzalni",
+        "description": "Tradicionalni crni sapun na bazi biljnog ulja. Više namena: podovi, terase, baštenski nameštaj.",
+        "f1": "100% biljno ulje",
+        "f2": "Unutra i napolju",
+        "f3": "Ekonomično — vrlo koncentrovano"
+      },
+      "p012": {
+        "name": "Sprej za rernu",
+        "short": "Snažno dejstvo za rernu",
+        "description": "Specijalni sprej za odmašćivanje rerne. Snažno dejstvo na nataloženim mastima.",
+        "f1": "Protiv nataloženih masti",
+        "f2": "Aktivna pena duga dejstva",
+        "f3": "Takođe za grilove"
+      }
+    }
+  },
+  "devis": {
+    "eyebrow": "BESPLATNA PONUDA",
+    "title": "Zatražite personalizovanu ponudu",
+    "subtitle": "Potrebno je samo nekoliko minuta. Odgovor u roku od 24 sata.",
+    "stepCounter": "Korak {{current}} od {{total}}",
+    "steps": {
+      "prestation": "Usluga",
+      "details": "Detalji",
+      "photos": "Fotografije",
+      "coordonnees": "Kontakt",
+      "compte": "Nalog"
+    },
+    "step1": {
+      "title": "Koja usluga?",
+      "subtitle": "Izaberite uslugu koja vas zanima.",
+      "audienceTitle": "Vi ste?"
+    },
+    "audiences": {
+      "particulier": {
+        "label": "Privatno lice",
+        "hint": "Kuća, stan, domaćinstvo"
+      },
+      "entreprise": {
+        "label": "Preduzeće",
+        "hint": "Kancelarije, radnje, prostori"
+      },
+      "proImmo": {
+        "label": "Profesionalac u nekretninama",
+        "hint": "Agencija, upravnik"
+      },
+      "association": {
+        "label": "Udruženje",
+        "hint": "Klub, NVO, fondacija"
+      }
+    },
+    "step2": {
+      "title": "Detalji usluge",
+      "subtitle": "Nekoliko informacija da kalibriramo ponudu."
+    },
+    "step3": {
+      "title": "Dodajte fotografije",
+      "subtitle": "Pomozite nam da bolje razumemo vaš zahtev.",
+      "dropTitle": "Prevucite fotografije ovde",
+      "dropHint": "ili kliknite za izbor — JPG, PNG (maks. 8 fajlova)",
+      "optional": "Opcioni korak — možete preći dalje."
+    },
+    "step4": {
+      "title": "Vaši kontakt podaci",
+      "subtitle": "Javljamo se u roku od 24 sata sa detaljnom ponudom."
+    },
+    "step5": {
+      "title": "Napravite nalog za potvrdu",
+      "subtitle": "Vaša ponuda će biti sačuvana i dostupna u vašem klijent prostoru nakon verifikacije e-pošte.",
+      "infoTitle": "Zašto napraviti nalog?",
+      "info": "Vaš klijent nalog vam omogućava da pratite ponudu, komunicirate sa našim timom i nađete sve dokumente na jednom mestu.",
+      "emailLabel": "E-pošta naloga",
+      "passwordLabel": "Lozinka",
+      "passwordPlaceholder": "Najmanje 8 karaktera",
+      "passwordConfirmLabel": "Potvrdite lozinku",
+      "mismatch": "Lozinke se ne podudaraju.",
+      "verifyHint": "Biće vam poslata e-pošta za verifikaciju kako biste aktivirali nalog.",
+      "haveAccount": "Već imate nalog?",
+      "loginLink": "Prijavi se",
+      "showPwd": "Prikaži lozinku",
+      "hidePwd": "Sakrij lozinku",
+      "submit": "Napravi nalog i potvrdi"
+    },
+    "fields": {
+      "surface": "Površina",
+      "surface_facades": "Površina fasade",
+      "surface_conciergerie": "Površina zajedničkih prostorija",
+      "surface_garages": "Površina garaže",
+      "surface_jardins": "Površina bašte",
+      "frequency": "Učestalost",
+      "startDate": "Željeni datum",
+      "startDate_arrosage": "Početak odsustva",
+      "startDate_animaux": "Početak odsustva",
+      "endDate": "Kraj odsustva",
+      "notes": "Napomene",
+      "notesPlaceholder": "Ograničenja pristupa, sprat, posebnosti…",
+      "address": "Adresa",
+      "postalCode": "Poštanski broj",
+      "city": "Grad",
+      "panelCount": "Broj panela",
+      "roofType": "Tip krova",
+      "plantCount": "Broj biljaka",
+      "plantLocation": "Lokacija biljaka",
+      "visitFrequency": "Učestalost poseta",
+      "petType": "Vrsta ljubimca",
+      "petCount": "Broj ljubimaca",
+      "visitsPerDay": "Poseta dnevno",
+      "buildingUnits": "Broj stanova",
+      "parkingSpaces": "Broj mesta",
+      "volume": "Procenjena zapremina",
+      "locationType": "Tip prostora"
+    },
+    "frequencies": {
+      "unique": "Jednokratno",
+      "hebdo": "Sedmično",
+      "bimensuel": "Dvosedmično",
+      "mensuel": "Mesečno"
+    },
+    "plantLocations": {
+      "interieur": "Unutra",
+      "balcon": "Balkon / Terasa",
+      "jardin": "Bašta",
+      "mixte": "Unutra + napolju"
+    },
+    "visitFrequencies": {
+      "quotidien": "Svaki dan",
+      "deuxJours": "Svaka 2 dana",
+      "deuxParSemaine": "2× / sedmično",
+      "ponctuel": "Jednokratno"
+    },
+    "petTypes": {
+      "chat": "Mačka",
+      "chien": "Pas",
+      "autre": "Drugo",
+      "petit": "Mala životinja"
+    },
+    "visitsPerDay": {
+      "1": "1 poseta",
+      "2": "2 posete"
+    },
+    "roofTypes": {
+      "plat": "Ravan krov",
+      "incline": "Kosi krov",
+      "tuile": "Krov od crepa"
+    },
+    "locationTypes": {
+      "cave": "Podrum",
+      "grenier": "Tavan",
+      "appartement": "Stan",
+      "bureau": "Kancelarija",
+      "garage": "Garaža",
+      "autre": "Drugo"
+    },
+    "prestationDetails": "Detalji usluge",
+    "prev": "Nazad",
+    "next": "Dalje",
+    "submit": "Pošalji zahtev",
+    "success": {
+      "title": "Proverite e-poštu!",
+      "message": "Upravo smo vam poslali link za verifikaciju. Aktivirajte nalog da biste potvrdili ponudu i pratili je u vašem klijent prostoru.",
+      "cta": "Nazad na početnu",
+      "ctaLogin": "Idi u moj klijent prostor"
+    }
+  },
+  "contact": {
+    "eyebrow": "KONTAKT",
+    "title": "Razgovarajmo o vašem projektu",
+    "subtitle": "Naš tim je tu da odgovori na sva vaša pitanja.",
+    "coordinatesTitle": "Kontakt podaci",
+    "availability": "Dostupni 7 dana u nedelji",
+    "followUs": "Pratite nas",
+    "formTitle": "Pošaljite nam poruku",
+    "formSubtitle": "Odgovaramo u roku od 24 sata.",
+    "fields": {
+      "firstName": "Ime",
+      "lastName": "Prezime",
+      "email": "Email",
+      "phone": "Telefon",
+      "phoneOptional": "Telefon — opciono",
+      "subject": "Tema",
+      "message": "Vaša poruka",
+      "messagePlaceholder": "Opišite svoj zahtev…",
+      "address": "Adresa",
+      "hours": "Radno vreme"
+    },
+    "subjects": {
+      "general": "Opšte pitanje",
+      "devis": "Zahtev za ponudu",
+      "reclamation": "Reklamacija",
+      "partenariat": "Partnerstvo"
+    },
+    "consent": "Slažem se da se moji podaci obrađuju za ovaj zahtev.",
+    "submit": "Pošalji poruku",
+    "successTitle": "Poruka je poslata!",
+    "successMessage": "Hvala na vašoj poruci. Naš tim će vam odgovoriti u roku od 24 sata.",
+    "map": {
+      "title": "Pronađite nas",
+      "subtitle": "Naše sedište je u Bazelu.",
+      "directions": "Uputstva za dolazak"
+    }
+  },
+  "trust": {
+    "reviewsSoon": "Recenzije uskoro",
+    "reviewsLabel": "Recenzije klijenata",
+    "reviewsCount_one": "{{count}} recenzija klijenta",
+    "reviewsCount_few": "{{count}} recenzije klijenata",
+    "reviewsCount_other": "{{count}} recenzija klijenata"
+  }
+}

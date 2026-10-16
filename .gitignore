@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+.vite
+*.local
+.DS_Store
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/extensions.json
+
+# Backend lives in its own repo
+Backend-nzo/
